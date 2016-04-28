@@ -1,0 +1,11 @@
+{
+  "name": "site-product",
+  "version": "0.0.1",
+  "description": "...",
+  "homepage": "http://soyjavi.com",
+  "author": "Javi Jimenez Villar",
+  "scripts": {
+    "start": "bundle exec jekyll serve",
+    "install": "bundle install"
+  }
+}

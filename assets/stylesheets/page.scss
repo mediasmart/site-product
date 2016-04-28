@@ -1,0 +1,102 @@
+html {
+    font-family: sans-serif;
+    font-size: 62.5%;
+    -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+}
+
+body {
+    font-family: $font-family;
+    font-size: $font-size;
+    font-weight: $font-weight-normal;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    color: $text;
+    background-color: $background;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    > section > footer {
+        font-size: $font-size-tiny;
+        display: flex;
+        text-align: center;
+        color: $text-secondary;
+        align-items: center;
+        justify-content: center;
+        .heart {
+            height: 1.6 * $unit;
+            margin: 0 ($unit / 2);
+        }
+        a {
+            margin-left: ($unit / 2);
+            color: $text;
+        }
+    }
+}
+
+h1 {
+    font-weight: $font-weight-bold;
+    margin: 0;
+}
+
+
+h2 {
+    font-weight: $font-weight-bold;
+    margin: 0;
+}
+
+h3 {
+    font-size: 2.2 * $unit;
+    margin: 0;
+}
+
+small {
+    font-size: $font-size-small;
+}
+
+p {
+    margin: 0 0 $unit 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button, .button {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    font-size: $font-size;
+    font-weight: $font-weight-bold;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    border: none;
+    transition-property: background-color, box-shadow;
+    transition-duration: $animation-duration;
+    transition-timing-function: $animation-ease;
+    padding: ($offset / 4) ($offset / 2);
+    text-transform: uppercase;
+    border-radius: ($unit / 2);
+    cursor: pointer;
+}
+
+@media all and (min-width: 769px) {
+    h2 {
+        font-size: 9vh;
+    }
+}
+
+@media all and (max-width: 768px) {
+    html {
+        font-size: 57.5%;
+    }
+    h1 {
+        font-size: 6vh;
+    }
+    h2 {
+        font-size: 2.3 * $unit;
+    }
+}

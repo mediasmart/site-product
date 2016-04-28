@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body data-page="{% if page.layout %}{{ page.layout }}{% else %}{{ site.layout }}{% endif %}">
+    {% include ga.html %}
+
+    <section data-role='video'>
+      <header>
+        <a href=''>
+          <img src='/assets/images/logo-white-v2.png' />
+        </a>
+        <nav>
+          <a href=''>solutions</a>
+          <a href=''>customers</a>
+          <a href=''>about us</a>
+          <a href=''>contact</a>
+          <a href=''>sign in</a>
+        </nav>
+      </header>
+      <div>
+        <h2>be <span>smart</span> about your media buying on mobile</h2>
+        <h3>Reach your mobile audience effectively using real time bidding</h3>
+        <button>Try now</button>
+      </div>
+      <video autoplay loop class="fillWidth">
+          <source src="/assets/videos/create.mp4" type="video/mp4" />
+          <source src="/assets/videos/create.webm" type="video/webm" />
+      </video>
+    </section>
+
+    <section data-role='profile'>
+
+    </section>
+
+    {% include sitemap.html %}
+  </body>
+</html>
