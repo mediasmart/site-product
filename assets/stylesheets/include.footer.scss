@@ -1,0 +1,33 @@
+[data-page] {
+  > [data-role='sitemap'] {
+    display: flex;
+    justify-content: center;
+    > nav {
+      width: 20%;
+      padding: 0 $unit;
+      > a {
+        display: block;
+        color: $text-secondary;
+        margin: $unit 0;
+      }
+    }
+  }
+
+  > footer {
+    background-color: $dark;
+    font-size: $font-size-tiny;
+    display: flex;
+    padding: ($offset / 1.5) $offset;
+    &, a {
+      color: $white;
+    }
+    > nav {
+      &, a {
+        margin-left: $unit;
+      }
+      &:nth-child(2) {
+        flex-grow: 1;
+      }
+    }
+  }
+}

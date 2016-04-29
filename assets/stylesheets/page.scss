@@ -16,20 +16,12 @@ body {
     background-color: $background;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    > section > footer {
-        font-size: $font-size-tiny;
-        display: flex;
-        text-align: center;
-        color: $text-secondary;
-        align-items: center;
-        justify-content: center;
-        .heart {
-            height: 1.6 * $unit;
-            margin: 0 ($unit / 2);
-        }
-        a {
-            margin-left: ($unit / 2);
-            color: $text;
+    > section {
+        padding-left: $offset;
+        padding-right: $offset;
+        &:not([data-role='video']) {
+            padding-top: ($offset / 1.5);
+            padding-bottom: ($offset / 1.5);
         }
     }
 }

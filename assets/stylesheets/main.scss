@@ -36,6 +36,9 @@ $animation-ease: cubic-bezier(.55,0,.1,1);
 @import "page";
 @import "page.home";
 
+ // Includes
+@import "include.footer";
+
 // Common
 // @import "icons";
 // @import "partials";

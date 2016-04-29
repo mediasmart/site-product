@@ -7,6 +7,10 @@
     color: white;
     display: flex;
     align-items: center;
+    > * {
+      padding-left: $offset;
+      padding-right: $offset;
+    }
     > header {
       position: absolute;
       top: $offset / 2;
@@ -36,6 +40,7 @@
         }
       }
     }
+
     > div {
       text-align: center;
       width: 100%;
@@ -66,13 +71,5 @@
       left: 0;
       padding: 0;
     }
-  }
-
-  > section {
-    > * {
-      padding-left: $offset;
-      padding-right: $offset;
-    }
-    // background-color: white;
   }
 }
