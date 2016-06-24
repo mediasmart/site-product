@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body data-page="{% if page.type %}{{ page.type }}{% else %}default{% endif %}">
+    {% include ga.html %}
+    {% include header.html %}
+
+    <article>
+      {{ content }}
+    </article>
+
+    {% include footer.html %}
+  </body>
+</html>

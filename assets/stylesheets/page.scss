@@ -16,13 +16,14 @@ body {
     background-color: $background;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    > section {
+    > article {
         padding-left: $offset;
         padding-right: $offset;
-        &:not([data-role='video']) {
-            padding-top: ($offset / 1.5);
-            padding-bottom: ($offset / 1.5);
-        }
+        padding-top: ($offset / 1.5);
+        padding-bottom: ($offset / 1.5);
+    }
+    > header.fixed + article {
+      margin-top: $header-height;
     }
 }
 

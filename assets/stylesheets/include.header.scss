@@ -1,0 +1,42 @@
+[data-page] > header {
+  z-index: $z-index-high;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: $header-height;
+  padding-left: $offset;
+  padding-right: $offset;
+  top: 0;
+  left: 0;
+  right: 0;
+  img {
+    height: $offset / 2;
+  }
+  > nav {
+    flex-grow: 1;
+    text-align: right;
+    > a {
+      font-weight: $font-weight-bold;
+      color: $white;
+      margin-left: $offset / 4;
+      opacity: 0.75;
+      padding: $unit 0;
+      transition: all $animation-duration $animation-ease;
+      box-shadow: 0;
+      &:hover {
+        opacity: 1;
+        box-shadow: 0 -2px rgba($white, 0.75);
+      }
+    }
+  }
+
+  &:not(.fixed) {
+    position: fixed;
+  }
+
+  &.fixed {
+    position: fixed;
+    background-color: green;
+    border-bottom: solid 1px green;
+  }
+}

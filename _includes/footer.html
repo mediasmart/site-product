@@ -1,4 +1,4 @@
-<section data-role='sitemap'>
+<article data-role='sitemap'>
   <nav>
     <h3>solutions</h3>
     <a href=''>solution 1</a>
@@ -14,34 +14,33 @@
     <a href=''>lorem ipsum 4</a>
   </nav>
   <nav>
-    <h3>About us</h3>
-    <a href=''>The Team</a>
-    <a href=''>Careers</a>
-    <a href=''>Customers</a>
-    <a href=''>Contact Us</a>
+    <h3>about us</h3>
+    <a href='/about-us#team'>The Team</a>
+    <a href='/about-us#careers'>Careers</a>
+    <a href='/customers'>Customers</a>
+    <a href='/contact'>Contact</a>
   </nav>
   <nav>
     <h3>blog</h3>
-    <a href=''>post 1</a>
-    <a href=''>post 2</a>
-    <a href=''>post 3</a>
-    <a href=''>post 4</a>
+    {% for post in site.posts %}
+      <a href='{{ post.url | prepend: site.baseurl }}'>
+        {{ post.title }}
+        <small>{{ post.date | date: "%b %-d, %Y" }} | {{post.tag}}</small>
+      </a>
+    {% endfor %}
   </nav>
-</section>
+</article>
 
 <footer>
   <span>©2016 Mediasmart</span>
   <nav>
-    <a href=''>Terms of use</a>
-    <a href=''>Privacy policy</a>
-    <a href=''>Cookie policy</a>
+    <a href='/terms-of-use'>Terms of use</a>
+    <a href='/privacy-policy'>Privacy policy</a>
+    <a href='/cookie-policy'>Cookie policy</a>
   </nav>
   <nav>
-    <a href=''>EN</a>/<a href=''>ES</a>
-  </nav>
-  <nav>
-    <a href=''>twitter</a>
-    <a href=''>facebook</a>
-    <a href=''>rss</a>
+    <a href='https://twitter.com' target='_blank'>Twitter</a>
+    <a href='https://facebook.com' target='_blank'>Facebook</a>
+    <a href='/blog'>Blog</a>
   </nav>
 </footer>

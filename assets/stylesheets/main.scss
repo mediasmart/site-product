@@ -6,6 +6,14 @@
 // Size
 $unit: 1rem;
 $offset: 6.4 * $unit;
+// Layout
+$z-index-normal: 1;
+$z-index-high: 100;
+$z-index-higher: 200;
+$z-index-highest: 300;
+
+
+$header-height: 8 * $unit;
 // Color
 $background: #fff;
 $background-dark: #fafafa;
@@ -37,6 +45,7 @@ $animation-ease: cubic-bezier(.55,0,.1,1);
 @import "page.home";
 
  // Includes
+@import "include.header";
 @import "include.footer";
 
 // Common

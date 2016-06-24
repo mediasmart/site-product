@@ -1,0 +1,13 @@
+<h2>Blog</h2>
+<ul class='items'>
+  {% for post in site.posts %}
+    <li>
+      <h3>{{ post.title }}</h3>
+      <strong class='text-secondary'>
+        {{ post.date | date: "%b %-d, %Y" }} | {{post.tag}}
+      </strong>
+      <span>{{ post.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 48 }}</span>
+      <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+    </li>
+  {% endfor %}
+</ul>
