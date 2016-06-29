@@ -6,7 +6,11 @@
     {% include header.html %}
 
     <article>
-      {{ content }}
+      {% if page.type == "content" %}
+        {% include content.html %}
+      {% else %}
+        {{ content }}
+      {% endif %}
     </article>
 
     {% include footer.html %}

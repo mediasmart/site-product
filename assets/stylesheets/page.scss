@@ -56,24 +56,31 @@ a {
 }
 
 button, .button {
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-    font-size: $font-size;
-    font-weight: $font-weight-bold;
-    text-align: center;
-    text-decoration: none;
-    white-space: nowrap;
-    border: none;
-    transition-property: background-color, box-shadow;
-    transition-duration: $animation-duration;
-    transition-timing-function: $animation-ease;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  font-size: $font-size;
+  font-weight: $font-weight-bold;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  border: none;
+  transition-property: background-color, box-shadow;
+  transition-duration: $animation-duration;
+  transition-timing-function: $animation-ease;
+  padding: ($offset / 6) ($offset / 4);
+  text-transform: uppercase;
+  border-radius: ($unit / 3);
+  cursor: pointer;
+  &.large {
     padding: ($offset / 4) ($offset / 2);
-    text-transform: uppercase;
-    border-radius: ($unit / 2);
-    cursor: pointer;
+  }
+  &.primary {
+    background-color: $primary;
+    color: $white;
+  }
 }
 
 @media all and (min-width: 769px) {

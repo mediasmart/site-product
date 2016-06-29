@@ -11,16 +11,16 @@ $z-index-normal: 1;
 $z-index-high: 100;
 $z-index-higher: 200;
 $z-index-highest: 300;
-
-
-$header-height: 8 * $unit;
+$header-height: 8.8 * $unit;
 // Color
 $background: #fff;
 $background-dark: #fafafa;
 $text: rgb(56, 61, 72);
 $text-secondary: #787D87;
-$primary: #54C7FC;
+
+$primary: #FF324B;
 $accent: #FCCA54;
+
 $dark: #3d3e41;
 $white: #fff;
 $black: #000;
@@ -37,7 +37,7 @@ $font-weight-normal: 400;
 $font-weight-bold: 700;
 $font-text-shadow: 0 ($unit / 10) ($unit / 20) rgba(0,0,0,.1);
 // Animation
-$animation-duration: 350ms;
+$animation-duration: 250ms;
 $animation-ease: cubic-bezier(.55,0,.1,1);
 
  // Page

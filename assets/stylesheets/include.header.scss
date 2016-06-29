@@ -10,33 +10,50 @@
   left: 0;
   right: 0;
   img {
-    height: $offset / 2;
+    height: $offset / 1.2;
   }
   > nav {
     flex-grow: 1;
     text-align: right;
+    text-transform: uppercase;
     > a {
+      font-size: $font-size-small;
       font-weight: $font-weight-bold;
-      color: $white;
       margin-left: $offset / 4;
-      opacity: 0.75;
-      padding: $unit 0;
-      transition: all $animation-duration $animation-ease;
-      box-shadow: 0;
-      &:hover {
-        opacity: 1;
-        box-shadow: 0 -2px rgba($white, 0.75);
+      cursor: pointer;
+      &:not(.button) {
+        padding: $unit 0;
+        transition: all $animation-duration $animation-ease;
+        box-shadow: none;
       }
     }
   }
 
   &:not(.fixed) {
     position: fixed;
+    > nav {
+      > a:not(.button) {
+        color: $white;
+        opacity: 0.85;
+        &:hover {
+          opacity: 1;
+          box-shadow: 0 -2px rgba($white, 0.75);
+        }
+      }
+    }
   }
 
   &.fixed {
     position: fixed;
-    background-color: green;
-    border-bottom: solid 1px green;
+    border-bottom: solid 1px $text-secondary;
+    > nav {
+      > a {
+        color: $text-secondary;
+        &:hover {
+          color: $text;
+          box-shadow: 0 -2px $text-secondary;
+        }
+      }
+    }
   }
 }
