@@ -9,22 +9,29 @@
   top: 0;
   left: 0;
   right: 0;
+  transition: all $animation-duration $animation-ease;
   img {
-    height: $offset / 1.2;
+    height: $offset / 1.35;
   }
   > nav {
     flex-grow: 1;
     text-align: right;
     text-transform: uppercase;
+    display: flex;
+    justify-content: flex-end;
     > a {
       font-size: $font-size-small;
       font-weight: $font-weight-bold;
-      margin-left: $offset / 4;
+      // margin-left: $offset / 4;
       cursor: pointer;
       &:not(.button) {
         padding: $unit 0;
+        margin-left: $offset / 2;
         transition: all $animation-duration $animation-ease;
         box-shadow: none;
+      }
+      &.button {
+        margin-left: $offset / 3;
       }
     }
   }
@@ -37,23 +44,32 @@
         opacity: 0.85;
         &:hover {
           opacity: 1;
-          box-shadow: 0 -2px rgba($white, 0.75);
+          box-shadow: 0 2px rgba($white, 0.75);
         }
       }
     }
   }
 
-  &.fixed {
-    position: fixed;
-    border-bottom: solid 1px $text-secondary;
-    > nav {
-      > a {
-        color: $text-secondary;
-        &:hover {
-          color: $text;
-          box-shadow: 0 -2px $text-secondary;
-        }
-      }
+  // &.fixed {
+  //   position: fixed;
+  //   border-bottom: solid 1px $text-secondary;
+  //   > nav {
+  //     > a {
+  //       color: $text-secondary;
+  //       &:hover {
+  //         color: $text;
+  //         box-shadow: 0 2px $text-secondary;
+  //       }
+  //     }
+  //   }
+  // }
+
+  &.scroll {
+    background-color: rgba($primary, 0.95);
+    box-shadow: $shadow-deep;
+    .button {
+      background-color: $white;
+      color: $primary;
     }
   }
 }

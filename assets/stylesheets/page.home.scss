@@ -1,26 +1,24 @@
-$min-height: 80vh;
+$min-height: 60vh;
 $max-height: 90vh;
 
 [data-page='home'] > article:first-of-type  {
-  padding-top: 0;
-  padding-bottom: 0;
-  min-height: $min-height;
-  max-height: $max-height;
-  overflow: hidden;
-  position: relative;
-  color: white;
-  display: flex;
-  align-items: center;
-
+  padding: 0;
   > [data-role='intro'] {
-    text-align: center;
-    width: 100%;
-    width: 75%;
-    display: block;
-    margin: $offset auto 0 auto;
-    // margin: 0 auto;
-    > h2 {
+    position: relative;
+    padding: $offset 10vw 0 10vw;
+    height: $max-height;
+    overflow: hidden;
+    background: $background-dark url('/assets/videos/create.jpg');
+    background-size: cover;
+    > h1, > h2, > h3, > button {
+      z-index: 2;
+    }
+    > h1, > h2 {
       color: rgba($white, 0.85);
+      span {
+        color: $white;
+        border-bottom: solid ($unit / 2) $white;
+      }
     }
     > h3 {
       margin: ($offset / 4) 0 ($offset / 2) 0;
@@ -29,19 +27,42 @@ $max-height: 90vh;
       color: $text;
       background-color: $white;
     }
-    span {
-      color: $white;
-      border-bottom: solid ($unit / 2) $white;
+    > .mouse {
+      $size: 16px;
+
+      z-index: 2;
+      position: absolute;
+      border: 1px solid #fff;
+      border-radius: $size;
+      height: (2 * $size);
+      width: $size;
+      margin: 0 0 0 (-$size / 2);
+      display: block;
+      bottom: $size;
+      left: 50%;
+      &:before {
+        content: '';
+        display: block;
+        position: relative;
+        border-radius: 5px;
+        background: #fff;
+        width: 2px;
+        height: 6px;
+        top: 5px;
+        margin: 0 auto;
+        animation: scroll 1s 0s linear infinite;
+      }
     }
-  }
-  > [data-role='background'] {
-    z-index: -1;
-    position: absolute;
-    width: 100vw;
-    top: 0;
-    left: 0;
-    // padding: 0;
-    &::before {
+    > video {
+      z-index: 0;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+    }
+    &::after {
+      z-index: 1;
       content: '';
       position: absolute;
       left: 0;
@@ -51,8 +72,24 @@ $max-height: 90vh;
       background: url('/assets/images/bck-dots.png') repeat top left;
       opacity: 0.5;
     }
-    > video {
-      width: 100vw;
+  }
+
+  > section {
+    padding: 5vh 10vw;
+    min-height: $min-height;
+    background-size: cover;
+    &.bck {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
     }
   }
+
+}
+
+@keyframes scroll {
+  0%   { top: 6px; opacity: 0;}
+  20% { opacity: 1; }
+  80% { opacity: 1;}
+  100% {top: 20px; opacity: 0;}
 }

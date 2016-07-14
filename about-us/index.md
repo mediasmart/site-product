@@ -1,6 +1,8 @@
 ---
 layout      : default
+type        : content
 title       : About Us
-type        : post
+background  : girl
+
 permalink   : /about-us/
 ---

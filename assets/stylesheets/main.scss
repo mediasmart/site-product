@@ -17,18 +17,14 @@ $background: #fff;
 $background-dark: #fafafa;
 $text: rgb(56, 61, 72);
 $text-secondary: #787D87;
-
 $primary: #FF324B;
 $accent: #FCCA54;
-
 $dark: #3d3e41;
 $white: #fff;
 $black: #000;
-$twitter: #55acee;
-$github: #666;
-$linkedin: #0077b5;
 // Font
 $font-family: 'Montserrat', sans-serif;
+$font-size-large: 1.7 * $unit;
 $font-size: 1.6 * $unit;
 $font-size-small: 1.4 * $unit;
 $font-size-tiny: 1.2 * $unit;
@@ -39,6 +35,12 @@ $font-text-shadow: 0 ($unit / 10) ($unit / 20) rgba(0,0,0,.1);
 // Animation
 $animation-duration: 250ms;
 $animation-ease: cubic-bezier(.55,0,.1,1);
+// Decorators
+$button-skew: 5deg;
+$shadow-strong: 0 9px 46px 8px rgba(0, 0, 0, 0.14), 0 11px 15px -7px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.2);
+$shadow-light: 0 1px 0 rgba(0,0,0,0.05), 0 1px 4px rgba(0,0,0,0.10);
+$shadow-deep: 0 1px 8px rgba(0,0,0,0.10);
+$shadow-focus: 0 2px 12px rgba(0,0,0,.2), inset 0 0 0 (6.4 * $unit) rgba($white, 10%);
 
  // Page
 @import "page";

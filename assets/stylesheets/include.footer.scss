@@ -2,6 +2,7 @@
   > [data-role='sitemap'] {
     display: flex;
     justify-content: center;
+    background-color: $background-dark;
     > nav {
       width: 20%;
       padding: 0 $unit;
