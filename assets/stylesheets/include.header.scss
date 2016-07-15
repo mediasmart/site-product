@@ -1,5 +1,6 @@
 [data-page] > header {
   z-index: $z-index-high;
+  position: fixed;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -22,51 +23,28 @@
     > a {
       font-size: $font-size-small;
       font-weight: $font-weight-bold;
-      // margin-left: $offset / 4;
+      margin-left: $offset / 2;
       cursor: pointer;
-      &:not(.button) {
-        padding: $unit 0;
-        margin-left: $offset / 2;
-        transition: all $animation-duration $animation-ease;
-        box-shadow: none;
-      }
-      &.button {
-        margin-left: $offset / 3;
-      }
-    }
-  }
 
-  &:not(.fixed) {
-    position: fixed;
-    > nav {
-      > a:not(.button) {
+      &:not(.button) {
         color: $white;
         opacity: 0.85;
-        &:hover {
+        padding: $unit 0;
+        transition: all $animation-duration $animation-ease;
+        box-shadow: none;
+        &:hover, &.active {
           opacity: 1;
-          box-shadow: 0 2px rgba($white, 0.75);
+          box-shadow: 0 2px $white;
         }
       }
     }
   }
 
-  // &.fixed {
-  //   position: fixed;
-  //   border-bottom: solid 1px $text-secondary;
-  //   > nav {
-  //     > a {
-  //       color: $text-secondary;
-  //       &:hover {
-  //         color: $text;
-  //         box-shadow: 0 2px $text-secondary;
-  //       }
-  //     }
-  //   }
-  // }
-
+  // -- Decorators
   &.scroll {
     background-color: rgba($primary, 0.95);
     box-shadow: $shadow-deep;
+    height: ($header-height / 1.5);
     .button {
       background-color: $white;
       color: $primary;

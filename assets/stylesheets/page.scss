@@ -15,6 +15,7 @@ body {
   color: $text;
   background-color: $background;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   > article {
     padding-left: $offset;
@@ -27,7 +28,8 @@ body {
         margin: (-$offset) (-$offset) $offset (-$offset);
       }
       &.bck {
-        background-color: $background-dark;
+        background: $background-dark url('/assets/images/bck-content-default.jpg');
+
         color: $white;
         display: flex;
         flex-direction: column;
@@ -49,12 +51,6 @@ h3 {
 
 small {
   font-size: $font-size-small;
-}
-
-p {
-  line-height: 150%;
-  font-size: $font-size-large;
-  margin: 0 0 $font-size-large 0;
 }
 
 a {
@@ -106,27 +102,17 @@ button, .button {
   }
 }
 
-.wrapper {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-}
-
 @media all and (min-width: 769px) {
   h1 {
       font-size: 9vh;
   }
   h2 {
-      font-size: 7vh;
+      font-size: 6vh;
   }
 }
 
 @media all and (max-width: 768px) {
   html {
       font-size: 57.5%;
-  }
-  h1 {
-  }
-  h2 {
   }
 }

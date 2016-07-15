@@ -1,7 +1,8 @@
 ---
 layout      : default
+type        : content
+
 title       : Blog
-type        : blog
 permalink   : /blog/
 ---
 

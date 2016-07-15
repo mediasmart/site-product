@@ -1,0 +1,23 @@
+[data-page='content'] {
+
+  .wrapper {
+    width: 100%;
+    max-width: $content-max-width;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-size: 2.4 * $unit;
+    margin: ($unit * 4) 0 $unit 0;
+  }
+
+  p {
+    font-family: $font-family-content;
+    font-size: $font-size-large;
+    line-height: 180%;
+    margin: 0 0 $font-size-large 0;
+    text-align: justify;
+    // color: $text-secondary;
+    font-weight: lighter;
+  }
+}

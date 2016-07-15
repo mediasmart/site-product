@@ -12,6 +12,7 @@ $z-index-high: 100;
 $z-index-higher: 200;
 $z-index-highest: 300;
 $header-height: 8.8 * $unit;
+$content-max-width: 920px;
 // Color
 $background: #fff;
 $background-dark: #fafafa;
@@ -24,6 +25,7 @@ $white: #fff;
 $black: #000;
 // Font
 $font-family: 'Montserrat', sans-serif;
+$font-family-content: 'Merriweather';
 $font-size-large: 1.8 * $unit;
 $font-size: 1.6 * $unit;
 $font-size-small: 1.4 * $unit;
@@ -45,6 +47,7 @@ $shadow-focus: 0 2px 12px rgba(0,0,0,.2), inset 0 0 0 (6.4 * $unit) rgba($white,
  // Page
 @import "page";
 @import "page.home";
+@import "page.content";
 
  // Includes
 @import "include.header";

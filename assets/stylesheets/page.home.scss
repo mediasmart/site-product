@@ -1,5 +1,5 @@
 $min-height: 60vh;
-$max-height: 90vh;
+$max-height: 95vh;
 
 [data-page='home'] > article:first-of-type  {
   padding: 0;
@@ -59,7 +59,8 @@ $max-height: 90vh;
       position: absolute;
       top: 0;
       left: 0;
-      width: 100vw;
+      min-width: 100vw;
+      min-height: 100vh;
     }
     &::after {
       z-index: 1;
