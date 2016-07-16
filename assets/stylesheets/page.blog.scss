@@ -1,0 +1,21 @@
+.blog {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  > * {
+    margin-bottom: $offset !important;
+    > a {
+      color: $text;
+      > strong {
+        color: $text-secondary;
+      }
+    }
+    // -- Decorator
+    &:hover {
+      // background-color: $background-dark;
+      h3 {
+        color: $primary;
+      }
+    }
+  }
+}

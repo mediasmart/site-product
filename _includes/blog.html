@@ -1,12 +1,11 @@
-<ul class='items'>
+<ul class='blog'>
   {% for post in site.posts %}
     <li>
-      <h3>{{ post.title }}</h3>
-      <strong class='text-secondary'>
-        {{ post.date | date: "%b %-d, %Y" }} | {{post.tag}}
-      </strong>
-      <span>{{ post.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 48 }}</span>
-      <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <small>{{ post.date | date: "%b %-d, %Y" }} | {{post.tag}}</small>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 48 }}</p>
+      </a>
     </li>
   {% endfor %}
 </ul>

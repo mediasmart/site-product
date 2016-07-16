@@ -11,8 +11,7 @@ window.onload = function() {
     fn: {
       scroll: function() {
         var scroll = document.body.scrollTop;
-        var header = mediasmart.el.header;
-        header.setAttribute('class', scroll > header.offsetHeight ? 'scroll' : '');
+        document.body.setAttribute('class', scroll > mediasmart.el.header.offsetHeight ? 'scroll' : '');
       },
 
       activeMenu: function() {

@@ -1,0 +1,16 @@
+[data-role='banner'] {
+  padding: 0;
+  > section {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 50vh;
+    > .button {
+      margin: ($offset / 2) 0 $unit 0;
+    }
+    > small {
+      font-size: $font-size-tiny;
+      opacity: 0.75;
+    }
+  }
+}

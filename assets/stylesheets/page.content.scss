@@ -1,9 +1,21 @@
 [data-page='content'] {
 
-  .wrapper {
-    width: 100%;
-    max-width: $content-max-width;
-    margin: 0 auto;
+  [data-role='title'] {
+    padding: ($header-height + $offset) $offset $offset $offset;
+    margin: (-$offset) (-$offset) $offset (-$offset);
+  }
+
+  p {
+    font-size: $font-size-large;
+    line-height: 180%;
+    margin: 0 0 $font-size-large 0;
+    text-align: justify;
+  }
+}
+
+.post {
+  h1 {
+    margin-bottom: $unit;
   }
 
   h2 {
@@ -11,13 +23,82 @@
     margin: ($unit * 4) 0 $unit 0;
   }
 
-  p {
+  h3 {
+    font-weight: $font-weight-thin;
+  }
+
+  p, ul {
     font-family: $font-family-content;
-    font-size: $font-size-large;
-    line-height: 180%;
-    margin: 0 0 $font-size-large 0;
-    text-align: justify;
-    // color: $text-secondary;
-    font-weight: lighter;
+
+  }
+  a {
+    color: $text;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,.6) 50%);
+    background-repeat: repeat-x;
+    background-position: 0 22px;
+    background-size: 2px 2px;
+  }
+
+  p {
+    a > img, > img {
+      width: 95%;
+      margin: 0 2.5%;
+    }
+  }
+
+  > blockquote {
+    margin: $unit 0 $offset 0;
+    font-style: italic;
+    > blockquote {
+      margin: 0 $offset;
+      font-size: 2.4 * $unit;
+      color: $text-secondary;
+    }
+    p {
+      margin: 0;
+    }
+    > p {
+      $border-width: 3px;
+      $border-offset: 20px;
+      padding-bottom: $border-width;
+      padding-left: $border-offset;
+      margin-left: -($border-offset + $border-width);
+      border-left: $border-width solid $text-secondary;
+    }
+  }
+
+  > ul {
+    > li {
+      margin: 0 0 ($offset / 4) ($unit / 2);
+      &:before {
+        padding-top: .4 * $unit;
+      }
+    }
+  }
+
+  pre, code {
+    font-family: Consolas, 'Liberation Mono', Courier, monospace;
+  }
+
+  pre {
+    font-size: 1.3 * $unit;
+  }
+
+  p > code {
+    padding: (.3 * $unit) (.6 * $unit);
+    font-size: $font-size-small;
+    background: rgb(248, 248, 248);
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 3px;
+  }
+}
+
+// -- Responsive
+@media all and (min-width: 769px) {
+  [data-page='content'] .post {
+    h1 {
+      font-size: 6.5vh;
+    }
   }
 }

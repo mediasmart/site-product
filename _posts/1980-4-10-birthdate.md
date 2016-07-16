@@ -1,13 +1,14 @@
 ---
 layout:     default
 type:       content
+
 title:      Birthdate.
 background: girl
-
 date:       1980-4-10
 where:      Chiang Mai - Thailand
 tag:        imho
 permalink:  /blog/birthdate
+
 published:  true
 ---
 

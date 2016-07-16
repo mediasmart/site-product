@@ -1,5 +1,5 @@
 [data-page] > header {
-  z-index: $z-index-high;
+  z-index: $z-index-higher;
   position: fixed;
   display: flex;
   flex-direction: row;
@@ -39,15 +39,15 @@
       }
     }
   }
+}
 
-  // -- Decorators
-  &.scroll {
-    background-color: rgba($primary, 0.95);
-    box-shadow: $shadow-deep;
-    height: ($header-height / 1.5);
-    .button {
-      background-color: $white;
-      color: $primary;
-    }
+// -- Decorators
+[data-page].scroll > header {
+  background-color: rgba($primary, 0.95);
+  box-shadow: $shadow-deep;
+  height: ($header-height / 1.5);
+  .button {
+    background-color: $white;
+    color: $primary;
   }
 }
