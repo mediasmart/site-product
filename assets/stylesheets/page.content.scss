@@ -5,100 +5,42 @@
     margin: (-$offset) (-$offset) $offset (-$offset);
   }
 
-  p {
-    font-size: $font-size-large;
-    line-height: 180%;
-    margin: 0 0 $font-size-large 0;
-    text-align: justify;
-  }
-}
-
-.post {
-  h1 {
-    margin-bottom: $unit;
-  }
-
-  h2 {
-    font-size: 2.4 * $unit;
-    margin: ($unit * 4) 0 $unit 0;
-  }
-
-  h3 {
-    font-weight: $font-weight-thin;
-  }
-
-  p, ul {
-    font-family: $font-family-content;
-
-  }
-  a {
-    color: $text;
-    text-decoration: none;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,.6) 50%);
-    background-repeat: repeat-x;
-    background-position: 0 22px;
-    background-size: 2px 2px;
-  }
-
-  p {
-    a > img, > img {
-      width: 95%;
-      margin: 0 2.5%;
-    }
-  }
-
-  > blockquote {
-    margin: $unit 0 $offset 0;
-    font-style: italic;
-    > blockquote {
-      margin: 0 $offset;
-      font-size: 2.4 * $unit;
-      color: $text-secondary;
-    }
+  [data-role='text'] {
     p {
-      margin: 0;
+      font-size: $font-size-large;
+      line-height: 1.75;
+      margin: 0 0 $font-size-large 0;
+      text-align: justify;
     }
-    > p {
-      $border-width: 3px;
-      $border-offset: 20px;
-      padding-bottom: $border-width;
-      padding-left: $border-offset;
-      margin-left: -($border-offset + $border-width);
-      border-left: $border-width solid $text-secondary;
+
+    h2, h3 {
+      font-size: 2.2 * $unit;
+      margin-bottom: $unit;
     }
+
+    p + h2, p + h3, ul + h2, ul + h3, blockquote + h2, blockquote + h3 {
+      margin-top: ($header-height - ($unit * 2));
+    }
+
   }
 
-  > ul {
-    > li {
-      margin: 0 0 ($offset / 4) ($unit / 2);
-      &:before {
-        padding-top: .4 * $unit;
+  [data-content='Customers'] {
+    ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+      li {
+        margin: ($offset / 4) ($offset / 2);
+        img {
+          width: ($offset * 2.25);
+          min-height: ($offset  / 1.25);
+          background-color: $background-dark;
+          border: none;
+        }
       }
-    }
-  }
-
-  pre, code {
-    font-family: Consolas, 'Liberation Mono', Courier, monospace;
-  }
-
-  pre {
-    font-size: 1.3 * $unit;
-  }
-
-  p > code {
-    padding: (.3 * $unit) (.6 * $unit);
-    font-size: $font-size-small;
-    background: rgb(248, 248, 248);
-    border: 1px solid rgb(238, 238, 238);
-    border-radius: 3px;
-  }
-}
-
-// -- Responsive
-@media all and (min-width: 769px) {
-  [data-page='content'] .post {
-    h1 {
-      font-size: 6.5vh;
     }
   }
 }
