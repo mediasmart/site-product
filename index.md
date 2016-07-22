@@ -1,7 +1,8 @@
 ---
 layout      : default
 type        : home
+
 permalink   : /
 ---
 
-{% include home.html %}
+{% include page-home.html %}

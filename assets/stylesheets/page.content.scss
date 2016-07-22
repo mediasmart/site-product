@@ -43,4 +43,24 @@
       }
     }
   }
+
+  [data-role='team'] {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    > li {
+      display: flex;
+      flex-direction: column;
+      margin: $offset ($offset / 4);
+      text-align: center;
+      > img {
+        background: $background-dark;
+        width: $content-team-member-width;
+        height: $content-team-member-width;
+        margin-bottom: $offset / 2;
+      }
+    }
+
+  }
 }

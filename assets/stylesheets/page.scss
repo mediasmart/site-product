@@ -40,6 +40,9 @@ body {
       &.girl {
         background-image: url('/assets/images/bck-girl.jpg');
       }
+      &.map {
+        background-image: url('/assets/images/bck-map.jpg');
+      }
       &.video {
         background-image: url('/assets/images/bck-video.jpg');
       }
@@ -66,7 +69,6 @@ body {
 
 h1, h2, h3 {
   margin: 0;
-  // line-height: 120%;
 }
 
 small {
@@ -76,7 +78,6 @@ small {
 a {
   text-decoration: none;
 }
-
 
 // -- Responsive
 @media all and (min-width: 769px) {

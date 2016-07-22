@@ -4,7 +4,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    min-height: 50vh;
+    min-height: 45vh;
+    height: auto;
     > .button {
       margin: ($offset / 2) 0 $unit 0;
     }
@@ -12,5 +13,23 @@
       font-size: $font-size-tiny;
       opacity: 0.75;
     }
+
+    .box {
+      background-color: $white;
+      color: $text;
+      max-width: 20vw;
+      padding: ($offset / 1.5);
+      box-shadow: $shadow-strong;
+      > * {
+        display: block;
+      }
+      > h3 {
+        margin-bottom: $unit / 2;
+      }
+      > small + h3 {
+        margin-top: $offset / 2;
+      }
+    }
+
   }
 }

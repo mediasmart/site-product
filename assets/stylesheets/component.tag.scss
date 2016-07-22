@@ -1,0 +1,25 @@
+.tag {
+  pointer-events: none;
+  display: inline-block;
+  font-family: $font-family;
+  font-size: $font-size-tiny;
+  font-weight: $font-weight-bold;
+  transform: skewX(-$button-skew);
+  padding: ($unit / 6) ($unit / 2);
+  vertical-align: text-bottom;
+
+  // -- Decorators
+  &:not(.primary) {
+    background-color: $background-dark;
+    color: $text-secondary;
+  }
+  &.primary {
+    background-color: $primary;
+    color: $white;
+  }
+  // -- Children
+  & > label {
+    display: block;
+    transform: skewX($button-skew);
+  }
+}

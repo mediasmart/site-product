@@ -1,0 +1,51 @@
+<article data-role='sitemap'>
+  <div class='wrapper'>
+    <nav>
+      <h3>Get in touch</h3>
+      <span>+34 000 000 000</span>
+      <span>+44 (0) 0000 000 000</span>
+      <a href='mailto:hi@media-smart.com'>hi@media-smart.com</a>
+    </nav>
+    <nav>
+      <h3>solutions</h3>
+      <a href=''>solution 1</a>
+      <a href=''>solution 2</a>
+      <a href=''>solution 3</a>
+      <a href=''>solution 4</a>
+    </nav>
+    <nav>
+      <h3>about us</h3>
+      <a href='/about-us#team'>The Team</a>
+      <a href='/about-us#careers'>Jobs <span class='tag primary'><label>we're hiring</label></span></a>
+      <a href='/customers'>Customers</a>
+      <a href='/contact'>Contact</a>
+    </nav>
+    <nav>
+      <h3>Latest on the blog</h3>
+      {% for post in site.posts %}
+        <a href='{{ post.url | prepend: site.baseurl }}'>
+          {{ post.title }}
+          <small>{{ post.date | date: "%b %-d, %Y" }}</span></small>
+        </a>
+      {% endfor %}
+    </nav>
+  </div>
+</article>
+
+
+
+
+
+<footer>
+  <span>©2016 Mediasmart</span>
+  <nav>
+    <a href='/terms-of-use'>Terms of use</a>
+    <a href='/privacy-policy'>Privacy policy</a>
+    <a href='/cookie-policy'>Cookie policy</a>
+  </nav>
+  <nav>
+    <a href='https://twitter.com/MEDIASMART_MB' target='_blank'>Twitter</a>
+    <a href='https://www.facebook.com/pages/Mediasmart-Mobile/504657222949687' target='_blank'>Facebook</a>
+    <a href='/blog'>Blog</a>
+  </nav>
+</footer>

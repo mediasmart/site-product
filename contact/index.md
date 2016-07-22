@@ -1,6 +1,7 @@
 ---
 layout      : default
-title       : Contact
 type        : content
+
+title       : Contact
 permalink   : /contact/
 ---

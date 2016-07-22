@@ -1,6 +1,7 @@
 ---
 layout      : default
-title       : Solutions
 type        : content
+
+title       : Solutions
 permalink   : /solutions/
 ---

@@ -3,18 +3,21 @@
   {% include head.html %}
   <body data-page="{% if page.type %}{{ page.type }}{% else %}default{% endif %}">
     {% include ga.html %}
-    {% include header.html %}
+    {% include page-header.html %}
 
     <article>
       {% if page.type == "content" %}
-        {% include content.html %}
+        {% include page-content.html %}
       {% else %}
         {{ content }}
       {% endif %}
     </article>
 
-    {% include banner.html %}
+    {% include banner-default.html %}
+    {% if page.type == "home" or page.title == "Contact" %}
+      {% include banner-location.html %}
+    {% endif %}
 
-    {% include footer.html %}
+    {% include page-footer.html %}
   </body>
 </html>
