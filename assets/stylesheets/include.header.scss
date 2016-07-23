@@ -20,6 +20,11 @@
     text-transform: uppercase;
     display: flex;
     justify-content: flex-end;
+
+    font-family: $font-family-heading;
+    font-weight: $font-weight-bold;
+
+
     > a {
       font-size: $font-size-small;
       font-weight: $font-weight-bold;

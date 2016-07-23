@@ -26,13 +26,14 @@ $dark: #3d3e41;
 $white: #fff;
 $black: #000;
 // Font
-$font-family: 'Montserrat', sans-serif;
+$font-family: 'Open Sans', sans-serif;
+$font-family-heading: 'Montserrat', sans-serif;
 $font-family-content: 'Merriweather';
 $font-size-large: 1.8 * $unit;
 $font-size: 1.6 * $unit;
 $font-size-small: 1.4 * $unit;
 $font-size-tiny: 1.2 * $unit;
-$font-weight-thin: 300;
+$font-weight-light: 300;
 $font-weight-normal: 400;
 $font-weight-bold: 700;
 $font-text-shadow: 0 ($unit / 10) ($unit / 20) rgba(0,0,0,.1);

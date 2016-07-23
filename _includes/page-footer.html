@@ -19,22 +19,18 @@
       <a href='/about-us#careers'>Jobs <span class='tag primary'><label>we're hiring</label></span></a>
       <a href='/customers'>Customers</a>
       <a href='/contact'>Contact</a>
+      <a href='/blog'>Blog</a>
     </nav>
     <nav>
       <h3>Latest on the blog</h3>
       {% for post in site.posts %}
         <a href='{{ post.url | prepend: site.baseurl }}'>
           {{ post.title }}
-          <small>{{ post.date | date: "%b %-d, %Y" }}</span></small>
         </a>
       {% endfor %}
     </nav>
   </div>
 </article>
-
-
-
-
 
 <footer>
   <span>©2016 Mediasmart</span>
@@ -43,9 +39,9 @@
     <a href='/privacy-policy'>Privacy policy</a>
     <a href='/cookie-policy'>Cookie policy</a>
   </nav>
-  <nav>
-    <a href='https://twitter.com/MEDIASMART_MB' target='_blank'>Twitter</a>
-    <a href='https://www.facebook.com/pages/Mediasmart-Mobile/504657222949687' target='_blank'>Facebook</a>
-    <a href='/blog'>Blog</a>
+  <nav data-role='networks'>
+    <a href='https://twitter.com/MEDIASMART_MB' target='_blank' class='icon twitter'></a>
+    <a href='https://www.facebook.com/pages/Mediasmart-Mobile/504657222949687' target='_blank' class='icon facebook'></a>
+    <a href='https://youtube.com' target='_blank' class='icon youtube'></a>
   </nav>
 </footer>

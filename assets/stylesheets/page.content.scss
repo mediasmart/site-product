@@ -3,13 +3,14 @@
   [data-role='title'] {
     padding: ($header-height + $offset) $offset $offset $offset;
     margin: (-$offset) (-$offset) $offset (-$offset);
+    h3 {
+      font-family: $font-family;
+      font-weight: $font-weight-normal;
+    }
   }
 
   [data-role='text'] {
     p {
-      font-size: $font-size-large;
-      line-height: 1.75;
-      margin: 0 0 $font-size-large 0;
       text-align: justify;
     }
 
@@ -21,8 +22,5 @@
     p + h2, p + h3, ul + h2, ul + h3, blockquote + h2, blockquote + h3 {
       margin-top: ($header-height - ($unit * 2));
     }
-
   }
-
-
 }

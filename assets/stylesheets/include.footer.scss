@@ -19,7 +19,8 @@
     background-color: $dark;
     font-size: $font-size-tiny;
     display: flex;
-    padding: ($offset / 1.5) $offset;
+    padding: 0 $offset;
+    line-height: $header-height;
     &, a {
       color: $white;
     }
@@ -29,6 +30,12 @@
       }
       &:nth-child(2) {
         flex-grow: 1;
+      }
+      &[data-role='networks'] {
+        font-size: $font-size-large;
+        > * {
+          // margin-left: $unit;
+        }
       }
     }
   }

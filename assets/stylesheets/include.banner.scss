@@ -5,12 +5,11 @@
     justify-content: center;
     text-align: center;
     min-height: 45vh;
-    // height: auto;
     > .button {
       margin: ($offset / 2) 0 $unit 0;
     }
     > small {
-      font-size: $font-size-tiny;
+      font-size: $font-size-small;
       opacity: 0.75;
     }
 
@@ -24,8 +23,14 @@
       > * {
         display: block;
       }
-      > h3, > h4 {
-        margin-bottom: $unit / 2;
+      > h3, > strong {
+        color: $primary;
+      }
+      > strong {
+        margin-top: $unit;
+      }
+      > span, > a {
+        color: $text;
       }
     }
   }
