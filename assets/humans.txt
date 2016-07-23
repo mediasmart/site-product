@@ -1,11 +1,10 @@
-/* TEAM */
+/* AUTHOR */
 Name        : Javi Jiménez
 Site        : http://soyjavi.com
 Twitter     : @soyjavi
-Location    : Bilbao, Spain.
+Location    : Travelling aroound this crazy world... 🛩, 🛳, 🚓, 🚌, 🚲
 
 /* SITE */
-Last update : 2014/12/22
-Standards   : HTML5, CSS3 & JavaScrip.
-Components  : ZEN, Flexo, jQuery.
-Software    : Sublime Text 3, CoffeeScript, Stylus & passion.
+Last update : 2016/09/01
+Languages   : Ruby, JavaScript, SASS & 🍣
+Software    : Atom I/O & Jekyll.
