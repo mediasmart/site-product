@@ -1,0 +1,43 @@
+$content-team-member-width: 20 * $unit;
+$team-member-network-size: 3.6 * $unit;
+
+[data-role='team'] {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 0;
+  > li {
+    display: flex;
+    flex-direction: column;
+    margin: ($offset / 2) ($offset / 2);
+    text-align: center;
+    > figure {
+      background-color: $background-dark;
+      background-size: cover;
+      width: $content-team-member-width;
+      height: $content-team-member-width;
+      margin: 0 0 ($unit * 2) 0;
+    }
+    > small {
+      color: $text-secondary;
+      font-size: $font-size-small;
+    }
+    > [data-role='networks'] {
+      margin-top: $unit;
+      > a {
+        display: inline-block;
+        margin: 0 ($unit / 4);
+        width: $team-member-network-size;
+        height: $team-member-network-size;
+        line-height: $team-member-network-size;
+        border-radius: 50%;
+        background-color: $text;
+        color: $white;
+        transition: background $animation-duration $animation-ease;
+        &:hover {
+          background-color: $primary;
+        }
+      }
+    }
+  }
+}

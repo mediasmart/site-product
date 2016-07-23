@@ -24,43 +24,5 @@
 
   }
 
-  [data-content='Customers'] {
-    ul {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-      list-style: none;
-      padding: 0;
-      li {
-        margin: ($offset / 4) ($offset / 2);
-        img {
-          width: ($offset * 2.25);
-          min-height: ($offset  / 1.25);
-          background-color: $background-dark;
-          border: none;
-        }
-      }
-    }
-  }
 
-  [data-role='team'] {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-    > li {
-      display: flex;
-      flex-direction: column;
-      margin: $offset ($offset / 4);
-      text-align: center;
-      > img {
-        background: $background-dark;
-        width: $content-team-member-width;
-        height: $content-team-member-width;
-        margin-bottom: $offset / 2;
-      }
-    }
-
-  }
 }

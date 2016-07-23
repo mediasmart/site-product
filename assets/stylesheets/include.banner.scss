@@ -5,7 +5,7 @@
     justify-content: center;
     text-align: center;
     min-height: 45vh;
-    height: auto;
+    // height: auto;
     > .button {
       margin: ($offset / 2) 0 $unit 0;
     }
@@ -18,18 +18,15 @@
       background-color: $white;
       color: $text;
       max-width: 20vw;
-      padding: ($offset / 1.5);
+      margin: $offset 0;
+      padding: ($offset / 2) $offset;
       box-shadow: $shadow-strong;
       > * {
         display: block;
       }
-      > h3 {
+      > h3, > h4 {
         margin-bottom: $unit / 2;
       }
-      > small + h3 {
-        margin-top: $offset / 2;
-      }
     }
-
   }
 }
