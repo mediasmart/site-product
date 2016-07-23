@@ -1,0 +1,92 @@
+- name: Noelia Amoedo
+  title: CEO
+  image: noelia.amoedo.jpg
+  linkedin: namoedo
+
+- name: Guillermo Fernandez
+  title: CTO
+  image: guillermo.fernandez.jpg
+  linkedin:
+  github:
+  twitter:
+
+- name: Nuria Alonso
+  title: CSO
+  image: nuria.alonso.jpg
+  linkedin:
+
+- name: Lucas Oriol
+  title: CFO
+  image: lucas.oriol.jpg
+  linkedin:
+
+- name: Javier Almirante
+  title: Operations Director
+  image: javier.almirante.jpg
+  linkedin:
+
+- name: Marta Lopez de Haro
+  title: Client Service Director
+  image: marta.lopez.de.haro.jpg
+  linkedin:
+
+# -- Enginering
+- heading: 'Engineering'
+  summary:
+- name: Javi Jimenez
+  title: UX/UI Team Leader
+  image: javi.jimenez.jpg
+  linkedin: soyjavi
+  twitter: soyjavi
+  github: soyjavi
+
+- name: Alejando Fernandez
+  title: Senior Developer
+  image: alejando.fernandez.jpg
+  linkedin:
+
+- name: Sergio Garcia
+  title: Senior Developer
+  image: sergio.garcia.jpg
+  linkedin:
+
+- name: Yarilo Villanueva
+  title: Developer
+  image: yarilo.villanueva.jpg
+  linkedin:
+
+- name: Alfredo Lopez
+  title: Backend Developer
+  image: alfredo.lopez.jpg
+  linkedin:
+
+- name: Rafael Tejado
+  title: Developer
+  image: rafael.tejado.jpg
+  linkedin:
+
+# -- Others
+- name: Julio Aguayo
+  title: International Business Dev.
+  image: Julio.Aguayo.jpg
+  linkedin:
+
+- name: Tiago Vila Verde
+  title: Campaign Perfomance Manager
+  image: tiago.vila.verde.jpg
+  linkedin:
+
+- name: Adriana Ullivari
+  title: Account Manager
+  image: adriana.ullivari.jpg
+  linkedin:
+
+- name: Gema Posada
+  title: Account Manager
+  image: gema.posada.jpg
+  linkedin:
+
+- name: Manuel Martinez
+  title: Account Manager
+  image: manuel.martinez.jpg
+  linkedin:
