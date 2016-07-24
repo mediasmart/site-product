@@ -33,6 +33,21 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 </ul>
 
 
-### Jobs
+### Careers
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Launched in 2012 and based in Madrid, but you can work wherever you want. We are growing with 200% rate every year! Be part of our journey. We'd love to hear from you! Email us with some thoughts on what you're passionate about.
+
+<form multipart>
+  <h2>Work with us</h2>
+  {% for input in site.data.forms.hiring %}
+    <label>{{ input.label }}</label>
+    {% if (input.type != 'textarea') %}
+      <input name='{{ input.name }}' type='{{ input.type }}' required />
+    {% else %}
+      <textarea name='{{ input.name }}' required></textarea>
+    {% endif %}
+  {% endfor %}
+  <button class='primary large'>
+    <label>Apply now</label>
+  </button>
+</form>
