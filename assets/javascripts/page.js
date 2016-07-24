@@ -9,11 +9,6 @@ window.onload = function() {
     },
 
     fn: {
-      scroll: function() {
-        var scroll = document.body.scrollTop;
-        document.body.setAttribute('class', scroll > mediasmart.el.header.offsetHeight ? 'scroll' : '');
-      },
-
       activeMenu: function() {
         var menu = mediasmart.el.menu;
         var currentUrl = window.location.pathname;
@@ -24,6 +19,21 @@ window.onload = function() {
             break;
           }
         }
+      },
+
+      formSubmit: function(event) {
+        event.preventDefault();
+        event.stopPropagation();
+        var parameters = {};
+        for (var child of event.target.children) {
+          if (child.type && child.type !== 'submit') parameters[child.name] = child.value;
+        }
+        console.log('formSubmit', parameters);
+      },
+
+      scroll: function() {
+        var scroll = document.body.scrollTop;
+        document.body.setAttribute('class', scroll > mediasmart.el.header.offsetHeight ? 'scroll' : '');
       }
     },
   };
@@ -34,4 +44,5 @@ window.onload = function() {
 
   // -- Listeners
   window.addEventListener('scroll', mediasmart.fn.scroll, false);
+  window.addEventListener('submit', mediasmart.fn.formSubmit, false);
 }

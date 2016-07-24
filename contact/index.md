@@ -12,11 +12,13 @@ permalink   : /contact/
   {% for input in site.data.forms.contact %}
     <label>{{ input.label }}</label>
     {% if (input.type != 'textarea') %}
-      <input name='{{ input.name }}' type='{{ input.type }}' />
+      <input name='{{ input.name }}' type='{{ input.type }}' required />
     {% else %}
-      <textarea name='{{ input.name }}'></textarea>
+      <textarea name='{{ input.name }}' required></textarea>
     {% endif %}
 
   {% endfor %}
-  <button class='primary large'>Send my Message</button>
+  <button class='primary large'>
+    <label>Send my Message</label>
+  </button>
 </form>

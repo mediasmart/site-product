@@ -13,11 +13,13 @@ permalink   : /signup/
   {% for input in site.data.forms.signup %}
     <label>{{ input.label }}</label>
     {% if (input.type != 'textarea') %}
-      <input name='{{ input.name }}' type='{{ input.type }}' />
+      <input name='{{ input.name }}' type='{{ input.type }}' required />
     {% else %}
-      <textarea name='{{ input.name }}'></textarea>
+      <textarea name='{{ input.name }}' required></textarea>
     {% endif %}
   {% endfor %}
   <small>By creating a store, you agree to the <a href='/terms-of-use/'>Terms and Conditions</a>.</small>
-  <button class='primary large'>Create my free account</button>
+  <button class='primary large'>
+    <label>Create my free account</label>
+  </button>
 </form>
