@@ -1,0 +1,32 @@
+contact:
+  - label: What's your name?
+    name: name
+    type: text
+  - label: What's your email?
+    name: email
+    type: email
+  - label: What's your message?
+    name: message
+    type: textarea
+signup:
+  - label: First Name
+    name: first_name
+    type: text
+  - label: Last Name
+    name: last_name
+    type: text
+  - label: Email address
+    name: email
+    type: email
+  - label: Your organization name
+    name: organization
+    type: text
+  - label: Create password
+    name: password
+    type: password
+  - label: Telephone
+    name: tellphone
+    type: tel
+  # - label: Would you like a call to talk about Mediasmart?
+  #   name: call
+  #   type: checkbox
