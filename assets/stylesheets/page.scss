@@ -92,6 +92,42 @@ p {
   margin: 0 0 $font-size-large 0;
 }
 
+form {
+  background-color: $background-dark;
+  padding: $offset 17.5vw;
+  display: flex;
+  flex-direction: column;
+  > input, > textarea, > small {
+    margin-bottom: $unit * 2;
+  }
+  > label, > small {
+    color: $text-secondary;
+  }
+  > label {
+    font-size: $font-size-small;
+    margin-bottom: $unit / 2;
+  }
+  > input, > textarea {
+    font-size: $font-size-large;
+    padding: $unit;
+    border: solid 1px darken($background-dark, 10%);
+  }
+  > textarea {
+    height: 20vh;
+  }
+  > small {
+    font-size: $font-size-tiny;
+    > a {
+      color: $text-secondary;
+      text-decoration: underline;
+    }
+  }
+  button {
+    margin-top: 2 * $unit;
+    align-self: flex-end;
+  }
+}
+
 // -- Responsive
 @media all and (min-width: 769px) {
   h1 {
