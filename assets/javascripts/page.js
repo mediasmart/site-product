@@ -34,6 +34,15 @@ window.onload = function() {
       scroll: function() {
         var scroll = document.body.scrollTop;
         document.body.setAttribute('class', scroll > mediasmart.el.header.offsetHeight ? 'scroll' : '');
+      },
+
+      submenuClick: function() {
+        for (var link of document.querySelectorAll('body > header > nav > a > ul > li')) {
+          link.addEventListener('click', function(event) {
+            event.preventDefault();
+            window.location = event.target.getAttribute('href');
+          }, false)
+        }
       }
     },
   };
@@ -41,8 +50,14 @@ window.onload = function() {
   // -- Decorators
   mediasmart.fn.scroll();
   mediasmart.fn.activeMenu();
+  mediasmart.fn.submenuClick();
 
   // -- Listeners
   window.addEventListener('scroll', mediasmart.fn.scroll, false);
   window.addEventListener('submit', mediasmart.fn.formSubmit, false);
+
+  // -- Hi developers
+  console.log('🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖');
+  console.log('If you are reading this maybe you wanna join us: http://bit.ly/2a95N0d');
+  console.log('🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖');
 }
