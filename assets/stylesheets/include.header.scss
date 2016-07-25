@@ -11,8 +11,12 @@
   left: 0;
   right: 0;
   transition: all $animation-duration $animation-ease;
-  img {
-    height: $offset / 1.35;
+
+  > a {
+    &, > img {
+      height: $offset / 1.35;
+      margin: 0;
+    }
   }
   > nav {
     flex-grow: 1;
@@ -48,10 +52,13 @@
 
 // -- Decorators
 [data-page].scroll > header {
-  background-color: rgba($primary, 0.95);
+  background-color: rgba($primary, 0.9);
   box-shadow: $shadow-deep;
   height: ($header-height / 1.5);
-  .button {
+  > a > img {
+    content: url('/assets/images/logo-white.png');
+  }
+  > nav > .button {
     background-color: $white;
     color: $primary;
   }
