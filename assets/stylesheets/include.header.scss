@@ -5,8 +5,6 @@
   flex-direction: row;
   align-items: center;
   height: $header-height;
-  padding-left: $offset;
-  padding-right: $offset;
   top: 0;
   left: 0;
   right: 0;
@@ -26,9 +24,7 @@
       font-weight: $font-weight-bold;
       font-family: $font-family-heading;
       font-weight: $font-weight-bold;
-      margin-left: $offset / 2;
       cursor: pointer;
-
       &:not(.button) {
         color: $white;
         opacity: 0.85;
@@ -36,44 +32,10 @@
         transition: all $animation-duration $animation-ease;
         box-shadow: none;
         position: relative;
-        > ul {
-          position: fixed;
-          margin: ($unit * 1.25) ($offset * 1.12) 0 (-$offset / 4);
-          padding: 0;
-          display: none;
-          color: $text;
-          font-family: $font-family;
-          box-shadow: $shadow-light;
-          > * {
-            margin-left: -$unit * 0.1;
-            padding: ($offset / 2) ($offset / 4);
-            list-style: none;
-            font-size: $font-size-tiny;
-            background: $white;
-            transform: skewX(-$button-skew);
-            > * {
-              transform: skewX($button-skew);
-              display: block;
-              pointer-events: none;
-            }
-            > span {
-              font-weight: $font-weight-normal;
-              color: $text-secondary;
-              margin-left: $unit * 0.3;
-            }
-            &:hover {
-              background-color: $background-dark;
-            }
-          }
-        }
+
         &:hover, &.active {
           opacity: 1;
           box-shadow: 0 -2px $white;
-        }
-        &:hover {
-          > ul {
-            display: flex;
-          }
         }
       }
     }
@@ -91,5 +53,65 @@
   > nav > .button {
     background-color: $white;
     color: $primary;
+  }
+}
+
+
+// -- Layout Breakpoints -------------------------------------------------------
+@media (max-width: $layout-breakpoint-SM) {
+  [data-page] > header {
+    padding-left: $offset-mobile;
+    padding-right: $offset-mobile;
+    > nav > a {
+      margin-left: $unit;
+      > ul {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (min-width: $layout-breakpoint-SM + 1) {
+  [data-page] > header {
+    padding-left: $offset;
+    padding-right: $offset;
+    > nav > a {
+      margin-left: $offset / 2;
+      &:hover {
+        > ul {
+          display: flex;
+        }
+      }
+      > ul {
+        position: fixed;
+        margin: ($unit * 1.25) ($offset * 1.12) 0 (-$offset / 4);
+        padding: 0;
+        display: none;
+        color: $text;
+        font-family: $font-family;
+        box-shadow: $shadow-light;
+        > * {
+          margin-left: -$unit * 0.1;
+          padding: ($offset / 2) ($offset / 4);
+          list-style: none;
+          font-size: $font-size-tiny;
+          background: $white;
+          transform: skewX(-$button-skew);
+          > * {
+            transform: skewX($button-skew);
+            display: block;
+            pointer-events: none;
+          }
+          > span {
+            font-weight: $font-weight-normal;
+            color: $text-secondary;
+            margin-left: $unit * 0.3;
+          }
+          &:hover {
+            background-color: $background-dark;
+          }
+        }
+      }
+    }
   }
 }

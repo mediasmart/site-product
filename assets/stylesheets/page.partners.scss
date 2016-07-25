@@ -5,12 +5,22 @@
   justify-content: center;
   list-style: none;
   padding: 0;
-
   img {
     margin: ($offset / 4) ($offset / 2);
     // width: ($offset * 2.25);
     height: ($offset  / 1.25);
     background-color: $background-dark;
     border: none;
+  }
+}
+
+// -- Layout Breakpoints -------------------------------------------------------
+@media (max-width: $layout-breakpoint-SM) {
+  [data-role='partners'] {
+  }
+}
+
+@media (min-width: $layout-breakpoint-SM + 1) {
+  [data-role='partners'] {
   }
 }

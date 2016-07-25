@@ -92,11 +92,11 @@
   }
 }
 
-// -- Responsive
-@media all and (min-width: 769px) {
+// -- Layout Breakpoints -------------------------------------------------------
+@media (min-width: $layout-breakpoint-SM + 1) {
   .post {
     h1 {
-      font-size: 6.5vh;
+      font-size: 6vh;
     }
   }
 }

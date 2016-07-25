@@ -19,7 +19,6 @@
     background-color: $dark;
     font-size: $font-size-tiny;
     display: flex;
-    padding: 0 $offset;
     line-height: $header-height;
     &, a {
       color: $white;
@@ -33,10 +32,34 @@
       }
       &[data-role='networks'] {
         font-size: $font-size-large;
-        > * {
-          // margin-left: $unit;
+      }
+    }
+  }
+}
+
+// -- Layout Breakpoints -------------------------------------------------------
+@media (max-width: $layout-breakpoint-SM) {
+  [data-page]  {
+    > [data-role='sitemap'] {
+      nav {
+        > h3 {
+          font-size: $font-size;
+        }
+        > :not(h3) {
+          font-size: $font-size-tiny;
         }
       }
+    }
+    > footer {
+      padding: 0 $offset-mobile;
+    }
+  }
+}
+
+@media (min-width: $layout-breakpoint-SM + 1) {
+  [data-page]  {
+    > footer {
+      padding: 0 $offset;
     }
   }
 }

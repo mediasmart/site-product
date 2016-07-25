@@ -3,7 +3,6 @@ $team-member-network-size: 3.6 * $unit;
 
 [data-role='team'] {
   display: flex;
-  justify-content: flex-start;
   flex-wrap: wrap;
   padding: 0;
   > li {
@@ -38,6 +37,25 @@ $team-member-network-size: 3.6 * $unit;
           background-color: $primary;
         }
       }
+    }
+  }
+}
+
+// -- Layout Breakpoints -------------------------------------------------------
+@media (max-width: $layout-breakpoint-SM) {
+  [data-role='team'] {
+    justify-content: center;
+    > li {
+      margin: ($offset-mobile / 2);
+    }
+  }
+}
+
+@media (min-width: $layout-breakpoint-SM + 1) {
+  [data-role='team'] {
+    justify-content: flex-start;
+    > li {
+      margin: ($offset / 2);
     }
   }
 }
