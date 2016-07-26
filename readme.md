@@ -1,5 +1,7 @@
 # media-smart site
 
+The coolest product website.
+
 ## Getting started
 
 To install dependencies:
