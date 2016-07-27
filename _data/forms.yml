@@ -31,18 +31,18 @@ signup:
   #   name: call
   #   type: checkbox
 hiring:
-- label: Your Name
-  name: name
-  type: text
-- label: Email address
-  name: email
-  type: email
-- label: Telephone
-  name: tellphone
-  type: tel
-- label: Tell us something about you
-  name: message
-  type: textarea
-- label: Your CV
-  name: file
-  type: file
+  - label: Your Name
+    name: name
+    type: text
+  - label: Email address
+    name: email
+    type: email
+  - label: Telephone
+    name: tellphone
+    type: tel
+  - label: Tell us something about you
+    name: message
+    type: textarea
+  - label: Your CV
+    name: file
+    type: file

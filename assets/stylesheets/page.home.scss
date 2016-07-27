@@ -6,7 +6,6 @@ $min-height: 60vh;
     position: relative;
     padding: 0;
     margin: 0;
-    // height: $intro-height;
     overflow: hidden;
     align-items: center;
     justify-content: center;
@@ -35,13 +34,9 @@ $min-height: 60vh;
       background-color: transparent;
     }
   }
-  // > section {
-  //   padding: 5vh 10vw;
-  //   min-height: $min-height;
-  // }
 }
 
-[data-page='home'].scroll {
+[data-page='home'].scroll > article:first-of-type  {
   [data-role='intro'] {
     small {
       opacity: 0;
@@ -52,13 +47,10 @@ $min-height: 60vh;
 // -- Layout Breakpoints -------------------------------------------------------
 @media (max-width: $layout-breakpoint-SM) {
   [data-page='home'] > article:first-of-type  {
-
     h1 {
       font-size: 4.5vh;
     }
-
     > [data-role='intro'] {
-      // background: red;
       height: 40vh;
       > small {
         display: none;
@@ -66,22 +58,19 @@ $min-height: 60vh;
       > video {
       }
     }
+    > section {
+      padding: $offset $offset-mobile;
+    }
   }
-  // $intro-height: 30vh;
-  // > [data-role='intro'] {
-  //   height: $intro-height;
-  // }
 }
 
 
 @media (min-width: $layout-breakpoint-SM + 1) {
   $intro-height: 100vh;
   [data-page='home'] > article:first-of-type  {
-
     h1 {
       font-size: 9.5vh;
     }
-
     > [data-role='intro'] {
       height: $intro-height;
       > small {
@@ -95,7 +84,6 @@ $min-height: 60vh;
     }
     > section {
       padding: 5vh 10vw;
-      min-height: $min-height;
     }
   }
 }

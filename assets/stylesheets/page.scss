@@ -23,12 +23,14 @@ body {
       width: 100%;
     }
     .bck {
-      background: $background-dark url('/assets/images/bck-default.jpg');
-      background-size: cover;
-      color: $white;
       display: flex;
       flex-direction: column;
       background-position: center;
+      &.dots {
+        background: $background-dark url('/assets/images/bck-default.jpg');
+        background-size: cover;
+        color: $white;
+      }
       &.girl {
         background-image: url('/assets/images/bck-girl.jpg');
       }

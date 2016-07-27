@@ -4,7 +4,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    min-height: 45vh;
     > .button {
       margin: ($offset / 2) 0 $unit 0;
     }
@@ -12,12 +11,9 @@
       font-size: $font-size-small;
       opacity: 0.75;
     }
-
     .box {
       background-color: $white;
       color: $text;
-      max-width: 20vw;
-      margin: $offset 0;
       padding: ($offset / 2) $offset;
       box-shadow: $shadow-strong;
       > * {
@@ -31,6 +27,33 @@
       }
       > span, > a {
         color: $text;
+      }
+    }
+  }
+}
+
+
+// -- Layout Breakpoints -------------------------------------------------------
+@media (max-width: $layout-breakpoint-SM) {
+  [data-role='banner'] {
+    > section {
+      padding: $offset 0;
+      .box {
+        max-width: 40vw;
+      }
+    }
+  }
+}
+
+
+@media (min-width: $layout-breakpoint-SM + 1) {
+  [data-role='banner'] {
+    > section {
+      min-height: 45vh;
+      padding: 0 $offset;
+      .box {
+        margin: $offset 0;
+        max-width: 20vw;
       }
     }
   }
