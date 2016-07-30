@@ -2,6 +2,6 @@
 layout      : default
 type        : content
 
-title       : Solutions
-permalink   : /solution/
+title       : Product
+permalink   : /product/
 ---

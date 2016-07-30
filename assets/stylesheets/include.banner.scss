@@ -16,8 +16,12 @@
       color: $text;
       padding: ($offset / 2) $offset;
       box-shadow: $shadow-strong;
+
+      transform: skewX(-$box-skew);
+
       > * {
         display: block;
+        transform: skewX($box-skew);
       }
       > h3, > strong {
         color: $primary;

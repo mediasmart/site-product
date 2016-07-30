@@ -35,7 +35,7 @@ body {
         background-image: url('/assets/images/bck-girl.jpg');
       }
       &.map {
-        background-image: url('/assets/images/bck-map.jpg');
+        background: transparent url("/assets/images/bck-map.svg") center center repeat-x;
       }
       &.video {
         background-image: url('/assets/images/bck-video.jpg');
@@ -91,6 +91,10 @@ form {
   padding: $offset 17.5vw;
   display: flex;
   flex-direction: column;
+  transform: skewX(-$box-skew);
+  > * {
+    transform: skewX($box-skew);
+  }
   > input, > textarea, > small {
     margin-bottom: $unit * 2;
   }
