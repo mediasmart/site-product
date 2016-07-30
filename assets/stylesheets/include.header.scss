@@ -58,16 +58,29 @@
 
 
 // -- Layout Breakpoints -------------------------------------------------------
-@media (max-width: $layout-breakpoint-SM) {
+@media (max-width: $layout-breakpoint-XS) {
   [data-page] > header {
-    padding-left: $offset-mobile;
-    padding-right: $offset-mobile;
+    > nav {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: $layout-breakpoint-XS) and (max-width: $layout-breakpoint-SM) {
+  [data-page] > header {
     > nav > a {
       margin-left: $unit;
       > ul {
         display: none;
       }
     }
+  }
+}
+
+@media (max-width: $layout-breakpoint-SM) {
+  [data-page] > header {
+    padding-left: $offset-mobile;
+    padding-right: $offset-mobile;
   }
 }
 

@@ -16,7 +16,6 @@ $team-member-network-size: 3.6 * $unit;
       width: $content-team-member-width;
       height: $content-team-member-width;
       margin: 0 0 ($unit * 2) 0;
-      transform: skewX(-$box-skew);
     }
     > small {
       color: $text-secondary;

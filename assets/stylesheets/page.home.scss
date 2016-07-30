@@ -33,6 +33,14 @@ $min-height: 60vh;
       width: 100vw;
       background-color: transparent;
     }
+    > small {
+      position: absolute;
+      width: 100%;
+      bottom: $unit;
+      color: rgba($white, 0.75);
+      font-size: $font-size-tiny;
+      transition: opacity $animation-duration $animation-ease;
+    }
   }
 }
 
@@ -45,7 +53,18 @@ $min-height: 60vh;
 }
 
 // -- Layout Breakpoints -------------------------------------------------------
-@media (max-width: $layout-breakpoint-SM) {
+@media (max-width: $layout-breakpoint-XS) {
+  [data-page='home'] > article:first-of-type  {
+    > [data-role='intro'] {
+      height: 100vh;
+      > video {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (min-width: $layout-breakpoint-XS) and (max-width: $layout-breakpoint-SM) {
   [data-page='home'] > article:first-of-type  {
     h1 {
       font-size: 4.5vh;
@@ -55,15 +74,17 @@ $min-height: 60vh;
       > small {
         display: none;
       }
-      > video {
-      }
     }
+  }
+}
+
+@media  (max-width: $layout-breakpoint-SM) {
+  [data-page='home'] > article:first-of-type  {
     > section {
       padding: $offset $offset-mobile;
     }
   }
 }
-
 
 @media (min-width: $layout-breakpoint-SM + 1) {
   $intro-height: 100vh;
@@ -73,14 +94,7 @@ $min-height: 60vh;
     }
     > [data-role='intro'] {
       height: $intro-height;
-      > small {
-        position: absolute;
-        width: 100%;
-        bottom: $unit;
-        color: rgba($white, 0.75);
-        font-size: $font-size-tiny;
-        transition: opacity $animation-duration $animation-ease;
-      }
+
     }
     > section {
       padding: 5vh 10vw;

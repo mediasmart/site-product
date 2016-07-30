@@ -5,7 +5,7 @@
     justify-content: center;
     text-align: center;
     > .button {
-      margin: ($offset / 2) 0 $unit 0;
+      margin: ($offset / 2) 0;
     }
     > small {
       font-size: $font-size-small;

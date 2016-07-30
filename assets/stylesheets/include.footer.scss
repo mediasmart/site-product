@@ -19,17 +19,13 @@
     background-color: $dark;
     font-size: $font-size-tiny;
     display: flex;
-    line-height: $header-height;
+    > * {
+      min-width: 0;
+    }
     &, a {
       color: $white;
     }
     > nav {
-      &, a {
-        margin-left: $unit;
-      }
-      &:nth-child(2) {
-        flex-grow: 1;
-      }
       &[data-role='networks'] {
         font-size: $font-size-large;
       }
@@ -38,7 +34,46 @@
 }
 
 // -- Layout Breakpoints -------------------------------------------------------
-@media (max-width: $layout-breakpoint-SM) {
+@media (max-width: $layout-breakpoint-XS) {
+  [data-page]  {
+    > [data-role='sitemap'] .wrapper{
+      flex-direction: column;
+      margin: $offset-mobile 0;
+      > nav:not(:first-child) {
+        margin-top: $offset-mobile;
+      }
+    }
+    > footer {
+      flex-direction: column;
+      align-items: center;
+      padding: $offset-mobile 0;
+      > nav:nth-child(2) {
+        padding: $offset-mobile 0;
+      }
+      > nav > * {
+        margin: 0 ($unit / 2);
+      }
+    }
+  }
+}
+
+@media (min-width: $layout-breakpoint-XS) {
+  [data-page]  {
+    > footer {
+      line-height: $header-height;
+      > nav {
+        &, a {
+          margin-left: $unit;
+        }
+        &:nth-child(2) {
+          flex-grow: 1;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $layout-breakpoint-XS) and (max-width: $layout-breakpoint-SM) {
   [data-page]  {
     > [data-role='sitemap'] {
       nav {
