@@ -1,8 +1,5 @@
 [data-page='content'] {
-
   [data-role='title'] {
-    padding: ($header-height + $offset) $offset $offset $offset;
-    margin: (-$offset) (-$offset) $offset (-$offset);
     h3 {
       font-family: $font-family;
       font-weight: $font-weight-normal;
@@ -21,6 +18,37 @@
 
     p + h2, p + h3, ul + h2, ul + h3, blockquote + h2, blockquote + h3 {
       margin-top: ($header-height - ($unit * 2));
+    }
+  }
+}
+
+
+// -- Layout Breakpoints -------------------------------------------------------
+@media (max-width: $layout-breakpoint-SM) {
+  [data-page='content'] {
+    [data-role='title'] {
+      padding: ($header-height + $offset) $offset-mobile $offset-mobile $offset-mobile;
+      margin: (-$offset-mobile) (-$offset-mobile) $offset-mobile (-$offset-mobile);
+    }
+  }
+}
+
+@media (max-width: $layout-breakpoint-XS) {
+  [data-page='content'] {
+    [data-role='title'] {
+      padding-top: ($header-height + ($unit * 1.6));
+      h3 {
+        font-size: $font-size;
+      }
+    }
+  }
+}
+
+@media (min-width: $layout-breakpoint-SM + 1) {
+  [data-page='content'] {
+    [data-role='title'] {
+      padding: ($header-height + $offset) $offset $offset $offset;
+      margin: (-$offset) (-$offset) $offset (-$offset);
     }
   }
 }

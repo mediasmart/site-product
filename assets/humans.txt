@@ -2,7 +2,7 @@
 Name        : Javi Jiménez
 Site        : http://soyjavi.com
 Twitter     : @soyjavi
-Location    : Travelling aroound this crazy world... 🛩, 🛳, 🚓, 🚌, 🚲
+Location    : Travelling around this crazy world... 🛩, 🛳, 🚓, 🚌, 🚲
 
 /* SITE */
 Last update : 2016/09/01
