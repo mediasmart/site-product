@@ -7,15 +7,13 @@
   }
 
   [data-role='text'] {
-    p {
-      text-align: justify;
-    }
-
     h2, h3 {
       font-size: 2.2 * $unit;
       margin-bottom: $unit;
     }
-
+    p {
+      text-align: justify;
+    }
     p + h2, p + h3, ul + h2, ul + h3, blockquote + h2, blockquote + h3 {
       margin-top: ($header-height - ($unit * 2));
     }

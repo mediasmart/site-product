@@ -81,7 +81,6 @@ a {
 }
 
 p {
-  font-size: $font-size-large;
   line-height: 1.75;
   margin: 0 0 $font-size-large 0;
 }
@@ -155,6 +154,9 @@ form {
   }
   h3 {
     font-size: 2.2 * $unit;
+  }
+  p {
+    font-size: $font-size-large;
   }
   body > article {
     padding: ($offset / 1.5) $offset;
