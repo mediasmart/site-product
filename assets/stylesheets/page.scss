@@ -40,6 +40,10 @@ body {
       &.video {
         background-image: url('/assets/images/bck-video.jpg');
       }
+      &.primary {
+        background-color: $primary;
+        color: $white;
+      }
       &.dots {
         position: relative;
         > * {
@@ -87,13 +91,8 @@ p {
 
 form {
   background-color: $background-dark;
-  padding: $offset 17.5vw;
   display: flex;
   flex-direction: column;
-  transform: skewX(-$box-skew);
-  > * {
-    transform: skewX($box-skew);
-  }
   > input, > textarea, > small {
     margin-bottom: $unit * 2;
   }
@@ -137,6 +136,9 @@ form {
   h3 {
     font-size: $font-size-large;
   }
+  form {
+    padding: $offset-mobile;
+  }
   body > article {
     padding: ($offset-mobile / 1.5) $offset-mobile;
     .wrapper {
@@ -157,6 +159,13 @@ form {
   }
   p {
     font-size: $font-size-large;
+  }
+  form {
+    padding: $offset 17.5vw;
+    transform: skewX(-$box-skew);
+    > * {
+      transform: skewX($box-skew);
+    }
   }
   body > article {
     padding: ($offset / 1.5) $offset;

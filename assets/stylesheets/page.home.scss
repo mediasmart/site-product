@@ -42,6 +42,28 @@ $min-height: 60vh;
       transition: opacity $animation-duration $animation-ease;
     }
   }
+
+  > [data-role='quote'] {
+    .wrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    p {
+      margin: $unit 0;
+    }
+    img {
+      min-width: 15vw;
+      width: 15vw;
+      height: 15vw;
+      border-radius: 50%;
+      margin: $unit 0 $unit $offset;
+      margin-left: $offset;
+      background: orange;
+      display: block;
+      background-size: cover;
+    }
+  }
 }
 
 [data-page='home'].scroll > article:first-of-type  {
@@ -90,7 +112,7 @@ $min-height: 60vh;
   $intro-height: 100vh;
   [data-page='home'] > article:first-of-type  {
     h1 {
-      font-size: 9.5vh;
+      font-size: 9.25vh;
     }
     > [data-role='intro'] {
       height: $intro-height;

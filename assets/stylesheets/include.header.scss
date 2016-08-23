@@ -110,6 +110,7 @@
           font-size: $font-size-tiny;
           background: $white;
           transform: skewX(-$button-skew);
+          width: 33%;
           > * {
             transform: skewX($button-skew);
             display: block;

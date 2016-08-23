@@ -3,19 +3,18 @@ layout      : default
 type        : content
 
 title       : About Us
-subtitle    : A team of professionals with many years of experience in the mobile and digital advertising striving for innovation and quality of service.
+subtitle    : A team of professionals with many years of experience in the mobile and digital advertising word striving for innovation and quality of service.
 background  : girl
 permalink   : /about-us/
 ---
 
+Back in January 2012 the world of mobile advertising was still dominated by traditional ad networks selling impressions and clicks and optimizing campaigns to maximize CTRs. The first mobile ad exchanges were getting started, enabling mobile optimized inventory to be bought programmatically using real time bidding. That is when mediasmart was founded, embracing real time bidding as the most effective media buying paradigm. The company has since then evolved to support private deals as well, additional formats beyond display and integrations with multiple third parties in the ecosystem, but always staying true to its mission: allowing advertisers to effectively reach mobile audiences in real time, while maximizing engagement with campaigns.
 
-Back in January 2012 the world of mobile advertising was still dominated by traditional ad networks selling impressions and clicks and optimizing campaigns to maximize CTRs. The first mobile ad exchanges were getting started, enabling mobile optimized inventory to be bought programmatically using real time bidding. That is when mediasmart was founded, embracing real time bidding as the most effective media buying paradigm, and with the goal of allowing advertisers to effectively reach their mobile audience, maximizing engagement with campaigns.
-
-Since its inception, mediasmart has always been very clear on its position in the mobile advertising ecosystem: we fully focus on advertisers and the buying process.
+Since its inception, mediasmart has always been very clear on its position in the mobile advertising ecosystem: full focus on advertisers and the buying process.
 
 ### Team
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We work hard and never forget to have fun in the process. Absolutely devoted to our customers and to building the best DSP out there, our passion shines through everything we do.
 
 <ul data-role='team'>
 {% for member in site.data.team %}
@@ -35,7 +34,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 ### Careers
 
-Launched in 2012 and based in Madrid, but you can work wherever you want. We are growing with 200% rate every year! Be part of our journey. We'd love to hear from you! Email us with some thoughts on what you're passionate about.
+We launched in 2012 and are based in Madrid and London, but depending on the position you may work wherever you want. We are growing at three figure rates every year! Be part of our journey. We’d love to hear from you! Email us with some thoughts on what you’re passionate about.
 
 <form multipart>
   <h2>Work with us</h2>
