@@ -36,7 +36,6 @@ When it comes to segmentation and targeting, the mobile nature of mediasmart mak
 
 You can also run retargeting campaigns or target dynamic audiences. Create your own audiences and enrich them with every new campaign you run, either using mediasmart only or easily integrating with your very own DMP.
 
-
 ## Smart Campaign Management
 We bring together the most intuitive user experience and the most powerful platform so that you can easily keep all your campaigns under control and maximize results with little effort.
 
