@@ -1,4 +1,10 @@
-<section data-role='title' class='bck dots {{ page.background }}'>
+<section
+  data-role='title'
+  class='bck dots {{ page.background }}'
+  {% if page.cover %}
+  style='background-image: url("/assets/images/{{ page.cover }}");'
+  {% endif %}
+>
   <div class='wrapper {% if page.date or page.title == "Blog" %} post {% endif %}'>
     <h1>{{ page.title }}</h1>
     {% if page.date %}<h3>{{ page.date | date: '%B %d, %Y' }}</h3>{% endif %}
