@@ -18,20 +18,18 @@
   </div>
 </section>
 
-<section>
-  <nav class='summary'>
-    {% if page.previous %}
-      <a href='{{ page.previous.url }}'>
-        <small>Previous</small>
-        <strong>{{ page.previous.title }}</strong>
-      </a>
-    {% endif %}
+<nav data-role='links'>
+  {% if page.previous %}
+    <a href='{{ page.previous.url }}' class="button large">
+      <small>Previous</small>
+      <label>{{ page.previous.title }}</label>
+    </a>
+  {% endif %}
 
-    {% if page.next %}
-      <a href='{{ page.next.url }}'>
-        <small>Next</small>
-        <strong>{{ page.next.title }}</strong>
-      </a>
-    {% endif %}
-  </nav>
-</section>
+  {% if page.next %}
+    <a href='{{ page.next.url }}' class="button large">
+      <small>Next</small>
+      <label>{{ page.next.title }}</label>
+    </a>
+  {% endif %}
+</nav>
