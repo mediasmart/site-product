@@ -2,10 +2,6 @@
 layout:     default
 type:       content
 
-title:      ---
-layout:     default
-type:       content
-
 title:      The Elusive Art of Gaming Monetisation
 date:       2016-06-08
 tag:        opinion

@@ -4,7 +4,7 @@ type:       content
 
 title:      Mediasmart and Gameloft partner
 date:       2016-04-6
-tag:        opinion
+tag:        news
 permalink:  /blog/mediasmart-and-gameloft-partner
 published:  true
 ---

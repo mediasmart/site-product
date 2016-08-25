@@ -3,6 +3,7 @@ layout      : default
 type        : content
 
 title       : Blog
+subtitle    : Announcements, analysis and opinions on industry trends around the mobile programmatic world.
 permalink   : /blog/
 ---
 

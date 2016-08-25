@@ -4,7 +4,7 @@ type:       content
 
 title:      Mediasmart and Ligatus partner
 date:       2016-05-19
-tag:        opinion
+tag:        news
 permalink:  /blog/mediasmart-and-ligatus-partner
 published:  true
 ---
