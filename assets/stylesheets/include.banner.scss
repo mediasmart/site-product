@@ -11,17 +11,38 @@
       font-size: $font-size-small;
       opacity: 0.75;
     }
+    .boxes {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      margin: $offset 0 0 0;
+      .box {
+        margin: 0 $unit !important;
+      }
+    }
     .box {
       background-color: $white;
       color: $text;
       padding: ($offset / 2) $offset;
       box-shadow: $shadow-strong;
-
       transform: skewX(-$box-skew);
+
+      &.primary {
+        background: $primary;
+        color: $white;
+      }
 
       > * {
         display: block;
         transform: skewX($box-skew);
+      }
+      > h2 {
+        > span {
+          font-size: $font-size-small;
+          line-height: $font-size-small;
+          display: block;
+        }
       }
       > h3, > strong {
         color: $primary;

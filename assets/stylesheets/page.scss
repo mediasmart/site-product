@@ -44,6 +44,9 @@ body {
         background-color: $primary;
         color: $white;
       }
+      &.contrast {
+        background-color: $background-dark;
+      }
       &.dots {
         position: relative;
         > * {
