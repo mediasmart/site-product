@@ -11,12 +11,14 @@
       font-size: $font-size-small;
       opacity: 0.75;
     }
+
     .boxes {
       display: flex;
       align-items: center;
       justify-content: center;
       align-content: center;
       margin: $offset 0 0 0;
+      flex-wrap: wrap;
       .box {
         margin: 0 $unit !important;
       }
@@ -63,8 +65,17 @@
   [data-role='banner'] {
     > section {
       padding: $offset 0;
+
+      .boxes {
+        flex-wrap: wrap;
+
+        .box {
+          margin: ($offset-mobile / 2) $offset-mobile !important;
+        }
+      }
+
       .box {
-        max-width: 40vw;
+        width: 100%;
       }
     }
   }
@@ -76,6 +87,10 @@
     > section {
       min-height: 45vh;
       padding: 0 $offset;
+
+      .boxes {
+      }
+
       .box {
         margin: $offset 0;
         max-width: 20vw;

@@ -8,7 +8,7 @@ permalink   : /partners/
 ---
 
 <ul data-role='partners'>
-{% for i in (1..38) %}
+{% for i in (1..40) %}
   <img src='/assets/images/partners/{{ i }}.jpg' />
 {% endfor %}
 </ul>

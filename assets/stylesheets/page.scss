@@ -92,11 +92,21 @@ p {
   margin: 0 0 $font-size-large 0;
 }
 
+hr {
+  background: lighten($text-secondary, 40%);
+  border: none;
+  height: 1px;
+  // margin: 0 $offset;
+}
+
 form {
   background-color: $background-dark;
   display: flex;
   flex-direction: column;
-  > input, > textarea, > small {
+
+  > input,
+  > textarea,
+  > small {
     margin-bottom: $unit * 2;
   }
   > label, > small {
