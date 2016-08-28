@@ -40,6 +40,9 @@ body {
       &.video {
         background-image: url('/assets/images/bck-video.jpg');
       }
+      &.mockup {
+        background-image: url('/assets/videos/mockup.jpg');
+      }
       &.primary {
         background-color: $primary;
         color: $white;
