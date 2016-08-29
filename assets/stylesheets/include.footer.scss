@@ -28,6 +28,9 @@
     > nav {
       &[data-role='networks'] {
         font-size: $font-size-large;
+        a:hover {
+          color: $primary;
+        }
       }
     }
   }

@@ -47,29 +47,6 @@ $quote-avatar-size: 12.5vw;
       transition: opacity $animation-duration $animation-ease;
     }
   }
-
-  [data-role='quote'] {
-    .wrapper {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-    }
-
-    p {
-      margin: $unit 0;
-    }
-
-    img {
-      min-width: $quote-avatar-size;
-      width: $quote-avatar-size;
-      height: $quote-avatar-size;
-      border-radius: 50%;
-      margin: $unit 0 $unit $offset;
-      margin-left: $offset;
-      display: block;
-      background-size: cover;
-    }
-  }
 }
 
 [data-page='home'].scroll > article:first-of-type {

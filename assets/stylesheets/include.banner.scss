@@ -1,3 +1,5 @@
+$quote-avatar-size: 12.5vw;
+
 [data-role='banner'] {
   padding: 0;
   > section {
@@ -19,10 +21,12 @@
       align-content: center;
       margin: $offset 0 0 0;
       flex-wrap: wrap;
+
       .box {
         margin: 0 $unit !important;
       }
     }
+
     .box {
       background-color: $white;
       color: $text;
@@ -39,6 +43,7 @@
         display: block;
         transform: skewX($box-skew);
       }
+
       > h2 {
         > span {
           font-size: $font-size-small;
@@ -46,19 +51,40 @@
           display: block;
         }
       }
-      > h3, > strong {
+
+      > h3,
+      > strong {
         color: $primary;
       }
+
       > strong {
         margin-top: $unit;
       }
-      > span, > a {
+
+      > span,
+      > a {
         color: $text;
+      }
+    }
+
+    &[data-role='quote'] {
+      .wrapper {
+        display: flex;
+        align-items: center;
+      }
+
+      p {
+        margin: $unit 0;
+      }
+
+      img {
+        border-radius: 50%;
+        display: block;
+        background-size: cover;
       }
     }
   }
 }
-
 
 // -- Layout Breakpoints -------------------------------------------------------
 @media (max-width: $layout-breakpoint-SM) {
@@ -77,23 +103,47 @@
       .box {
         width: 100%;
       }
+
+      &[data-role='quote'] > .wrapper {
+        flex-direction: column;
+        text-align: left;
+
+        > div {
+          order: 1;
+          padding: $offset-mobile;
+        }
+
+        > img {
+          order: 0;
+          width: 35vw;
+        }
+      }
     }
   }
 }
 
-
-@media (min-width: $layout-breakpoint-SM + 1) {
+@media (min-width: ($layout-breakpoint-SM + 1)) {
   [data-role='banner'] {
     > section {
       min-height: 45vh;
       padding: 0 $offset;
 
-      .boxes {
-      }
-
       .box {
         margin: $offset 0;
         max-width: 20vw;
+      }
+
+      &[data-role='quote'] > .wrapper {
+        flex-direction: row;
+        text-align: left;
+
+        img {
+          min-width: $quote-avatar-size;
+          width: $quote-avatar-size;
+          height: $quote-avatar-size;
+          margin: $unit 0 $unit $offset;
+          margin-left: $offset;
+        }
       }
     }
   }
