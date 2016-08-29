@@ -70,29 +70,8 @@ $quote-avatar-size: 12.5vw;
       border-radius: 50%;
       margin: $unit 0 $unit $offset;
       margin-left: $offset;
-      background: orange;
       display: block;
       background-size: cover;
-    }
-  }
-
-  [data-role='feature'] {
-    display: flex;
-    align-items: flex-start;
-    align-content: flex-start;
-    justify-content: flex-start;
-
-    > img {
-      min-width: 45%;
-    }
-
-    > div {
-
-
-      > p {
-        font-size: $font-size;
-        color: $text-secondary;
-      }
     }
   }
 }
@@ -114,19 +93,6 @@ $quote-avatar-size: 12.5vw;
       > video {
         display: none;
       }
-    }
-
-    [data-role='feature'] {
-      flex-wrap: wrap;
-
-      > img {
-        min-width: 100%;
-        margin-bottom: $offset-mobile;
-      }
-    }
-
-    hr {
-      display: none;
     }
   }
 }
@@ -152,6 +118,10 @@ $quote-avatar-size: 12.5vw;
     > section {
       padding: $offset $offset-mobile;
     }
+
+    hr {
+      display: none;
+    }
   }
 }
 
@@ -169,26 +139,6 @@ $quote-avatar-size: 12.5vw;
 
     > section {
       padding: 5vh 10vw;
-    }
-
-    [data-role='feature'] {
-      padding: $offset 0;
-
-
-
-      img + div,
-      div + img {
-        margin-left: $offset;
-      }
-
-      > div {
-        margin-top: ($offset / 2);
-        margin-bottom: ($offset / 2);
-
-        > h3 {
-          margin-bottom: ($offset / 2);
-        }
-      }
     }
   }
 }

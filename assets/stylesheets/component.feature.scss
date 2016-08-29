@@ -1,0 +1,86 @@
+$min-height: 60vh;
+$quote-avatar-size: 12.5vw;
+
+[data-role='feature'] {
+  display: flex;
+  > div {
+    > p {
+      font-size: $font-size;
+      color: $text-secondary;
+    }
+  }
+}
+
+// -- Layout Breakpoints -------------------------------------------------------
+@media (max-width: $layout-breakpoint-XS) {
+  [data-role='feature'] {
+    flex-wrap: wrap;
+
+    > img {
+      // min-width: 100%;
+      margin-bottom: $offset-mobile;
+    }
+  }
+}
+
+@media (min-width: $layout-breakpoint-XS) and (max-width: $layout-breakpoint-SM) {
+  [data-role='feature'] {
+    flex-wrap: wrap;
+
+    > img {
+      min-width: 100%;
+      margin-bottom: $offset-mobile;
+    }
+  }
+}
+
+@media (max-width: $layout-breakpoint-SM) {
+  [data-role='feature'] {
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+
+    > img {
+      width: 100%;
+      margin-bottom: $offset-mobile;
+      order: 2;
+
+      &.mobile {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (min-width: ($layout-breakpoint-SM + 1)) {
+  [data-role='feature'] {
+    padding: $offset 0;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: flex-start;
+
+    > img {
+      &.browser {
+        width: 47.5%;
+      }
+
+      &.mobile {
+        width: 40vh;
+      }
+    }
+
+    img + div,
+    div + img {
+      margin-left: $offset;
+    }
+
+    > div {
+      // margin-top: ($offset / 2);
+      // margin-bottom: ($offset / 2);
+
+      h3 {
+        margin-bottom: ($offset / 2);
+      }
+    }
+  }
+}
