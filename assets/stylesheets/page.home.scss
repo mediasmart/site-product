@@ -36,10 +36,6 @@ $quote-avatar-size: 12.5vw;
     > video {
       z-index: 0;
       position: absolute;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      background-color: transparent;
     }
 
     > small {
@@ -86,14 +82,8 @@ $quote-avatar-size: 12.5vw;
 
 // -- Layout Breakpoints -------------------------------------------------------
 @media (max-width: $layout-breakpoint-XS) {
-  [data-page='home'] > article:first-of-type {
-    > [data-role='intro'] {
-      height: 100vh;
-
-      > video {
-        display: none;
-      }
-    }
+  [data-page='home'] > article:first-of-type > [data-role='intro'] {
+    height: 100vh;
   }
 }
 
