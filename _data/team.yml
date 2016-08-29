@@ -1,37 +1,40 @@
+# -- Direction
 - name: Noelia Amoedo
   title: CEO
   image: noelia.amoedo.jpg
   linkedin: namoedo
   twitter: namoedo
+  skype: namoedo
 
 - name: Guillermo Fernandez
   title: CTO
   image: guillermo.fernandez.jpg
-  linkedin:
-  github:
-  twitter:
+  skype: zedwill
 
 - name: Nuria Alonso
   title: CSO
   image: nuria.alonso.jpg
-  linkedin:
+  linkedin: nuriaalonso
+  twitter: Nurialonso
+  skype: nuria.alonso.estebanez
 
 - name: Lucas Oriol
   title: CFO
   image: lucas.oriol.jpg
-  linkedin:
 
 - name: Javier Almirante
   title: Operations Director
   image: javier.almirante.jpg
-  linkedin:
+  skype: jalmirante69
 
 - name: Marta Lopez de Haro
   title: Client Service Director
   image: marta.lopez.de.haro.jpg
-  linkedin:
+  linkedin: martalopezdeharo
+  skype: martalopezdeharo
+  twitter: martalh
 
-# -- Enginering
+# -- Product
 - name: Javi Jimenez
   title: UX/UI Team Leader
   image: javi.jimenez.jpg
@@ -39,56 +42,69 @@
   twitter: soyjavi
   github: soyjavi
 
+# -- Enginering
 - name: Alejando Fernandez
   title: Senior Developer
   image: alejando.fernandez.jpg
-  linkedin:
+  skype: chenno
 
 - name: Sergio Garcia
   title: Senior Developer
   image: sergio.garcia.jpg
-  linkedin:
+  skype: sgmonda
 
 - name: Yarilo Villanueva
   title: Developer
   image: yarilo.villanueva.jpg
-  linkedin:
+  skype: yarilo.villanueva.hdez
 
 - name: Alfredo Lopez
   title: Backend Developer
   image: alfredo.lopez.jpg
-  linkedin:
+  skype: galen_r0x
+  linkedin: alfredo-lópez-moltó-b1814647
 
 - name: Rafael Tejado
   title: Developer
   image: rafael.tejado.jpg
-  linkedin:
+  skype: rtejado90
+  linkedin: rafaeltejado
+  twitter: teddyviking
 
 # -- Others
 - name: Julio Aguayo
   title: International Business Dev.
   image: Julio.Aguayo.jpg
-  linkedin:
+  skype: julio.aguayo7
 
 - name: Tiago Vila Verde
   title: Campaign Perfomance Manager
   image: tiago.vila.verde.jpg
-  linkedin:
+  skype: tiagovilaverde.prof
+  linkedin: tiagovilaverde
 
 - name: Adriana Ullivari
   title: Account Manager
   image: adriana.ullivari.jpg
-  linkedin:
+  skype: adri.ullivarri
 
 - name: Gema Posada
   title: Account Manager
   image: gema.posada.jpg
-  linkedin:
+  skype: gemaposada
 
 - name: Manuel Martinez
   title: Account Manager
   image: manuel.martinez.jpg
-  linkedin:
+  skype: manuelmartinez.prof
+  linkedin: manuelmartinezrodriguez
+  twitter: martinezmanu_
+
+- name: Mo Hussain
+  title: Commercial Director UK
+  image: mo.hussain.jpg
+  skype: mohammed.saiful.hussain
+  linkedin: mohammedshussain
 
 - name: Gonzalo Moreno
   title: Developer

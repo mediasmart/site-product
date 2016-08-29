@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?vwzgzd');
-  src:  url('../fonts/icomoon.eot?vwzgzd#iefix') format('embedded-opentype'),
-        url('../fonts/icomoon.ttf?vwzgzd') format('truetype'),
-        url('../fonts/icomoon.woff?vwzgzd') format('woff'),
-        url('../fonts/icomoon.svg?vwzgzd#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?76n3ll');
+  src:  url('../fonts/icomoon.eot?76n3ll#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?76n3ll') format('truetype'),
+        url('../fonts/icomoon.woff?76n3ll') format('woff'),
+        url('../fonts/icomoon.svg?76n3ll#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,19 +23,31 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  &.twitter:before {
-    content: "\f099";
+  &.angellist::before {
+    content: "\e900";
   }
-  &.linkedin:before {
-    content: "\f0e1";
+
+  &.facebook::before {
+    content: "\e902";
   }
-  &.github:before {
-    content: "\f113";
+
+  &.youtube::before {
+    content: "\e903";
   }
-  &.youtube:before {
-    content: "\f16a";
+
+  &.linkedin::before {
+    content: "\e904";
   }
-  &.facebook:before {
-    content: "\f230";
+
+  &.skype::before {
+    content: "\e905";
+  }
+
+  &.github::before {
+    content: "\e906";
+  }
+
+  &.twitter::before {
+    content: "\e901";
   }
 }

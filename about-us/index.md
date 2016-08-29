@@ -24,6 +24,7 @@ We work hard and never forget to have fun in the process. Absolutely devoted to 
     <small>{{ member.title }}</small>
     <nav data-role='networks'>
       {% if member.linkedin %}<a href='https://www.linkedin.com/in/{{ member.linkedin }}' class='icon linkedin' target='blank'></a>{% endif %}
+      {% if member.skype %}<a href='skype:{{ member.skype }}' class='icon skype' target='blank'></a>{% endif %}
       {% if member.twitter %}<a href='https://twitter.com/{{ member.twitter }}' class='icon twitter' target='blank'></a>{% endif %}
       {% if member.github %}<a href='https://github.com/{{ member.github }}' class='icon github' target='blank'></a>{% endif %}
     </nav>
