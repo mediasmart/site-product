@@ -163,6 +163,25 @@ form {
   }
 }
 
+.error, .warning {
+  padding: $unit;
+  margin: $unit 0;
+  display: block;
+  font-size: $font-size-tiny;
+}
+
+.error {
+  color: red;
+  background: rgba(red, 0.20);
+  border: solid 1px rgba(red, 0.4);
+}
+
+.warning {
+  color: orange;
+  background: rgba(orange, 0.2);
+  border: solid 1px rgba(orange, 0.5);
+}
+
 // -- Layout Breakpoints -------------------------------------------------------
 @media (max-width: $layout-breakpoint-SM) {
   html {

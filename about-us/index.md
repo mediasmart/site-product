@@ -4,7 +4,6 @@ type        : content
 
 title       : About Us
 subtitle    : A team of professionals with many years of experience in the mobile and digital advertising word striving for innovation and quality of service.
-background  : studio
 permalink   : /about-us/
 ---
 
