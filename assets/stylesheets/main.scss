@@ -1,21 +1,15 @@
----
-# This ensures Jekyll reads the file to be transformed into CSS later
-# only Main files contain this front matter, not partials.
----
+@charset "UTF-8";
 
 @import "constants";
-// -- Page
 @import "page";
 @import "page.home";
 @import "page.content";
 @import "page.blog";
 @import "page.about";
 @import "page.partners";
- // -- Includes
 @import "include.header";
 @import "include.banner";
 @import "include.footer";
-// -- Components
 @import "component.button";
 @import "component.icon";
 @import "component.tag";
