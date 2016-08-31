@@ -24,23 +24,15 @@ window.onload = function() {
       formSubmit: function(event) {
         event.preventDefault();
         event.stopPropagation();
-        var fields = {};
-        for (var child of event.target.children) {
-          if (child.type && child.type !== 'submit') fields[child.name] = child.value;
-        }
-
+        var formData = new FormData(event.target);
         var http = new XMLHttpRequest();
-        http.open('POST', 'https://mediasmart.com/api/site/form', true);
-        http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        http.open('POST', 'http://api.mediasmart.io/site/form', true);
         http.onreadystatechange = function() {
           if(http.readyState == 4 && http.status == 200) {
             alert('Thanks for you message, we will answer you soon.');
           }
         }
-
-        var parameters = '';
-        for (var key in fields) parameters += "&" + key + "=" + encodeURIComponent(fields[key]);
-        http.send(parameters.substring(1));
+        http.send(formData);
       },
 
       scroll: function() {
