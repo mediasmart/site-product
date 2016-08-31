@@ -11,6 +11,12 @@
     h3 {
       font-family: $font-family;
       font-weight: $font-weight-normal;
+      display: inline;
+
+      & + .tag {
+        margin-left: $unit;
+        vertical-align: text-top;
+      }
     }
   }
 

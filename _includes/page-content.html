@@ -8,12 +8,13 @@
   <div class='wrapper {% if page.date or page.title == "Blog" %} post {% endif %}'>
     <h1>{{ page.title }}</h1>
     {% if page.date %}<h3>{{ page.date | date: '%B %d, %Y' }}</h3>{% endif %}
+    {% if page.tag %}<span class='tag'>{{ page.tag }}</span>{% endif %}
     {% if page.subtitle %}<h3>{{ page.subtitle }}</h3>{% endif %}
   </div>
-<!--
+
   {% if (page.background == nil and page.cover == nil) %}
     {% include video.html %}
-  {% endif %} -->
+  {% endif %}
 </section>
 
 <section data-role='text' data-content='{{ page.title }}'>

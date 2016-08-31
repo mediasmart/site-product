@@ -78,10 +78,12 @@ $quote-sign-size: $unit * 4.8;
         & img {
           display: block;
           margin: 0 auto;
+          min-width: $quote-avatar-size;
           width: $quote-avatar-size;
           height: $quote-avatar-size;
           border-radius: 50%;
           background-size: cover;
+          box-shadow: 0 0 0 ($unit / 2) rgba(white, 0.25);
         }
 
         & > div {
