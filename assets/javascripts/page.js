@@ -24,11 +24,23 @@ window.onload = function() {
       formSubmit: function(event) {
         event.preventDefault();
         event.stopPropagation();
-        var parameters = {};
+        var fields = {};
         for (var child of event.target.children) {
-          if (child.type && child.type !== 'submit') parameters[child.name] = child.value;
+          if (child.type && child.type !== 'submit') fields[child.name] = child.value;
         }
-        console.log('formSubmit', parameters);
+
+        var http = new XMLHttpRequest();
+        http.open('POST', 'https://mediasmart.com/api/site/form', true);
+        http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        http.onreadystatechange = function() {
+          if(http.readyState == 4 && http.status == 200) {
+            alert('Thanks for you message, we will answer you soon.');
+          }
+        }
+
+        var parameters = '';
+        for (var key in fields) parameters += "&" + key + "=" + encodeURIComponent(fields[key]);
+        http.send(parameters.substring(1));
       },
 
       scroll: function() {
