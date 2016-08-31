@@ -3,10 +3,20 @@ $quote-avatar-size: 12.5vw;
 
 [data-role='feature'] {
   display: flex;
+
   > div {
+    > p,
+    > ul small {
+      color: $text-secondary;
+    }
+
     > p {
       font-size: $font-size;
-      color: $text-secondary;
+    }
+
+    > ul small {
+      display: block;
+      margin-bottom: $unit;
     }
   }
 }
@@ -81,6 +91,10 @@ $quote-avatar-size: 12.5vw;
       h3 {
         margin-bottom: ($offset / 2);
       }
+    }
+
+    &:last-child {
+      padding-top: 0;
     }
   }
 }

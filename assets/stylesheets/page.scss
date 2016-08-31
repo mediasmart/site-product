@@ -22,6 +22,9 @@ body {
     .wrapper {
       margin: 0 auto;
       width: 100%;
+      > p {
+        color: $text-secondary;
+      }
     }
 
     .bck {
@@ -33,7 +36,6 @@ body {
         position: relative;
         background: $background-dark url('/assets/images/bck-default.jpg');
         background-size: cover;
-        background-position: center center;
         color: $white;
 
         > *:not(video) {
@@ -51,6 +53,13 @@ body {
           background: url('/assets/images/bck-dots.png') repeat top left;
           opacity: 0.5;
         }
+      }
+
+      &.video,
+      &.desk,
+      &.studio,
+      &.map {
+        background-position: center center;
       }
 
       &.desk {
@@ -101,12 +110,6 @@ a {
 p {
   line-height: 1.75;
   margin: 0 0 $font-size-large 0;
-}
-
-hr {
-  background: lighten($text-secondary, 40%);
-  border: none;
-  height: 1px;
 }
 
 video {
@@ -211,6 +214,10 @@ form {
       max-width: 100vw - ($offset-mobile / 2);
     }
   }
+
+  hr {
+    display: none;
+  }
 }
 
 @media (min-width: $layout-breakpoint-SM + 1) {
@@ -233,6 +240,13 @@ form {
       transform: skewX($box-skew);
     }
   }
+
+  hr {
+    background: lighten($text-secondary, 40%);
+    border: none;
+    height: 1px;
+  }
+
   body > article {
     padding: ($offset / 1.5) $offset;
     .wrapper {
