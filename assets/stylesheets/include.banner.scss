@@ -72,7 +72,7 @@ $quote-sign-size: $unit * 4.8;
     }
 
     &[data-role='quotes'] {
-      .wrapper {
+      > div {
         display: flex;
 
         & img {
@@ -136,7 +136,7 @@ $quote-sign-size: $unit * 4.8;
         width: 100%;
       }
 
-      &[data-role='quotes'] > .wrapper {
+      &[data-role='quotes'] > div {
         flex-direction: column;
         text-align: center;
 
@@ -163,9 +163,10 @@ $quote-sign-size: $unit * 4.8;
         max-width: 20vw;
       }
 
-      &[data-role='quotes'] > .wrapper {
+      &[data-role='quotes'] > div {
         flex-direction: row;
         text-align: left;
+
         > div {
           max-width: 40vw;
           padding: 0  $quote-avatar-size / 2;
