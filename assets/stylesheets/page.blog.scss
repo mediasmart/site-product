@@ -27,6 +27,8 @@
   }
 
   p {
+    font-weight: normal;
+
     &, & ul {
       font-family: $font-family-content;
     }
