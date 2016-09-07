@@ -11,11 +11,11 @@ published:  true
 
 Mediasmart Mobile – a mobile technology company whose DSP (Demand Side Platform) optimizes the media buying process to maximize engagement – has partnered with Ligatus, Europe’s leading Native and Performance Network, to allow its native advertising inventory to be available to buy programmatically.
 
-Delivering more than 31 billion ad impressions per month on over 1,200 premium sites, Ligatus native formats inventory is now available through bsmart, mediasmart´s proprietary technology platform. Mediasmart´s customers can access it on a self-serve basis, either through bsmart web interface or via bsmart APIs.
+Delivering more than 31 billion ad impressions per month on over 1,200 premium sites, Ligatus native formats inventory is now available through mediasmart, mediasmart´s proprietary technology platform. Mediasmart´s customers can access it on a self-serve basis, either through mediasmart web interface or via mediasmart APIs.
 
-The agreement will help boost customer demand, and maximize user engagement and monetization capabilities for Ligatus inventory. It should also enable advertisers to maximize engagement and deliver the best possible results, using the combination of bsmart´s predictive targeting algorithms and Ligatus’ hand-picked premium publishers (which are fraud-free and proven to deliver high conversion rates).
+The agreement will help boost customer demand, and maximize user engagement and monetization capabilities for Ligatus inventory. It should also enable advertisers to maximize engagement and deliver the best possible results, using the combination of mediasmart´s predictive targeting algorithms and Ligatus’ hand-picked premium publishers (which are fraud-free and proven to deliver high conversion rates).
 
-Mediasmart’s bsmart platform ran campaigns in 58 countries last year. This new global partnership will strengthen supply in Europe and is part of the company´s continuous efforts to add value through non-intrusive formats, as CEO, Noelia Amoedo explains:
+Mediasmart’s mediasmart platform ran campaigns in 58 countries last year. This new global partnership will strengthen supply in Europe and is part of the company´s continuous efforts to add value through non-intrusive formats, as CEO, Noelia Amoedo explains:
 
 >> “Native formats provide a great deal of information about the product or service being advertised, and offer a more qualified interaction with a clear call to action. This far more effective format than display ads, maximizes conversion rates and engagement whilst improving the user experience in a non-intrusive way.”
 
