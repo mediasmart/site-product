@@ -1,10 +1,9 @@
 ---
 layout: default
 type: content
-
 title: Optimise, Track and Test in a Mobile First World
 date: 2015-06-11
-tag:
+tag: opinion
 permalink: /blog/optimise-track-and-test-in-a-mobile-first-world
 ---
 

@@ -3,6 +3,7 @@ layout: default
 type: content
 title: Using Geolocation to your Advantage
 date: 2014-09-04
+tag: opinion
 permalink: /blog/using-geolocation-to-your-advantage
 ---
 

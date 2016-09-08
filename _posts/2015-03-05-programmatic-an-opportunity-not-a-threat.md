@@ -3,6 +3,7 @@ layout: default
 type: content
 title: 'Programmatic: An Opportunity, not a Threat'
 date: 2015-03-05
+tag: opinion
 permalink: /blog/programmatic-an-opportunity-not-a-threat
 ---
 

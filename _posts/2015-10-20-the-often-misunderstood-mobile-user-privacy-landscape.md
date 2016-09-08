@@ -4,7 +4,7 @@ type:       content
 
 title:      The Often Misunderstood Mobile User Privacy Landscape
 date:       2015-10-20
-tag:        
+tag: opinion
 permalink:  /blog/the-often-misunderstood-mobile-user-privacy-landscape
 published:  true
 ---

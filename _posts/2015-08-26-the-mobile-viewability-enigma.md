@@ -1,10 +1,9 @@
 ---
 layout: default
 type: content
-
 title: The Mobile Viewability Enigma
-tag: opinion
 date: 2015-08-26
+tag: opinion
 permalink: /blog/the-mobile-viewability-enigma
 ---
 

@@ -3,6 +3,7 @@ layout: default
 type: content
 title: tenthavenue selects mediasmart as its Demand Side Platform
 date: 2015-05-20
+tag: news
 permalink: /blog/tenthavenue-selects-mediasmart-as-its-demand-side-platform
 ---
 

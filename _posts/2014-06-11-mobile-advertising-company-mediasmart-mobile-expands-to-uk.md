@@ -3,6 +3,7 @@ layout: default
 type: content
 title: Mobile advertising company Mediasmart Mobile expands to UK
 date: 2014-06-11
+tag: news
 permalink: /blog/mobile-advertising-company-mediasmart-mobile-expands-to-uk
 ---
 

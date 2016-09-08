@@ -3,6 +3,7 @@ layout: default
 type: content
 title: The Spanish start up mediasmart raises additional capital to complete one million Euro in funding so far
 date: 2013-07-11
+tag: news
 permalink: /blog/the-spanish-start-up-mediasmart-raises-additional-capital-to-complete-one-million-euro-in-funding-so-far
 ---
 

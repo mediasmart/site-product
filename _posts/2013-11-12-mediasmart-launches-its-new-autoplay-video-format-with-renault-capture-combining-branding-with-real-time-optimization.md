@@ -3,6 +3,7 @@ layout: default
 type: content
 title: mediasmart launches its new autoplay video format with Renault Capture, combining branding with real-time optimization
 date: 2013-11-12
+tag: news
 permalink: /blog/mediasmart-launches-its-new-autoplay-video-format-with-renault-capture-combining-branding-with-real-time-optimization
 ---
 

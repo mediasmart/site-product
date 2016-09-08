@@ -3,6 +3,7 @@ layout: default
 type: content
 title: 'Measuring Post-Click Events: Best Practice Against &#8220;Fat-Finger Syndrome&#8221;'
 date: 2014-12-17
+tag: opinion
 permalink: /blog/measuring-post-click-events-best-practice-against-fat-finger-syndrome
 ---
 

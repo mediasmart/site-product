@@ -3,6 +3,7 @@ layout: default
 type: content
 title: mediasmart announces strategic partnership with Experian Marketing Services
 date: 2015-02-19
+tag: news
 permalink: /blog/mediasmart-and-experiang-marketing-services-enter-a-strategic-partnership-2
 ---
 

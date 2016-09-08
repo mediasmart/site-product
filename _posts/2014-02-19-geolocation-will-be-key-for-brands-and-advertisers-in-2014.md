@@ -3,6 +3,7 @@ layout: default
 type: content
 title: Geolocation will be key for brands and advertisers in 2014
 date: 2014-02-19
+tag: opinion
 permalink: /blog/geolocation-will-be-key-for-brands-and-advertisers-in-2014
 ---
 

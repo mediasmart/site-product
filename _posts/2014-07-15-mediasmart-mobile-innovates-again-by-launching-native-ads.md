@@ -3,6 +3,7 @@ layout: default
 type: content
 title: Mediasmart Mobile innovates again by launching native ads
 date: 2014-07-15
+tag: news
 permalink: /blog/mediasmart-mobile-innovates-again-by-launching-native-ads
 ---
 

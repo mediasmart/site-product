@@ -3,7 +3,7 @@ layout: default
 type: content
 title: Ensuring Native Ads Provide Real Value to Consumers
 date: 2015-05-01
-guid: http://mediasmart.es/?p=2089
+tag: opinion
 permalink: /blog/ensuring-native-ads-provide-real-value-to-consumers
 ---
 

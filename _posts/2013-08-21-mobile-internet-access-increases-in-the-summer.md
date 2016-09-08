@@ -3,6 +3,7 @@ layout: default
 type: content
 title: Mobile internet access increases in the summer
 date: 2013-08-21
+tag: news
 permalink: /blog/mobile-internet-access-increases-in-the-summer
 ---
 

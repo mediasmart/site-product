@@ -3,6 +3,7 @@ layout: default
 type: content
 title: Promoting Mobile Apps in the New World
 date: 2014-10-15
+tag: opinion
 permalink: /blog/promoting-mobile-apps-in-the-new-world
 ---
 

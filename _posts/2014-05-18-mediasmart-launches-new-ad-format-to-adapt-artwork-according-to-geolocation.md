@@ -3,6 +3,7 @@ layout: default
 type: content
 title: mediasmart launches new ad format to adapt artwork according to geolocation
 date: 2014-05-18
+tag: news
 permalink: /blog/mediasmart-launches-new-ad-format-to-adapt-artwork-according-to-geolocation
 ---
 

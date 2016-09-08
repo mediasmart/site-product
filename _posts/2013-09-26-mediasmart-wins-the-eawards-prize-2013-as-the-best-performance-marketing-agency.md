@@ -3,6 +3,7 @@ layout: default
 type: content
 title: mediasmart wins the eAwards Prize 2013 as the Best Performance Marketing Agency
 date: 2013-09-26
+tag: news
 permalink: /blog/mediasmart-wins-the-eawards-prize-2013-as-the-best-performance-marketing-agency
 ---
 

@@ -4,7 +4,7 @@ type:       content
 
 title:      mediasmart partners with TVTY to maximize multi platform campaign effectiveness
 date:       2015-10-26
-tag:        
+tag: news    
 permalink:  /blog/mediasmart-partners-with-tvty-to-maximize-multi-platform-campaign-effectiveness
 published:  true
 ---

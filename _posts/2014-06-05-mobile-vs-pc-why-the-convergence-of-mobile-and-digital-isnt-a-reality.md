@@ -3,6 +3,7 @@ layout: default
 type: content
 title: Mobile Vs. PC - Why The Convergence Of Mobile And Digital isn't A Reality
 date: 2014-06-05
+tag: opinion
 permalink: /blog/mobile-vs-pc-why-the-convergence-of-mobile-and-digital-isnt-a-reality
 ---
 Mobile has quickly become the darling of the advertising world. In an age where people take their smartphone with them everywhere, advertisers know how important mobile screen time is to engaging, retaining and attracting customers.

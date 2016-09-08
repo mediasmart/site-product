@@ -3,6 +3,7 @@ layout: default
 type: content
 title: mediasmart reinvents the banner with cinematic 3D effects
 date: 2014-10-24
+tag: news
 permalink: /blog/mediasmart-reinvents-the-banner-with-cinematic-3d-effects
 ---
 

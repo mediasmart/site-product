@@ -3,6 +3,7 @@ layout: default
 type: content
 title: On weekends, Spanish mobile users prefer to go online right after waking up
 date: 2013-11-06
+tag: news
 permalink: /blog/on-weekends-spanish-mobile-users-prefer-to-go-online-right-after-waking-up
 ---
 
