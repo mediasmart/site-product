@@ -1,0 +1,84 @@
+$quote-avatar-size: $unit * 6.4;
+$quote-sign-size: $unit * 4.8;
+
+[data-role='banner'] > [data-role='quotes'] > div {
+  display: flex;
+
+  & img {
+    display: block;
+    min-width: $quote-avatar-size;
+    width: $quote-avatar-size;
+    height: $quote-avatar-size;
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: 0 0 0 ($quote-avatar-size / 16) rgba(white, 0.25);
+  }
+
+  & > div {
+    & > * {
+      display: block;
+    }
+
+    & blockquote {
+      position: relative;
+
+      &::before {
+        position: absolute;
+        top: -($unit * 1.25);
+        left: -($offset / 2.5);
+        content: '“';
+        font-size: $quote-sign-size;
+      }
+    }
+
+    & strong {
+      font-size: $font-size-large;
+    }
+
+    & small {
+      text-transform: uppercase;
+      font-size: $font-size-tiny;
+      opacity: 0.75;
+    }
+  }
+}
+
+// -- Layout Breakpoints -------------------------------------------------------
+@media (max-width: $layout-breakpoint-SM) {
+  [data-role='banner'] > [data-role='quotes'] > div {
+    flex-direction: column;
+    text-align: center;
+
+    & img {
+      margin: 0 auto;
+    }
+
+    > div {
+      padding: 0 $offset-mobile $offset $offset-mobile;
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+  }
+}
+
+@media (min-width: ($layout-breakpoint-SM + 1)) {
+  [data-role='banner'] > [data-role='quotes'] > div {
+    flex-direction: row;
+    text-align: left;
+
+    & img {
+      margin-top: $quote-avatar-size  / 4;
+    }
+
+    & > div {
+      max-width: 40vw;
+      padding: 0  $quote-avatar-size / 2;
+
+      & blockquote {
+        margin: $unit 0;
+      }
+    }
+  }
+}
