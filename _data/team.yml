@@ -10,6 +10,7 @@
   title: CTO
   image: guillermo.fernandez
   skype: zedwill
+  linkedin: gfernandez
 
 - name: Nuria Alonso
   title: CSO
@@ -21,11 +22,14 @@
 - name: Lucas Oriol
   title: CFO
   image: lucas.oriol
+  linkedin: lucas-oriol-hoyos-0379a0b
 
 - name: Javier Almirante
   title: Operations Director
   image: javier.almirante
   skype: jalmirante69
+  linkedin: javier-almirante-75a55015
+  twitter: jalmirante69
 
 - name: Marta Lopez de Haro
   title: Client Service Director
@@ -43,20 +47,27 @@
   github: soyjavi
 
 # -- Enginering
-- name: Alejando Fernandez
+- name: Alejandro Fernandez
   title: Senior Developer
-  image: alejando.fernandez
+  image: alejandro.fernandez
   skype: chenno
+  twitter: pinchito
 
 - name: Sergio Garcia
   title: Senior Developer
   image: sergio.garcia
   skype: sgmonda
+  twitter: sgmonda
+  github: sgmonda
+  linkedin: sergio-garcia-mondaray-91544a26
 
 - name: Yarilo Villanueva
   title: Developer
   image: yarilo.villanueva
   skype: yarilo.villanueva.hdez
+  linkedin: yarilovillanueva
+  twitter: yarilococodrilo
+  github: yarilo
 
 - name: Alfredo Lopez
   title: Backend Developer
@@ -76,6 +87,7 @@
   title: International Business Dev.
   image: julio.aguayo
   skype: julio.aguayo7
+  linkedin: julioaguayogoded
 
 - name: Tiago Vila Verde
   title: Campaign Perfomance Manager
@@ -87,6 +99,8 @@
   title: Account Manager
   image: adriana.ullivari
   skype: adri.ullivarri
+  twitter: AdriUllivarri
+  linkedin: adrianaperezullivarri
 
 - name: Gema Posada
   title: Account Manager
@@ -94,7 +108,6 @@
   skype: gemaposada
   linkedin: gemaposadagomez
   twitter: gemaposada
-
 
 - name: Manuel Martinez
   title: Account Manager
