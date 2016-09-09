@@ -1,6 +1,6 @@
 # -- Direction
 - name: Noelia Amoedo
-  title: CEO
+  title: CEO and Cofounder
   image: noelia.amoedo
   linkedin: namoedo
   twitter: namoedo
@@ -13,23 +13,29 @@
   linkedin: gfernandez
 
 - name: Nuria Alonso
-  title: CSO
+  title: Commercial Director
   image: nuria.alonso
   linkedin: nuriaalonso
   twitter: Nurialonso
   skype: nuria.alonso.estebanez
 
+# -- Business
+- name: Julio Aguayo
+  title: International Business Dev.
+  image: julio.aguayo
+  skype: julio.aguayo7
+  linkedin: julioaguayogoded
+
+- name: Mo Hussain
+  title: Commercial Director UK
+  image: mo.hussain
+  skype: mohammed.saiful.hussain
+  linkedin: mohammedshussain
+
 - name: Lucas Oriol
   title: CFO
   image: lucas.oriol
   linkedin: lucas-oriol-hoyos-0379a0b
-
-- name: Javier Almirante
-  title: Operations Director
-  image: javier.almirante
-  skype: jalmirante69
-  linkedin: javier-almirante-75a55015
-  twitter: jalmirante69
 
 - name: Marta Lopez de Haro
   title: Client Service Director
@@ -82,18 +88,26 @@
   linkedin: rafaeltejado
   twitter: teddyviking
 
-# -- Others
-- name: Julio Aguayo
-  title: International Business Dev.
-  image: julio.aguayo
-  skype: julio.aguayo7
-  linkedin: julioaguayogoded
+- name: Gonzalo Moreno
+  title: Developer
+  image: gonzalo.moreno
+  skype: gonzamvita
+  linkedin: gonzamvita
+  twitter: gonzamvita
 
+# -- Management
 - name: Tiago Vila Verde
   title: Campaign Perfomance Manager
   image: tiago.vila.verde
   skype: tiagovilaverde.prof
   linkedin: tiagovilaverde
+
+- name: Javier Almirante
+  title: Account Manager
+  image: javier.almirante
+  skype: jalmirante69
+  linkedin: javier-almirante-75a55015
+  twitter: jalmirante69
 
 - name: Adriana Ullivari
   title: Account Manager
@@ -115,16 +129,3 @@
   skype: manuelmartinez.prof
   linkedin: manuelmartinezrodriguez
   twitter: martinezmanu_
-
-- name: Mo Hussain
-  title: Commercial Director UK
-  image: mo.hussain
-  skype: mohammed.saiful.hussain
-  linkedin: mohammedshussain
-
-- name: Gonzalo Moreno
-  title: Developer
-  image: gonzalo.moreno
-  skype: gonzamvita
-  linkedin: gonzamvita
-  twitter: gonzamvita
