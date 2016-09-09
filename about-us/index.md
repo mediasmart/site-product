@@ -18,7 +18,9 @@ We work hard and never forget to have fun in the process. Absolutely devoted to 
 <ul data-role='team'>
 {% for member in site.data.team %}
   <li>
-    <figure style="background-image: url('/assets/images/team/{{ member.image }}');"></figure>
+    <figure style="background-image: url('/assets/images/team/{{ member.image }}.jpg');">
+      <img src="/assets/images/team/{{ member.image }}.funny.jpg" />
+    </figure>
     <strong>{{ member.name }}</strong>
     <small>{{ member.title }}</small>
     <nav data-role='networks'>

@@ -1,35 +1,35 @@
 # -- Direction
 - name: Noelia Amoedo
   title: CEO
-  image: noelia.amoedo.jpg
+  image: noelia.amoedo
   linkedin: namoedo
   twitter: namoedo
   skype: namoedo
 
 - name: Guillermo Fernandez
   title: CTO
-  image: guillermo.fernandez.jpg
+  image: guillermo.fernandez
   skype: zedwill
 
 - name: Nuria Alonso
   title: CSO
-  image: nuria.alonso.jpg
+  image: nuria.alonso
   linkedin: nuriaalonso
   twitter: Nurialonso
   skype: nuria.alonso.estebanez
 
 - name: Lucas Oriol
   title: CFO
-  image: lucas.oriol.jpg
+  image: lucas.oriol
 
 - name: Javier Almirante
   title: Operations Director
-  image: javier.almirante.jpg
+  image: javier.almirante
   skype: jalmirante69
 
 - name: Marta Lopez de Haro
   title: Client Service Director
-  image: marta.lopez.de.haro.jpg
+  image: marta.lopez.de.haro
   linkedin: martalopezdeharo
   skype: martalopezdeharo
   twitter: martalh
@@ -37,7 +37,7 @@
 # -- Product
 - name: Javi Jimenez
   title: UX/UI Team Leader
-  image: javi.jimenez.jpg
+  image: javi.jimenez
   linkedin: soyjavi
   twitter: soyjavi
   github: soyjavi
@@ -45,28 +45,28 @@
 # -- Enginering
 - name: Alejando Fernandez
   title: Senior Developer
-  image: alejando.fernandez.jpg
+  image: alejando.fernandez
   skype: chenno
 
 - name: Sergio Garcia
   title: Senior Developer
-  image: sergio.garcia.jpg
+  image: sergio.garcia
   skype: sgmonda
 
 - name: Yarilo Villanueva
   title: Developer
-  image: yarilo.villanueva.jpg
+  image: yarilo.villanueva
   skype: yarilo.villanueva.hdez
 
 - name: Alfredo Lopez
   title: Backend Developer
-  image: alfredo.lopez.jpg
+  image: alfredo.lopez
   skype: galen_r0x
   linkedin: alfredo-lópez-moltó-b1814647
 
 - name: Rafael Tejado
   title: Developer
-  image: rafael.tejado.jpg
+  image: rafael.tejado
   skype: rtejado90
   linkedin: rafaeltejado
   twitter: teddyviking
@@ -74,23 +74,23 @@
 # -- Others
 - name: Julio Aguayo
   title: International Business Dev.
-  image: Julio.Aguayo.jpg
+  image: julio.Aguayo
   skype: julio.aguayo7
 
 - name: Tiago Vila Verde
   title: Campaign Perfomance Manager
-  image: tiago.vila.verde.jpg
+  image: tiago.vila.verde
   skype: tiagovilaverde.prof
   linkedin: tiagovilaverde
 
 - name: Adriana Ullivari
   title: Account Manager
-  image: adriana.ullivari.jpg
+  image: adriana.ullivari
   skype: adri.ullivarri
 
 - name: Gema Posada
   title: Account Manager
-  image: gema.posada.jpg
+  image: gema.posada
   skype: gemaposada
   linkedin: gemaposadagomez
   twitter: gemaposada
@@ -98,20 +98,20 @@
 
 - name: Manuel Martinez
   title: Account Manager
-  image: manuel.martinez.jpg
+  image: manuel.martinez
   skype: manuelmartinez.prof
   linkedin: manuelmartinezrodriguez
   twitter: martinezmanu_
 
 - name: Mo Hussain
   title: Commercial Director UK
-  image: mo.hussain.jpg
+  image: mo.hussain
   skype: mohammed.saiful.hussain
   linkedin: mohammedshussain
 
 - name: Gonzalo Moreno
   title: Developer
-  image: gonzalo.moreno.jpg
+  image: gonzalo.moreno
   skype: gonzamvita
   linkedin: gonzamvita
   twitter: gonzamvita

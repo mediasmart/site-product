@@ -5,24 +5,41 @@ $team-member-network-size: 3.6 * $unit;
   display: flex;
   flex-wrap: wrap;
   padding: 0;
+
   > li {
     display: flex;
     flex-direction: column;
     margin: ($offset / 2) ($offset / 2);
     text-align: center;
+
     > figure {
       background-color: $background-dark;
       background-size: cover;
-      width: $content-team-member-width;
-      height: $content-team-member-width;
       margin: 0 0 ($unit * 2) 0;
+
+      &,
+      & > img {
+        width: $content-team-member-width;
+        height: $content-team-member-width;
+      }
+
+      & > img {
+        visibility: hidden;
+      }
+
+      &:hover > img {
+        visibility: visible;
+      }
     }
+
     > small {
       color: $text-secondary;
       font-size: $font-size-small;
     }
+
     > [data-role='networks'] {
       margin-top: $unit;
+
       > a {
         display: inline-block;
         margin: 0 ($unit / 4);
@@ -33,6 +50,7 @@ $team-member-network-size: 3.6 * $unit;
         background-color: $text;
         color: $white;
         transition: background $animation-duration $animation-ease;
+
         &:hover {
           background-color: $primary;
         }
@@ -45,15 +63,17 @@ $team-member-network-size: 3.6 * $unit;
 @media (max-width: $layout-breakpoint-SM) {
   [data-role='team'] {
     justify-content: center;
+
     > li {
       margin: ($offset-mobile / 2);
     }
   }
 }
 
-@media (min-width: $layout-breakpoint-SM + 1) {
+@media (min-width: ($layout-breakpoint-SM + 1)) {
   [data-role='team'] {
     justify-content: flex-start;
+
     > li {
       margin: ($offset / 2);
     }
