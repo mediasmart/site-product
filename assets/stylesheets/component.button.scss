@@ -33,6 +33,11 @@ button, .button {
     background-color: $primary;
     color: $white;
   }
+  &.float {
+    &.right {
+      float: right;
+    }
+  }
   // -- Children
   & > label {
     display: block;

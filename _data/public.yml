@@ -1,0 +1,10 @@
+# -- Direction
+- name: Example of picture
+  description: yo! i'm here
+  type: image
+  url: https://drive.google.com/open?id=0B65qrKygFIMkN1JlNlM4enMzNE0
+
+- name: Example of keynote
+  description: new example of
+  type: keynote
+  url: https://drive.google.com/open?id=0B65qrKygFIMkV0JWNW9xblZUTW8

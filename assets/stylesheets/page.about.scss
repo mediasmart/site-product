@@ -12,7 +12,7 @@ $team-member-network-size: 3.6 * $unit;
     margin: ($offset / 2) ($offset / 2);
     text-align: center;
 
-    > figure {
+    figure {
       background-color: $background-dark;
       background-size: cover;
       margin: 0 0 ($unit * 2) 0;
@@ -29,6 +29,11 @@ $team-member-network-size: 3.6 * $unit;
 
       &:hover > img {
         visibility: visible;
+      }
+
+      & > .tag {
+        float: right;
+        margin: ($unit);
       }
     }
 
