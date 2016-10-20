@@ -2,11 +2,11 @@
 layout:     default
 type:       content
 
-title:      News from mediasmart
+title:      Launching Public Deals
 date:       2016-10-10
-tag:        news
+tag:        product
 _cover:      post/team-funny.jpg
-permalink:  /blog/news-from-mediasmart
+permalink:  /blog/launching-public-deals
 published:  true
 ---
 
