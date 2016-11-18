@@ -3,7 +3,7 @@ layout:     default
 type:       content
 
 title:      The race to mobile and digital unison
-date:       2016-11-7
+date:       2016-11-17
 tag:        opinion
 permalink:  /blog/the-race-to-mobile-and-digital-unison
 published:  true
