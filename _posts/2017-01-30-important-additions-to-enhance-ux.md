@@ -3,13 +3,11 @@ layout:     default
 type:       content
 
 title:      Important additions to enhance UX
-date:       2017-01-30
+date:       2017-1-30
 tag:        news
 permalink:  /blog/important-additions-to-enhance-ux
 published:  true
 ---
-
-Dear All,
 
 We have released our v1.1.0. console, with features that make user experience even more agile and intuitive, such as a Universal Finder. You will also see some visual changes, as well as some additions that are little in appearance but set the basis for bigger things to come in terms of customer support, for example "real time" changes. Finally, the transition between using the interface in desktop or in mobile devices has been improved also.
 
