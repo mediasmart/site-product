@@ -29,7 +29,7 @@ window.onload = function() {
         http.open('POST', 'http://api.mediasmart.io/site/form', true);
         http.onreadystatechange = function() {
           if(http.readyState == 4 && http.status == 200) {
-            alert('Thanks for you message, we will answer you soon.');
+            window.location = 'http://mediasmart.io/ok'
           }
         }
         http.send(formData);
