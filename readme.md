@@ -1,6 +1,6 @@
 # media-smart site
 
-The coolest product website. 🍺
+The coolest product website. 🍺 🍺
 
 ## Getting started
 
