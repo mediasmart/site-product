@@ -4,7 +4,7 @@ type        : content
 
 title       : Contact
 subtitle    : Get in touch however you like. We’re always happy to help.
-permalink   : /ok
+permalink   : /ok/
 ---
 
 <form>
