@@ -12,7 +12,7 @@ permalink   : /signup/
   <h2>Get your free Mediasmart account now</h2>
   {% for input in site.data.forms.signup %}
     <label>{{ input.label }}</label>
-    {% if (input.type != 'textarea') %}
+    {% if input.type != 'textarea' %}
       <input name='{{ input.name }}' type='{{ input.type }}' required />
     {% else %}
       <textarea name='{{ input.name }}' required></textarea>

@@ -11,12 +11,11 @@ permalink   : /contact/
   <h2>Send a message</h2>
   {% for input in site.data.forms.contact %}
     <label>{{ input.label }}</label>
-    {% if (input.type != 'textarea') %}
+    {% if input.type != 'textarea' %}
       <input name='{{ input.name }}' type='{{ input.type }}' required />
     {% else %}
       <textarea name='{{ input.name }}' required></textarea>
     {% endif %}
-
   {% endfor %}
   <button class='primary large'>
     <label>Send my Message</label>

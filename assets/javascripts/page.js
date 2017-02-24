@@ -24,12 +24,13 @@ window.onload = function() {
       formSubmit: function(event) {
         event.preventDefault();
         event.stopPropagation();
+
         var formData = new FormData(event.target);
         var http = new XMLHttpRequest();
         http.open('POST', 'http://api.mediasmart.io/site/form', true);
         http.onreadystatechange = function() {
-          if(http.readyState == 4 && http.status == 200) {
-            window.location = 'http://mediasmart.io/ok';
+          if(http.readyState === 4 && http.status === 200) {
+            window.location = '/ok';
           }
         }
         http.send(formData);

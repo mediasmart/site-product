@@ -41,7 +41,7 @@ We launched in 2012 and are based in Madrid and London, but depending on the pos
   <h2>Work with us</h2>
   {% for input in site.data.forms.hiring %}
     <label>{{ input.label }}</label>
-    {% if (input.type != 'textarea') %}
+    {% if input.type != 'textarea' %}
       <input name='{{ input.name }}' type='{{ input.type }}' required />
     {% else %}
       <textarea name='{{ input.name }}' required></textarea>
