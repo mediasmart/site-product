@@ -37,7 +37,7 @@ We work hard and never forget to have fun in the process. Absolutely devoted to 
 
 We launched in 2012 and are based in Madrid and London, but depending on the position you may work wherever you want. We are growing at three figure rates every year! Be part of our journey. We’d love to hear from you! Email us with some thoughts on what you’re passionate about.
 
-<form multipart>
+<form action='http://api.mediasmart.io/site/form' method='post'>
   <h2>Work with us</h2>
   {% for input in site.data.forms.hiring %}
     <label>{{ input.label }}</label>

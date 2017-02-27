@@ -7,7 +7,7 @@ subtitle    : Get in touch however you like. We’re always happy to help.
 permalink   : /contact/
 ---
 
-<form>
+<form action='http://api.mediasmart.io/site/form' method='post'>
   <h2>Send a message</h2>
   {% for input in site.data.forms.contact %}
     <label>{{ input.label }}</label>
@@ -20,4 +20,5 @@ permalink   : /contact/
   <button class='primary large'>
     <label>Send my Message</label>
   </button>
+  <input type='submit'>Send my message</input>
 </form>

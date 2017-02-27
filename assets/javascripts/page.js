@@ -59,7 +59,7 @@ window.onload = function() {
 
   // -- Listeners
   window.addEventListener('scroll', mediasmart.fn.scroll, false);
-  window.addEventListener('submit', mediasmart.fn.formSubmit, false);
+  // window.addEventListener('submit', mediasmart.fn.formSubmit, false);
 
   // -- Hi developers
   console.log('🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖');
