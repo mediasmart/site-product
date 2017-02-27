@@ -20,5 +20,4 @@ permalink   : /contact/
   <button class='primary large'>
     <label>Send my Message</label>
   </button>
-  <input type='submit'>Send my message</input>
 </form>
