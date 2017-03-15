@@ -3,7 +3,7 @@ layout:     default
 type:       content
 
 title:      Mediasmart opens office in France
-date:       2017-3-8
+date:       2017-3-14
 tag:        news
 permalink:  /blog/mediasmart-opens-office-in-france
 published:  true
