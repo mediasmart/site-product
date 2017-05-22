@@ -58,10 +58,10 @@ We do not need to you have experience in everything we mention below, but we do 
 - Strong orientation to detail, with an ability to collect and organize data, understand the results and communicate them effectively.
 
 ### We Offer
-Permanent contract
-Flexible schedule and ability to work remotely part of the time: what matters is what you do, not how you do it
-Being part of a team of motivated professionals using cutting-edge tech
-Work at a company where you can make a difference
+- Permanent contract
+- Flexible schedule and ability to work remotely part of the time: what matters is what you do, not how you do it
+- Being part of a team of motivated professionals using cutting-edge tech
+- Work at a company where you can make a difference
 
 Send an email to [jobs@mediasmart.io](jobs@mediasmart.io) including “Head of Tech Client Services”, including:
 
