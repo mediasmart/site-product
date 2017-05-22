@@ -26,6 +26,8 @@ If you want to know more about of our Creative auditing process click [here](htt
 ## Audiences & Lookalikes
 In the targeting section of  a campaign you have lots of  different subsections to work with. This particular one, allows you to target a specific audience ( that you have uploaded, created or imported from your own DMP) and/or reach Lookalikes of an audience.
 
+![](https://gallery.mailchimp.com/1549aa3ecd52831ec32b07e7c/images/81ac8201-86f4-49bf-8d35-0c3c3df9abfa.png)
+
 If you want to target Audiences select the option "Target audiences" and place the list of devices Ids where you need it (following the business rules; mandatory ones, at least one or none of them). Click [here](https://console.mediasmart.io/docs/targeting/#audiences) for more information.
 
 If you want to reach lookalikes, select the option " Target lookalikes". You can either reach lookalikes but not the audience or reach lookalikes and target the audience too. To read more on how to do this click [here](https://console.mediasmart.io/docs/targeting/#audiences).
@@ -35,10 +37,15 @@ In addition to be able to blacklist/whitelist bundles, pages and domains, now yo
 
 If App traffic is selected the two options "Only inventory with bundle ID" and "Only inventory with domain" appear (by default OFF).
 
+![](https://gallery.mailchimp.com/1549aa3ecd52831ec32b07e7c/images/f5764767-d622-434a-9290-a4e07c9503e5.png)
 
 If Web is selected the option "Only inventory with domain" appears (by default OFF).
 
+![](https://gallery.mailchimp.com/1549aa3ecd52831ec32b07e7c/images/6ccacd0c-813f-4b5c-93d7-e4bfcafe6878.png)
+
 For example, when selecting "App" traffic, if a user selects "Only inventory with bundle ID" bidder should bid only for this kind of traffic, blocking everything else (for example inventory with or without domain if there is no bundle ID)
+
+![](https://gallery.mailchimp.com/1549aa3ecd52831ec32b07e7c/images/670e5ef3-4af3-4879-afc3-9ca1d7a659e9.png)
 
 To read more about the targeting placement section please click [here](https://console.mediasmart.io/#/knowledge/targeting/#placement)
 
@@ -64,10 +71,16 @@ To know more about how [Analytics](https://console.mediasmart.io/docs/analytics)
 ## New visuals
 In addition to some of the new features and integrations we have focused our attention to visuals too, so we make user experience much better:
 
+![](https://gallery.mailchimp.com/1549aa3ecd52831ec32b07e7c/images/daaea5d1-e818-4f8b-83af-05cb58715afe.png)
+
 Dashboard area: This is where you could have a quick look on how your campaigns where doing thanks to graphics showing KPIS, Limits and Goals.
 This area has been moved and now is part of the Analytics area.
 
+![](https://gallery.mailchimp.com/1549aa3ecd52831ec32b07e7c/images/2c3bf5c0-fd9c-4b38-a20c-cc8c668f7070.png)
+
 Campaigns and creatives cards: These have had a makeover, in order to give you the information much clearer with a first glance.
+
+![](https://gallery.mailchimp.com/1549aa3ecd52831ec32b07e7c/images/6e9b598b-5a4e-4e9b-8a55-fccbde28b479.png)
 
 Monitor, History and notifications: These three tools have an in-view new look & feel.
 
