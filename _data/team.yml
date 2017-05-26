@@ -46,7 +46,7 @@
 
 # -- Product
 - name: Javi Jimenez
-  title: UX/UI Team Leader
+  title: Head of Frontend Engineering
   image: javi.jimenez
   linkedin: soyjavi
   twitter: soyjavi
@@ -61,7 +61,7 @@
   github: alexfernandez
 
 - name: Sergio Garcia
-  title: Senior Developer
+  title: Frontend Developer
   image: sergio.garcia
   skype: sgmonda
   twitter: sgmonda
@@ -69,7 +69,7 @@
   linkedin: sergio-garcia-mondaray-91544a26
 
 - name: Yarilo Villanueva
-  title: Developer
+  title: Frontend Developer
   image: yarilo.villanueva
   skype: yarilo.villanueva.hdez
   linkedin: yarilovillanueva
