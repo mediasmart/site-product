@@ -2,7 +2,7 @@
 layout:     default
 type:       content
 
-title:      Erroneous Incentives in Mobile AdTech: A Rant
+title:      Erroneous Incentives in Mobile AdTech - A Rant
 date:       2017-6-19
 tag:        opinion
 permalink:  /blog/erroneous-incentives-in-mobile-adtech-a-rant
