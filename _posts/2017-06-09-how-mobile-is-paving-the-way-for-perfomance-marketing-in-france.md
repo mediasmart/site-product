@@ -8,6 +8,7 @@ tag:        news
 permalink:  /blog/how-mobile-is-paving-the-way-for-perfomance-marketing-in-france
 published:  true
 ---
+
 With its ad spend set to rise 40% this year, mobile is driving some of the key performance marketing trends in France.
 
 With European consumers spending more time on their phones than on any other media channel, the trend has become particularly popular in France. According to recent reports, mobile ad spend in the region is set to rise 40% this year to around €1.46 billion.
