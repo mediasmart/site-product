@@ -1,0 +1,59 @@
+[data-role='pricing'] {
+
+
+  & > [data-role] {
+    display: flex;
+    flex-direction: column;
+    padding: 2 * $unit;
+    box-shadow: $shadow-deep;
+    color: $text-secondary;
+
+    & h2 {
+      display: block;
+      font-weight: $font-weight-light;
+      font-size: $unit * 3.2;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    & ul {
+      flex-grow: 1;
+      margin: 0;
+      & > li {
+        margin: $unit 0;
+      }
+    }
+
+    & a {
+      background-color: rgba(0,0,0,0.1);
+    }
+  }
+
+  & [data-role='basic'] {
+    background-color: $primary;
+    color: $white;
+  }
+}
+
+// -- Layout Breakpoints -------------------------------------------------------
+@media (max-width: $layout-breakpoint-XS) {
+  [data-role='pricing'] {
+  }
+}
+
+@media (min-width: $layout-breakpoint-XS) {
+  [data-role='pricing'] {
+    display: flex;
+    justify-content: center;
+    margin-bottom: $unit;
+
+    & > [data-role] {
+      width: 32 * $unit;
+      height: 48 * $unit;
+
+      &:first-child {
+        margin-right: $offset;
+      }
+    }
+  }
+}
