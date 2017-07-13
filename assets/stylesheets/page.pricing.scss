@@ -1,6 +1,4 @@
 [data-role='pricing'] {
-
-
   & > [data-role] {
     display: flex;
     flex-direction: column;
@@ -38,6 +36,9 @@
 // -- Layout Breakpoints -------------------------------------------------------
 @media (max-width: $layout-breakpoint-XS) {
   [data-role='pricing'] {
+    & > [data-role] {
+      margin-bottom: $offset-mobile;
+    }
   }
 }
 
