@@ -21,9 +21,8 @@ permalink   : /pricing/
       <li>1 TB/month of free reporting data and $10 per additional TB/month.</li>
       <li>Free Audience Management up to 1M users/month. Extra users per month at $0.06 CPM</li>
     </ul>
-    <a href='https://console.mediasmart.io/signup?utm_source=mediasmart&utm_campaign=site' class='button large primary'>SIGN UP</a>
+    <a href='https://console.mediasmart.io/signup?utm_source=mediasmart&utm_campaign=pricing' class='button large primary'>SIGN UP</a>
   </div>
-
 
   <div data-role='pro'>
     <img />
@@ -33,7 +32,7 @@ permalink   : /pricing/
       <li>Custom Look & Feel</li>
       <li>API Access</li>
       <li>Custom number of scans to ensure ad quality</li>
-      <li>Unlimited Terabyte per month for reporting data</li>
+      <li>Unlimited Free Reporting Data</li>
       <li>Free Audience Management</li>
     </ul>
     <a href='/contact' class='button large'>CONTACT</a>
