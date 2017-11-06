@@ -18,6 +18,7 @@
   > footer {
     background-color: $dark;
     font-size: $font-size-tiny;
+    height: $header-height;
     display: flex;
     > * {
       min-width: 0;
@@ -25,7 +26,16 @@
     &, a {
       color: $white;
     }
+
+
     > nav {
+      display: flex;
+      align-items: center;
+
+      .logo > img {
+        max-height: $unit * 3;
+      }
+
       &[data-role='networks'] {
         font-size: $font-size-large;
         a:hover {
@@ -63,7 +73,9 @@
 @media (min-width: $layout-breakpoint-XS) {
   [data-page]  {
     > footer {
-      line-height: $header-height;
+      > span {
+        line-height: $header-height;
+      }
       > nav {
         &, a {
           margin-left: $unit;
