@@ -260,3 +260,8 @@ form {
     }
   }
 }
+@media (min-width: $layout-breakpoint-LG) {
+  h2 {
+    font-size: $unit * 4.4;
+  }
+}

@@ -24,12 +24,13 @@ window.onload = function() {
       formSubmit: function(event) {
         event.preventDefault();
         event.stopPropagation();
+
         var formData = new FormData(event.target);
         var http = new XMLHttpRequest();
         http.open('POST', 'http://api.mediasmart.io/site/form', true);
         http.onreadystatechange = function() {
-          if(http.readyState == 4 && http.status == 200) {
-            alert('Thanks for you message, we will answer you soon.');
+          if(http.readyState === 4 && http.status === 200) {
+            window.location = '/ok';
           }
         }
         http.send(formData);
@@ -58,7 +59,7 @@ window.onload = function() {
 
   // -- Listeners
   window.addEventListener('scroll', mediasmart.fn.scroll, false);
-  window.addEventListener('submit', mediasmart.fn.formSubmit, false);
+  // window.addEventListener('submit', mediasmart.fn.formSubmit, false);
 
   // -- Hi developers
   console.log('🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖🖖');

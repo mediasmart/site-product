@@ -45,15 +45,8 @@
   twitter: martalh
 
 # -- Enginering
-- name: Alejandro Fernandez
-  title: Chief Data Scientist
-  image: alejandro.fernandez
-  skype: chenno
-  twitter: pinchito
-  github: alexfernandez
-
 - name: Sergio Garcia
-  title: Senior Developer
+  title: Frontend Developer
   image: sergio.garcia
   skype: sgmonda
   twitter: sgmonda
@@ -61,7 +54,7 @@
   linkedin: sergio-garcia-mondaray-91544a26
 
 - name: Yarilo Villanueva
-  title: Developer
+  title: Frontend Developer
   image: yarilo.villanueva
   skype: yarilo.villanueva.hdez
   linkedin: yarilovillanueva
@@ -74,13 +67,6 @@
   skype: galen_r0x
   linkedin: alfredo-lópez-moltó-b1814647
   github: xgalen
-
-- name: Rafael Tejado
-  title: Customer Success Engineer
-  image: rafael.tejado
-  skype: rtejado90
-  linkedin: rafaeltejado
-  twitter: teddyviking
 
 - name: Gonzalo Moreno
   title: Customer Success Engineer
@@ -102,6 +88,12 @@
   skype: anisslaamouri
   linkedin: anisslaamouri
   twitter: anisslaamouri
+
+- name: François Peltiez
+  title: Sales & Marketing Manager - FR
+  image: francois.peltiez
+  skype: francois_76
+  linkedin: fpeltiez
 
 # -- Management
 - name: Tiago Vila Verde
@@ -137,3 +129,14 @@
   skype: manuelmartinez.prof
   linkedin: manuelmartinezrodriguez
   twitter: martinezmanu_
+
+- name: Olatz Goicoechea
+  title: Account Manager
+  image: olatz.goikoetxea
+  linkedin: olatzgoicoechea
+  twitter: ogoiko
+
+- name: Adrián Domínguez
+  title: Account Manager
+  image: adrian.dominguez
+  linkedin: adommar

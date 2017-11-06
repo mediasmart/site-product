@@ -35,7 +35,7 @@ You can configure your browser to allow, block or delete cookies from websites. 
 
 
 ## Data gathered through Mediasmart Console
-mediasmart is the programmatic media buying platform that mediasmart uses to serve mobile advertising campaigns in its network of supply partners. mediasmart does not gather personal data of users who see mediasmart ads. On the contrary, it only gathers non personal information that can be used to univocally identify a user, for example, IP address, mobile carrier, connection type (WiFi vs 3G), advertising ID (IDFA and GAID) or operating system.
+mediasmart is the programmatic media buying platform that mediasmart uses to serve mobile advertising campaigns in its network of supply partners. mediasmart does not gather personal data of users who see mediasmart ads. On the contrary, it only gathers non personal information that cannot be used to univocally identify a user, for example, IP address, mobile carrier, connection type (WiFi vs 3G), advertising ID (IDFA and GAID) or operating system.
 
 The information gathered is used to serve more relevant advertising, making advertising more effective and helping many applications and websites to monitize, so that they can offer free content and services. In some cases, we can also use the obtained information to combine it with non personal information from third parties and improve mediasmart´s capabiities. For example, thanks to the IO and a third party database, we can infer the región a user is seeing an ad in.
 

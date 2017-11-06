@@ -1,0 +1,10 @@
+
+
+[data-role='logos'] {
+  text-align: center;
+  margin-bottom: $unit * 2;
+  > * {
+    max-height: $unit * 8;
+    margin: $unit;
+  }
+}
