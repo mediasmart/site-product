@@ -2,7 +2,7 @@
   "name": "Mediasmart-site",
   "version": "0.0.3",
   "description": "...",
-  "homepage": "http://soyjavi.com",
+  "homepage": "http://mediasmart.io",
   "author": "Javi Jimenez Villar",
   "scripts": {
     "start": "bundle exec jekyll serve",
