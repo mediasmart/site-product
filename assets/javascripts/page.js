@@ -36,6 +36,14 @@ window.onload = function() {
         http.send(formData);
       },
 
+      replaceSignupReferer: function () {
+        var links = document.querySelectorAll('.signup-link');
+        var query = window.location.search || '?utm_source=mediasmart&utm_campaign=pricing';
+        links.forEach(function (link) {
+          link.href = link.href.replace('?%REFERER%', query);
+        });
+      },
+
       scroll: function() {
         var scroll = document.body.scrollTop;
         document.body.setAttribute('class', scroll > mediasmart.el.header.offsetHeight ? 'scroll' : '');
@@ -56,6 +64,7 @@ window.onload = function() {
   mediasmart.fn.scroll();
   mediasmart.fn.activeMenu();
   mediasmart.fn.submenuClick();
+  mediasmart.fn.replaceSignupReferer();
 
   // -- Listeners
   window.addEventListener('scroll', mediasmart.fn.scroll, false);

@@ -21,7 +21,7 @@ permalink   : /pricing/
       <li>1 TB/month of free reporting data and $10 per additional TB/month.</li>
       <li>Free Audience Management up to 1M users/month. Extra users per month at $0.06 CPM</li>
     </ul>
-    <a href='https://console.mediasmart.io/signup?utm_source=mediasmart&utm_campaign=pricing' class='button large primary'>SIGN UP</a>
+    <a href='https://console.mediasmart.io/signup?%REFERER%' class='button large primary signup-link'>SIGN UP</a>
   </div>
 
   <div data-role='pro'>
