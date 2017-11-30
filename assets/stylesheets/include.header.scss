@@ -93,6 +93,7 @@
       &:hover {
         > ul {
           display: flex;
+          justify-content: center;
         }
       }
       > ul {
@@ -104,6 +105,7 @@
         font-family: $font-family;
         box-shadow: $shadow-light;
         > * {
+          min-width: 7em;
           margin-left: -$unit * 0.1;
           padding: ($offset / 2.5) ($offset / 5);
           list-style: none;

@@ -5,7 +5,7 @@
   style='background-image: url("/assets/images/{{ page.cover }}");'
   {% endif %}
 >
-  <div class='wrapper {% if page.date or page.title == "Blog" %} post {% endif %}'>
+  <div class='wrapper {% if page.date or page.title == "Blog" or page.title == "Tech Blog" %} post {% endif %}'>
     <h1>{{ page.title }}</h1>
     {% if page.date %}<h3>{{ page.date | date: '%B %d, %Y' }}</h3>{% endif %}
     {% if page.tag %}<span class='tag'>{{ page.tag }}</span>{% endif %}
@@ -18,12 +18,48 @@
 </section>
 
 <section data-role='text' data-content='{{ page.title }}'>
-  <div class='wrapper {% if page.date or page.title == "Blog" %} post {% endif %}'>
+  <div class='wrapper {% if page.date or page.title == "Blog" or page.title == "Tech Blog" %} post {% endif %}'>
     {{content}}
   </div>
 </section>
 
+<!-- <section>
+  <h2>Related Posts {{ page.tech }}</h2>
+  <nav class="related">
+  {% for post in site.posts limit:10 %}
+    {% if page.tech == post.tech && page.url != post.url %}
+    <a href="{{ post.url }}">
+      <li>
+        <h3>{{ post.title }}&nbsp;&nbsp;{{ post.date | date_to_string }}</h3>
+      </li>
+    </a>
+    {% endif %}
+  {% endfor %}
+  </nav>
+</section> -->
+
 <nav data-role='links'>
+  {% assign last = null %}
+  {% for post in site.posts %} {% if page.tech == post.tech %}
+    {% assign isMe = (page.title == post.title) %}
+    <div>compare "{{ page.title }}" with "{{ post.title }}" is "{{ isMe == blank }}". Last: {{ last.title }}</div>
+    {% if isMe != blank and last %}
+      <a href="{{ last.url }}">
+        <small>Next</small>
+        <label>{{ last.title }}</label>
+      </a>
+      {% break %}
+    {% endif %}
+    {% assign last = post %}
+  {% endif %}{% endfor %}
+</nav>
+
+
+
+
+
+<!-- 
+
   {% if page.previous %}
     <a href='{{ page.previous.url }}' class="button large">
       <small>Previous</small>
@@ -37,4 +73,4 @@
       <label>{{ page.next.title }}</label>
     </a>
   {% endif %}
-</nav>
+</nav> -->
