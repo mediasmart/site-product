@@ -3,7 +3,7 @@ layout      : default
 type        : content
 
 title       : Tech Blog
-subtitle    : Just an experiment
+subtitle    : Behind the scenes
 permalink   : /tech-blog/
 ---
 
