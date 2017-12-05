@@ -112,6 +112,28 @@ $signature-image-width: 64px;
   }
 }
 
+.highlight {
+  margin: 0;
+
+  td {
+    padding-left: 1em;
+  }
+
+  .lineno {
+    color: #aaa;
+    display:inline-block;
+    padding: 0 5px;
+    border-right:1px solid #ccc;
+  }
+
+  pre code {
+    display: block;
+    white-space: pre;
+    overflow-x: auto;
+    word-wrap: normal;
+  }
+}
+
 // -- Layout Breakpoints -------------------------------------------------------
 @media (max-width: $layout-breakpoint-SM) {
   [data-page='content'] {
