@@ -2,15 +2,14 @@
 layout      : default
 type        : content
 
-title       : Blog
-subtitle    : Announcements, analysis and opinions on industry trends around the mobile programmatic world.
-permalink   : /blog/
+title       : Tech Blog
+subtitle    : Behind the scenes
+permalink   : /tech-blog/
 ---
 
 <ul class='blog'>
   {% for post in site.posts %}
     {% if post.tech %}
-    {% else %}
       <li>
         <a href="{{ post.url | prepend: site.baseurl }}">
           <small>
@@ -21,6 +20,7 @@ permalink   : /blog/
           <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' | remove: '<blockquote>' | remove: '</blockquote>' | truncatewords: 48 }}</p>
         </a>
       </li>
+    {% else %}
     {% endif %}
   {% endfor %}
 </ul>

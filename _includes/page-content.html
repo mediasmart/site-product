@@ -5,7 +5,7 @@
   style='background-image: url("/assets/images/{{ page.cover }}");'
   {% endif %}
 >
-  <div class='wrapper {% if page.date or page.title == "Blog" %} post {% endif %}'>
+  <div class='wrapper {% if page.date or page.title == "Blog" or page.title == "Tech Blog" %} post {% endif %}'>
     <h1>{{ page.title }}</h1>
     {% if page.date %}<h3>{{ page.date | date: '%B %d, %Y' }}</h3>{% endif %}
     {% if page.tag %}<span class='tag'>{{ page.tag }}</span>{% endif %}
@@ -18,23 +18,50 @@
 </section>
 
 <section data-role='text' data-content='{{ page.title }}'>
-  <div class='wrapper {% if page.date or page.title == "Blog" %} post {% endif %}'>
+  <div class='wrapper {% if page.date or page.title == "Blog" or page.title == "Tech Blog" %} post {% endif %}'>
     {{content}}
+
+    {% if page.author and page.author.name %}
+      <div class="signature">
+        {% if page.author.image %}
+        <figure style="background-image: url({{ page.author.image }})">
+          {% if page.author.image2 %}<image src="{{ page.author.image2 }}"/>{% endif %}
+        </figure>
+        {% endif %}
+        <div>
+          <strong>{{ page.author.name }}</strong>
+          {% if page.author.description %}
+            <br/>
+            <small>{{ page.author.description }}</small>
+          {% endif %}
+          {% if page.author.url %}
+            <br/>
+            <small><a href="{{ page.author.url }}">{{ page.author.url }}</a></small>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
   </div>
 </section>
 
-<nav data-role='links'>
-  {% if page.previous %}
-    <a href='{{ page.previous.url }}' class="button large">
-      <small>Previous</small>
-      <label>{{ page.previous.title }}</label>
-    </a>
-  {% endif %}
+{% if page.title != "Blog" and page.title != "Tech Blog" %}
 
-  {% if page.next %}
-    <a href='{{ page.next.url }}' class="button large">
-      <small>Next</small>
-      <label>{{ page.next.title }}</label>
-    </a>
-  {% endif %}
-</nav>
+<section data-role='text' data-content='related-posts'>
+  <div class="wrapper post related-posts">
+    <h2>Related Posts</h2>
+    <ul>
+      {% for post in site.posts limit:10 %}
+        {% if page.tech == post.tech and page.url != post.url %}
+          <li>
+            <a href="{{ post.url }}">
+            {{ post.title }}&nbsp;&nbsp;<small>{{ post.date | date_to_string }}</small>
+            </a>
+          </li>
+        </a>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+{% endif %}
