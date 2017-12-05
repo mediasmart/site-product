@@ -39,6 +39,21 @@
     blockquote + h3 {
       margin-top: ($header-height - ($unit * 2));
     }
+
+    & .related-posts {
+      border-top: solid 5px #f1f1f1;
+      padding-top: 5em;
+      padding-bottom: 3em;
+      margin-top: 5em !important;
+
+      * {
+        font-weight: normal;
+      }
+
+      small {
+        color: #999;
+      }
+    }
   }
 
   [data-role='links'] {

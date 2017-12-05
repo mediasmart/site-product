@@ -23,54 +23,25 @@
   </div>
 </section>
 
-<!-- <section>
-  <h2>Related Posts {{ page.tech }}</h2>
-  <nav class="related">
-  {% for post in site.posts limit:10 %}
-    {% if page.tech == post.tech && page.url != post.url %}
-    <a href="{{ post.url }}">
-      <li>
-        <h3>{{ post.title }}&nbsp;&nbsp;{{ post.date | date_to_string }}</h3>
-      </li>
-    </a>
-    {% endif %}
-  {% endfor %}
-  </nav>
-</section> -->
+{% if page.title != "Blog" and page.title != "Tech Blog" %}
 
-<nav data-role='links'>
-  {% assign last = null %}
-  {% for post in site.posts %} {% if page.tech == post.tech %}
-    {% assign isMe = (page.title == post.title) %}
-    <div>compare "{{ page.title }}" with "{{ post.title }}" is "{{ isMe == blank }}". Last: {{ last.title }}</div>
-    {% if isMe != blank and last %}
-      <a href="{{ last.url }}">
-        <small>Next</small>
-        <label>{{ last.title }}</label>
-      </a>
-      {% break %}
-    {% endif %}
-    {% assign last = post %}
-  {% endif %}{% endfor %}
-</nav>
+<section data-role='text' data-content='related-posts'>
+  <div class="wrapper post related-posts">
+    <h2>Related Posts</h2>
+    <ul>
+      {% for post in site.posts limit:10 %}
+        {% if page.tech == post.tech and page.url != post.url %}
+        
+          <li>
+            <a href="{{ post.url }}">
+            {{ post.title }}&nbsp;&nbsp;<small>{{ post.date | date_to_string }}</small>
+            </a>
+          </li>
+        </a>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>
 
-
-
-
-
-<!-- 
-
-  {% if page.previous %}
-    <a href='{{ page.previous.url }}' class="button large">
-      <small>Previous</small>
-      <label>{{ page.previous.title }}</label>
-    </a>
-  {% endif %}
-
-  {% if page.next %}
-    <a href='{{ page.next.url }}' class="button large">
-      <small>Next</small>
-      <label>{{ page.next.title }}</label>
-    </a>
-  {% endif %}
-</nav> -->
+{% endif %}
