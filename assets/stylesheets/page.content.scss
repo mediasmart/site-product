@@ -23,6 +23,7 @@ $signature-image-width: 64px;
   }
 
   [data-role='text'] {
+    font-family: $font-family-content;
     h2,
     h3 {
       font-size: 2.2 * $unit;
@@ -39,7 +40,7 @@ $signature-image-width: 64px;
     ul + h3,
     blockquote + h2,
     blockquote + h3 {
-      margin-top: ($header-height - ($unit * 2));
+      margin-top: ($header-height - ($unit * 5));
     }
 
     & .related-posts {
