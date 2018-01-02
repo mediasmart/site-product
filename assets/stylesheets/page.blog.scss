@@ -57,7 +57,7 @@
   }
 
   > blockquote {
-    margin: $unit 0 $offset 0;
+    margin: $unit 0 $unit 0;
     font-style: italic;
     > blockquote {
       margin: 0 $offset;
