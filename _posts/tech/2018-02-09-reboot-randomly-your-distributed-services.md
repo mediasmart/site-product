@@ -31,7 +31,7 @@ Let's go through the process I did until developing the final solution. But firs
 
 We use Ubuntu 16.04 for all of our machines. Ubuntu includes the **logrotate** service which helps to accomplish the rotation. You can see an example of configuration:
 
-{% highlight shell linenos %}
+{% highlight javascript linenos %}
 /home/ubuntu/log/*.log {
 	su ubuntu ubuntu
 	daily
@@ -56,7 +56,7 @@ If you want a detailed version about all the logrotate's options you can use *ma
 
 The logrotate is executed by a calling from */etc/crontab* which is something like this:
 
-{% highlight shell lineos %}
+{% highlight javascript linenos %}
 25 9 * * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
 {% endhighlight %} 
 
@@ -71,13 +71,13 @@ After some research I found the [od command](http://man7.org/linux/man-pages/man
 
 Moreover, we want that the reboots happen in a 30 minutes (1800 seconds) interval so this is the command used finally:
 
-{% highlight shell lineos %}
+{% highlight javascript linenos %}
 sleep $(($(od -An -tu -N2 /dev/urandom) % 1800))
 {% endhighlight %}
 
 But if we put the sleep command on the crontab file it would affect all the crons and that is not the better idea. It would be better to put the *sleep* into the *postrotate* tag of the *logrotate* configuration file, just before the restart of the services. Something like this:
 
-{% highlight shell linenos %}
+{% highlight javascript linenos %}
 /home/ubuntu/log/*.log {
 	su ubuntu ubuntu
 	daily
