@@ -12,7 +12,7 @@ sass:
   sass_dir: assets/stylesheets
   style: :compressed
 
-gems:
+plugins:
   - jekyll-sitemap
 
 # code syntax highlight
