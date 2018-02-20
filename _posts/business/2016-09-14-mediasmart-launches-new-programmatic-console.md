@@ -29,4 +29,4 @@ The interface is also fully customizable, allowing customers to adapt the look a
 *“Having the best user experience is absolutely critical to scale and cope with the exponential market growth we are seeing. Thanks to the work we´ve done with our beta customers in the past eight months, we are very confident that the upgrade will be well received”*.
 
 
-More about [mediasmart Mobile](http://mediasmart.io/about-us) and follow us on [twitter](https://twitter.com/mediasmart_mb)
+More about [mediasmart Mobile](http://mediasmart.io/about-us) and follow us on [twitter](https://twitter.com/mediasmartio)
