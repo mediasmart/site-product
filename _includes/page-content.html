@@ -47,6 +47,18 @@
 {% if page.title != "Blog" and page.title != "Tech Blog" %}
 
 <section data-role='text' data-content='related-posts'>
+  <div class="wrapper post share-page">
+    Share this post:
+
+    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fab fa-twitter"></i></a>
+    <a href="https://facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fab fa-facebook"></i></a>
+    <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+"><i class="fab fa-google-plus-g"></i></a>
+    <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}" rel="nofollow" target="_blank" title="Share on LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <a href="http://www.reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}" rel="nofollow" target="_blank" title="Share on Reddit"><i class="fab fa-reddit-alien"></i></a>
+  </div>
+</div>
+
+<section data-role='text' data-content='related-posts'>
   <div class="wrapper post related-posts">
     <h2>Related Posts</h2>
     <ul>
