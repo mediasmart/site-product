@@ -1,5 +1,6 @@
 ---
 layout      : default
+description : Check the plans we have available for you. Pick the one that best suits your needs. Contact us in case you have any question.
 type        : content
 
 title       : Pricing
