@@ -41,7 +41,7 @@
 
 # -- Enginering
 - name: Sergio Garcia
-  title: Frontend Developer
+  title: Frontend Team Leader
   image: sergio.garcia
   skype: sgmonda
   twitter: sgmonda
@@ -63,6 +63,10 @@
   linkedin: alfredo-lópez-moltó-b1814647
   github: xgalen
 
+- name: Adrian Gigante
+  title: Backend Developer
+  image: adrian.gigante
+
 - name: Gonzalo Moreno
   title: Customer Success Engineer
   image: gonzalo.moreno
@@ -77,6 +81,11 @@
   linkedin: anacristinapeinadogonzalo
   twitter: pgAnacristina
 
+- name: Alejandro Dietta
+  title: Customer Success Engineer
+  image: alejandro.dietta
+
+# -- Management
 - name: Aniss Laamouri
   title: Sales Tech Manager - FR
   image: aniss.laamouri
@@ -90,7 +99,6 @@
   skype: francois_76
   linkedin: fpeltiez
 
-# -- Management
 - name: Tiago Vila Verde
   title: Campaign Perfomance Manager
   image: tiago.vila.verde
@@ -135,3 +143,11 @@
   title: Account Manager
   image: adrian.dominguez
   linkedin: adommar
+
+- name: Adrián Hernández
+  title: Account Manager
+  image: adrian.hernandez
+
+- name: Arturo Imedio
+  title: Finance
+  image: arturo.imedio
