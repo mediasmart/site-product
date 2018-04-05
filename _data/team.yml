@@ -12,6 +12,10 @@
   skype: zedwill
   linkedin: gfernandez
 
+- name: Arturo Imedio
+  title: CFO
+  image: arturo.imedio
+
 - name: Nuria Alonso
   title: Commercial Director
   image: nuria.alonso
@@ -148,6 +152,3 @@
   title: Account Manager
   image: adrian.hernandez
 
-- name: Arturo Imedio
-  title: Finance
-  image: arturo.imedio
