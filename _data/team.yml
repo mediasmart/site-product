@@ -12,8 +12,13 @@
   skype: zedwill
   linkedin: gfernandez
 
+- name: Arturo Imedio
+  title: CFO
+  linkedin: arturoimedioprieto
+  image: arturo.imedio
+
 - name: Nuria Alonso
-  title: Commercial Director
+  title: Commercial Director ES & LATAM
   image: nuria.alonso
   linkedin: nuriaalonso
   twitter: Nurialonso
@@ -21,19 +26,19 @@
 
 # -- Business
 - name: Julio Aguayo
-  title: International Business Dev.
+  title: Head of International Sales
   image: julio.aguayo
   skype: julio.aguayo7
   linkedin: julioaguayogoded
 
 - name: Mo Hussain
-  title: Commercial Director UK
+  title: Commerical Director UK
   image: mo.hussain
   skype: mohammed.saiful.hussain
   linkedin: mohammedshussain
 
 - name: Marta Lopez de Haro
-  title: Client Service Director
+  title: Client Services Director
   image: marta.lopez.de.haro
   linkedin: martalopezdeharo
   skype: martalopezdeharo
@@ -41,7 +46,7 @@
 
 # -- Enginering
 - name: Sergio Garcia
-  title: Frontend Developer
+  title: Frontend Team Leader
   image: sergio.garcia
   skype: sgmonda
   twitter: sgmonda
@@ -63,20 +68,31 @@
   linkedin: alfredo-lópez-moltó-b1814647
   github: xgalen
 
+- name: Adrian Gigante
+  title: Backend Developer
+  linkedin: adrian-gigante-79b14561
+  image: adrian.gigante
+
 - name: Gonzalo Moreno
-  title: Customer Success Engineer
+  title: Tech Client Services Manager
   image: gonzalo.moreno
   skype: gonzamvita
   linkedin: gonzamvita
   twitter: gonzamvita
 
 - name: Ana Peinado
-  title: Customer Success Engineer
+  title: Frontend Developer
   image: ana.peinado
   skype: anacrispg
   linkedin: anacristinapeinadogonzalo
   twitter: pgAnacristina
 
+- name: Alejandro Dietta
+  title: Tech Support Developer
+  linkedin: alejandrodietta
+  image: alejandro.dietta
+
+# -- Management
 - name: Aniss Laamouri
   title: Sales Tech Manager - FR
   image: aniss.laamouri
@@ -85,34 +101,33 @@
   twitter: anisslaamouri
 
 - name: François Peltiez
-  title: Sales & Marketing Manager - FR
+  title: Sales and Marketing Manager - FR
   image: francois.peltiez
   skype: francois_76
   linkedin: fpeltiez
 
-# -- Management
 - name: Tiago Vila Verde
-  title: Campaign Perfomance Manager
+  title: Head of Analytics
   image: tiago.vila.verde
   skype: tiagovilaverde.prof
   linkedin: tiagovilaverde
 
 - name: Javier Almirante
-  title: Account Manager
+  title: IO Sales ES/Account Manager
   image: javier.almirante
   skype: jalmirante69
   linkedin: javier-almirante-75a55015
   twitter: jalmirante69
 
 - name: Adriana Ullivari
-  title: Account Manager
+  title: Product Marketing Manager
   image: adriana.ullivari
   skype: adri.ullivarri
   twitter: AdriUllivarri
   linkedin: adrianaperezullivarri
 
 - name: Gema Posada
-  title: Account Manager
+  title: Partnerships Manager
   image: gema.posada
   skype: gemaposada
   linkedin: gemaposadagomez
@@ -126,12 +141,18 @@
   twitter: martinezmanu_
 
 - name: Olatz Goicoechea
-  title: Account Manager
+  title: Account Manager / Support
   image: olatz.goikoetxea
   linkedin: olatzgoicoechea
   twitter: ogoiko
 
 - name: Adrián Domínguez
-  title: Account Manager
+  title: Account Manager / Support
   image: adrian.dominguez
   linkedin: adommar
+
+- name: Adrián Hernández
+  title: Account Manager / Support
+  image: adrian.hernandez
+  linkedin: adrián-hernández-fernández-b43181108
+

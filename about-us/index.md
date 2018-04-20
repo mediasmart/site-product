@@ -4,6 +4,7 @@ type        : content
 
 title       : About Us
 subtitle    : A team of professionals with many years of experience in the mobile and digital advertising world striving for innovation and quality of service.
+description : A team of professionals with many years of experience in the mobile and digital advertising world striving for innovation and quality of service. We work hard and never forget to have fun in the process. Absolutely devoted to our customers and to building the best mobile DSP out there. Check our photos!
 cover       : post/team-funny.jpg
 permalink   : /about-us/
 ---

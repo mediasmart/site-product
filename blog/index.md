@@ -4,6 +4,7 @@ type        : content
 
 title       : Blog
 subtitle    : Announcements, analysis and opinions on industry trends around the mobile programmatic world.
+description : Announcements, analysis and opinions on industry trends around the mobile programmatic world. Check out articles about the latest news in the mobile advertising market. Don’t forget to subscribe to receive email updates!
 permalink   : /blog/
 ---
 

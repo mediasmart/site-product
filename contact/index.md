@@ -4,6 +4,7 @@ type        : content
 
 title       : Contact
 subtitle    : Get in touch however you like. We’re always happy to help.
+description : Get in touch however you like. We’re always happy to help. Leave us your contact and send us a message.
 permalink   : /contact/
 ---
 
