@@ -35,7 +35,7 @@ Please note that while these identifiers are regarded as Personal Information an
 
 We use your information to:
 
-- Allow our customers to target their advertisement campaigns, for example, the product an advertiser is promoting may work only in a given country and a certain operating system  and in order to properly manage the campaign our system needs to read the IP address (to understand in which country the Ad will be served in) and the operating system;
+- Allow our customers to target their advertisement campaigns, for example, the product an advertiser is promoting may work only in a given country and a certain operating system, and in order to properly manage the campaign our system needs to read the IP address (to understand in which country the Ad will be served in) and the operating system;
 - Allow our customers to generate user segments (what we call “audiences”) based your previous interactions with their advertising campaigns;
 - Allow our customers to target identifiers based on them being part of certain user segments (those segments may have been created with our platform or a different one);
 - Allow our customers to track whether or not you have engaged with their ads
@@ -48,10 +48,9 @@ We will hold your personal information on our systems for as long as is necessar
 
 We may need to share your information with certain partners at the very moment our system has to decide whether or not to buy some specific ad space as programmed or instructed by our clients. For example, if the App or website where you are about to see an ad does not tell us which country you are in, we will need to send your IP address to one of our partners to find out about the country based on your IP address (all of our campaigns have to be targeted to one or several specific countries). Or, if our client is working with a Data Provider, and targets a campaign to user segments created by that Data Provider, we will need to check with said Data Provider whether your identifier is in the targeted user segment before we decide to try and buy the Ad slot.
 
-Our clients will have access to your information when they have purchased that impression and thus have served you an ad.
+Our clients will have access to your information when they have purchased that impression and thus have served you an Ad.
 
 ### Third Party Service Providers working on our behalf:
-- Maxmind ([maxmind.com](https://www.maxmind.com)) for Geo IP Databases and Services
 - AdSquare ([adsquare.com](http://www.adsquare.com)), a mobile data exchange who can work as a
 Data Provider for our customers
 
@@ -69,7 +68,7 @@ You can find the setting for your mobile device by following the directions belo
 
 **For Android devices with OS 2.2 and up and Google Play Services version 4.0 and up**: Open your Google Settings app > Ads > Enable “Opt out of interest-based advertising” If you’ve turned on Limit Ad Tracking on your iOS device or the Opt out of interest-based ads on your Android device, you can restore interest-based ads by turning the settings off.
 
-When you opt out, you may still see the same number of ads on your mobile device; however, these ads may be less relevant because they won’t be based on your interests, neither ads bought with our platform, nor with any other platform. We may continue to serve you ads based on other non-personal information, such as ads related to the content of the application you are using.
+When you opt out, you may still see the same number of Ads on your mobile device; however, these ads may be less relevant because they won’t be based on your interests, neither Ads bought with our platform, nor with any other platform. We may continue to serve you Ads based on other non-personal information, such as ads related to the content of the application you are using.
 
 
 ### How you can access and update your information
