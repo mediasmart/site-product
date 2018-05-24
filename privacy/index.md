@@ -12,9 +12,10 @@ permalink   : /privacy/
 
 At Mediasmart, we take fundamental rights of end users (data subjects) seriously and we are committed to protecting and respecting your privacy and your privacy rights.
 
-This document explains when and why we collect personal information about people who are exposed to the advertisements (“Ads”) in which technical serving process we are involved, how we use such personal information, the conditions under which we may disclose it to others and how we intend to keep it secure.
+This document explains when and why we collect personal information about people who are exposed to the advertisements ("Ads") in which technical serving process we are involved, how we use such personal information, the conditions under which we may disclose it to others and how we intend to keep it secure.
 
 This Policy might evolve from time to time so please check this page occasionally to ensure that you’re up to date with any changes.
+
 Any questions regarding this Policy and our privacy practices should be sent by email to legal@mediasmart.io
 
 ### Who we are
@@ -23,7 +24,7 @@ We are Mediasmart Mobile, S.L. a software as a service platform for advertisers,
 
 ### How do we collect information from you?
 
-We process very limited information about you (your “Personal Information”), on behalf of our clients when you use any of our providers products or services which use Ads within them. What this means is that when you for instance use an App or visit a web page from a mobile device that shows Ads, chances are that such advertisement impressions have been “purchased” by companies using our software as a service platform in order to serve you such Ads.
+We process very limited information about you (your "Personal Information"), on behalf of our clients when you use any of our providers products or services which use Ads within them. What this means is that when you for instance use an App or visit a web page from a mobile device that shows Ads, chances are that such advertisement impressions have been "purchased" by companies using our software as a service platform in order to serve you such Ads.
 
 ### What type of information is collected from you?
 
@@ -35,13 +36,12 @@ Please note that while these identifiers are regarded as Personal Information an
 
 We use your information to:
 
-- Allow our customers to target their advertisement campaigns, for example, the product an advertiser is promoting may work only in a given country and a certain operating system, and in order to properly manage the campaign our system needs to read the IP address (to understand in which country the Ad will be served in) and the operating system;
-- Allow our customers to generate user segments (what we call “audiences”) based your previous interactions with their advertising campaigns;
-- Allow our customers to target identifiers based on them being part of certain user segments (those segments may have been created with our platform or a different one);
-- Allow our customers to track whether or not you have engaged with their ads
+-	allow our customers to target their advertisement campaigns, for example, the product an advertiser is promoting may work only in a given country and a certain operating system, and in order to properly manage the campaign our system needs to read the IP address (to understand in which country the Ad will be served in) and the operating system;
+-	allow our customers to generate user segments (what we call "**audiences**") based your previous interactions with their advertising campaigns;
+-	allow our customers to target identifiers based on them being part of certain user segments (those segments may have been created with our platform or a different one);
+-	allow our customers to track whether or not you have engaged with their Ads
 
-Allowing our customers to target user segments is what we call “Interest Based Advertising”.
-
+Allowing our customers to target user segments is what we call "**Interest Based Advertising**".
 We will hold your personal information on our systems for as long as is necessary for the relevant activity (we have set a general maximum limit of six (6) months).
 
 ### Who has access to your information?
@@ -50,26 +50,26 @@ We may need to share your information with certain partners at the very moment o
 
 Our clients will have access to your information when they have purchased that impression and thus have served you an Ad.
 
-### Third Party Service Providers working on our behalf:
-- AdSquare ([adsquare.com](http://www.adsquare.com)), a mobile data exchange who can work as a
-Data Provider for our customers
+### Third Party Service Providers we work with:
+
+- AdSquare ([adsquare.com](http://www.adsquare.com)), a mobile data exchange who can work as a Data Provider for our customers
 
 However, when we use third party service providers, we disclose only the Personal Information that is necessary to deliver the service and we have a contract in place that requires them to keep your information secure and not to use it for any other purposes. Please be reassured that we will not release your information to third parties beyond the Ads serving process we’ve described, unless you have requested us to do so, or we are required to do so by law, for example, by a court order or for the purposes of prevention of fraud or other crime.
 
 ### You may opt-out of this interest based advertising process altogether
 
- **Please note that you have the choice to opt-out from all Interest Based Advertising activities by changing the settings on your Android or iOS phone or tablet (we never use your identifiers if you use mobile devices with any other operating system).**
+**Please note that you have the choice to opt-out from all Interest Based Advertising activities by changing the settings on your Android or iOS phone or tablet (we never use your identifiers if you use mobile devices with any other operating system).  **
 
-Your iOS or Android mobile device provides a “Limit Ad Tracking” or “Opt out of interest-based advertising” setting. When you have opted out using this setting on a device, we will not allow our clients to use personal information collected from that device for any targeting purposes, nor to create any user segments.
+Your iOS or Android mobile device provides a "Limit Ad Tracking" or "Opt out of interest-based advertising" setting. When you have opted out using this setting on a device, we will not allow our clients to use personal information collected from that device for any targeting purposes, nor to create any user segments.
 
 You can find the setting for your mobile device by following the directions below:
 
-**iOS Device iOS 7 or Higher**: Go to your Settings > Select Privacy > Select Advertising > Enable the “Limit Ad Tracking” setting iOS 6 Go to your Settings >Select General > Select About > Select Advertising > Enable the “Limit Ads Tracking” setting.
+- **iOS Device iOS 7 or Higher**: Go to your Settings > Select Privacy > Select Advertising > Enable the "Limit Ad Tracking" setting iOS 6 Go to your Settings >Select General > Select About > Select Advertising > Enable the "Limit Ads Tracking" setting More information about the iOS setting can be found here. Android Device.
+- **Android devices with OS 2.2 and up and Google Play Services version 4.0 and up**: Open your Google Settings app > Ads > Enable "Opt out of interest-based advertising" If you’ve turned on Limit Ad Tracking on your iOS device or the Opt out of interest-based ads on your Android device, you can restore interest-based ads by turning the settings off.
 
-**For Android devices with OS 2.2 and up and Google Play Services version 4.0 and up**: Open your Google Settings app > Ads > Enable “Opt out of interest-based advertising” If you’ve turned on Limit Ad Tracking on your iOS device or the Opt out of interest-based ads on your Android device, you can restore interest-based ads by turning the settings off.
+You can also opt-out ONLY from Interest Based Advertising Activities by Mediasmart [here](https://ads.mediasmart.es/client/privacy)
 
 When you opt out, you may still see the same number of Ads on your mobile device; however, these ads may be less relevant because they won’t be based on your interests, neither Ads bought with our platform, nor with any other platform. We may continue to serve you Ads based on other non-personal information, such as ads related to the content of the application you are using.
-
 
 ### How you can access and update your information
 
@@ -89,7 +89,7 @@ Our clients may analyse your personal information to create a profile of your in
 
 Mobile devices identifiers have been likened to cookies. Also, like many other websites, Mediasmart’s website uses cookies. 'Cookies' are small pieces of information sent to your computer and stored on your hard drive to allow that website to recognise you when you visit. They collect statistical data about your browsing actions and patterns and do not generally identify you as an individual.
 
-It is possible to switch off cookies by setting your browser preferences. For more information on how to switch off cookies on your computer, visit our full cookies policy. Turning cookies of may result in a loss of functionality when using our website.
+It is possible to switch off cookies by setting your browser preferences. For more information on how to switch off cookies on your computer, visit our full cookies policy. Turning cookies of may result in a loss of functionality when using our website.
 
 ### Age requirements
 
@@ -97,7 +97,7 @@ We are concerned to protect the privacy of children. If you are aged 16 or under
 
 ### Transferring your information outside of Europe
 
-As part of the services offered to you through this website, the information which you provide to us may be transferred to countries outside the European Economic Space. This may take place if any of our servers located in a country outside of the European Union (“EU”). These countries may not have similar data protection laws to the ones we have in the EU. By submitting your personal data, you’re agreeing to this transfer, storing or processing. If we transfer your information outside of the EU in this way, we will take steps to ensure that appropriate security measures are taken with the aim of ensuring that your privacy rights continue to be protected as outlined in this document.
+As part of the services offered to you through this website, the information which you provide to us may be transferred to countries outside the European Economic Space. This may take place if any of our servers located in a country outside of the European Union ("EU"). These countries may not have similar data protection laws to the ones we have in the EU. By submitting your personal data, you’re agreeing to this transfer, storing or processing. If we transfer your information outside of the EU in this way, we will take steps to ensure that appropriate security measures are taken with the aim of ensuring that your privacy rights continue to be protected as outlined in this document.
 
 If you use our services while you are outside the EU, your information may be transferred outside the EU in order to provide you with those services.
 
