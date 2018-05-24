@@ -3,7 +3,7 @@ layout      : default
 type        : content
 
 title       : Privacy
-date        : 2018-04-01
+date        : 2018-05-24
 permalink   : /privacy/
 ---
 
