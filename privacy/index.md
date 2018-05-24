@@ -58,7 +58,7 @@ However, when we use third party service providers, we disclose only the Persona
 
 ### You may opt-out of this interest based advertising process altogether
 
-**Please note that you have the choice to opt-out from all Interest Based Advertising activities by changing the settings on your Android or iOS phone or tablet (we never use your identifiers if you use mobile devices with any other operating system).  **
+**Please note that you have the choice to opt-out from all Interest Based Advertising activities by changing the settings on your Android or iOS phone or tablet (we never use your identifiers if you use mobile devices with any other operating system).**
 
 Your iOS or Android mobile device provides a "Limit Ad Tracking" or "Opt out of interest-based advertising" setting. When you have opted out using this setting on a device, we will not allow our clients to use personal information collected from that device for any targeting purposes, nor to create any user segments.
 
