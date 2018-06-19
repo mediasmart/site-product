@@ -9,9 +9,10 @@
   left: 0;
   right: 0;
   transition: all $animation-duration $animation-ease;
+
   > a {
     &, > img {
-      height: $offset / 1.35;
+      height: $header-height;
       margin: 0;
     }
   }
@@ -44,16 +45,7 @@
 
 // -- Decorators
 [data-page].scroll > header {
-  background-color: rgba($primary, 0.9);
-  box-shadow: $shadow-deep;
-  height: ($header-height / 1.5);
-  > a > img {
-    content: url('/assets/images/logo-white.png');
-  }
-  > nav > .button {
-    background-color: $white;
-    color: $primary;
-  }
+  background: url('/assets/images/bck-dots.png') repeat top left;
 }
 
 

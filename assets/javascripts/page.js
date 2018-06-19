@@ -37,7 +37,7 @@ window.onload = function() {
       },
 
       scroll: function() {
-        var scroll = document.body.scrollTop;
+        var scroll = document.documentElement.scrollTop;
         document.body.setAttribute('class', scroll > mediasmart.el.header.offsetHeight ? 'scroll' : '');
       },
 
