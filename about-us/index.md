@@ -49,6 +49,7 @@ We launched in 2012 and are based in Madrid and London, but depending on the pos
       <textarea name='{{ input.name }}' required></textarea>
     {% endif %}
   {% endfor %}
+  <label>Please take your time to read our <a href='https://www.mediasmart.io/privacy/'>privacy policy</a></label>
   <button class='primary large'>
     <label>Apply now</label>
   </button>

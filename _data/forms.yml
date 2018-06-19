@@ -27,3 +27,6 @@ hiring:
   - label: Your CV
     name: file
     type: file
+  - label: Accept privacy policy
+    name: policy
+    type: checkbox
