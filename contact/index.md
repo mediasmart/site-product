@@ -18,9 +18,8 @@ permalink   : /contact/
       <textarea name='{{ input.name }}' required></textarea>
     {% endif %}
   {% endfor %}
-  <label>Please read our <a href='https://mediasmart.io/privacy'>Privacy Policy</a> before submitting</label>
+  <label>Accept <a href='https://mediasmart.io/privacy'>Privacy Policy</a></label>
   <input name='policy' type='checkbox' required />
-  <label>Accept Privacy Policy</label>
   <button class='primary large'>
     <label>Send my Message</label>
   </button>
