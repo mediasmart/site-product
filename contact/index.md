@@ -19,10 +19,8 @@ permalink   : /contact/
     {% endif %}
   {% endfor %}
   <label>Please read our <a href='https://mediasmart.io/privacy'>Privacy Policy</a> before submitting</label>
-  <div>
-    <input name='policy' type='checkbox' required />
-    <label>Accept Privacy Policy</label>
-  </div>
+  <input name='policy' type='checkbox' required />
+  <label>Accept Privacy Policy</label>
   <button class='primary large'>
     <label>Send my Message</label>
   </button>
