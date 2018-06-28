@@ -8,7 +8,7 @@ description : Get in touch however you like. We’re always happy to help. Leave
 permalink   : /contact/
 ---
 
-<form action='http://api.mediasmart.io/site/form' method='post'>
+<form action='https://api.mediasmart.io/site/form' method='post'>
   <h2>Send a message</h2>
   {% for input in site.data.forms.contact %}
     <label>{{ input.label }}</label>
