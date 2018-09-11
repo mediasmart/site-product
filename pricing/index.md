@@ -34,8 +34,7 @@ permalink   : /pricing/
       <li>Custom Look & Feel</li>
       <li>API Access</li>
       <li>Custom number of scans to ensure ad quality</li>
-      <li>Unlimited Free Reporting Data</li>
-      <li>Free Audience Management</li>
+      <li>Configurable Pricing Packages</li>
     </ul>
     <a href='/contact' class='button large'>CONTACT</a>
   </div>
