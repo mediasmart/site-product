@@ -265,3 +265,17 @@ form {
     font-size: $unit * 4.4;
   }
 }
+
+
+table {
+  width: 100%;
+  margin: ($offset / 4);
+
+  & thead > tr > th {
+    border-bottom: solid 1px #aaa;
+  }
+  
+  & th {
+    text-align: left;
+  }
+}
