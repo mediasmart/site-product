@@ -9,18 +9,12 @@ permalink   : /privacy/
 
 ## Mediasmart Mobile, S.L. - Privacy Policy
 
-At Mediasmart, we take fundamental rights of end users (data subjects) seriously and we are committed to protecting and respecting your privacy and your privacy rights.
-
-This document explains when and why we collect personal information about people who are exposed to the advertisements ("Ads") in which technical serving process we are involved, how we use such personal information, the conditions under which we may disclose it to others and how we intend to keep it secure.
-
-This Policy might evolve from time to time so please check this page occasionally to ensure that you’re up to date with any changes.
-
-Any questions regarding this Policy and our privacy practices should be sent by email to legal@mediasmart.ioAt Mediasmart, we take fundamental rights of end-users (data subjects) seriously and we are committed to protecting and respecting your privacy and your privacy rights.
+At Mediasmart, we take fundamental rights of end-users (data subjects) seriously and we are committed to protecting and respecting your privacy and your privacy rights.
 This document explains when and how we collect personal information about people who **a)** visit our website and/or use our services through website and on-line servers and **b)** are exposed to the advertisements ("Ads") in which technical serving process we are involved, how we use such personal information, the conditions under which we may disclose it to others and how we intend to keep it secure.
 
 We keep this Privacy Policy under regular review and its scope and contents might evolve from time to time. Please kindly check this page occasionally to ensure that you’re up to date with any changes. **Mediasmart’s Privacy Policy was last updated on August, 2018**.
 
-Any questions regarding this Policy and our privacy practices should be sent by email to: legal@mediasmart.io 
+Any questions regarding this Policy and our privacy practices should be sent by email to: [mailto:legal@mediasmart.io](legal@mediasmart.io).
 
 
 ## Who we are
