@@ -14,7 +14,7 @@ This document explains when and how we collect personal information about people
 
 We keep this Privacy Policy under regular review and its scope and contents might evolve from time to time. Please kindly check this page occasionally to ensure that you’re up to date with any changes. **Mediasmart’s Privacy Policy was last updated on August, 2018**.
 
-Any questions regarding this Policy and our privacy practices should be sent by email to: [mailto:legal@mediasmart.io](legal@mediasmart.io).
+Any questions regarding this Policy and our privacy practices should be sent by email to: [legal@mediasmart.io](mailto:legal@mediasmart.io).
 
 
 ## Who we are
