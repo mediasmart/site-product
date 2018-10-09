@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'console:latest'
+      image 'basic-9.11:latest'
       args '--network="host"'
     }
   }
