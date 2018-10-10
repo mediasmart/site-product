@@ -26,7 +26,7 @@ $quote-sign-size: $unit * 4.8;
         position: absolute;
         top: -($unit * 1.25);
         left: -($offset / 2.5);
-        content: '“';
+        content: '"';
         font-size: $quote-sign-size;
       }
     }
