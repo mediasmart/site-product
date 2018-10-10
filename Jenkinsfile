@@ -1,11 +1,18 @@
 pipeline {
   agent {
     docker {
-      image 'basic-9.11:latest'
+      image 'console:latest'
       args '--network="host"'
     }
   }
   stages {
+    stage('build') {
+      steps {
+        sh '''
+          npm install git+ssh://ubuntu@gitrepos.mediasmart.io:common
+        '''
+      }
+    }
     stage('deploy') {
       when {
         branch 'gh-pages'
