@@ -7,7 +7,9 @@ pipeline {
   }
   stages {
     stage('build') {
-      steps {}
+      steps {
+        sh ''
+      }
     }
     stage('deploy') {
       when {
