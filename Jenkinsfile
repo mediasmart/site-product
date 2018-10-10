@@ -8,7 +8,9 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh ''
+        sh '''
+          npm install git+ssh://ubuntu@gitrepos.mediasmart.io:common
+        '''
       }
     }
     stage('deploy') {
