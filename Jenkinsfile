@@ -6,7 +6,9 @@ pipeline {
     }
   }
   stages {
-    stage('build') {}
+    stage('build') {
+      steps {}
+    }
     stage('deploy') {
       when {
         branch 'gh-pages'
