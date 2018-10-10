@@ -6,13 +6,7 @@ pipeline {
     }
   }
   stages {
-    stage('build') {
-      steps {
-        sh '''
-          npm install git+ssh://ubuntu@gitrepos.mediasmart.io:common
-        '''
-      }
-    }
+    stage('build') {}
     stage('deploy') {
       when {
         branch 'gh-pages'
