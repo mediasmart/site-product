@@ -17,22 +17,15 @@
   linkedin: arturoimedioprieto
   image: arturo.imedio
 
-- name: Nuria Alonso
-  title: Commercial Director ES & LATAM
-  image: nuria.alonso
-  linkedin: nuriaalonso
-  twitter: Nurialonso
-  skype: nuria.alonso.estebanez
-
 # -- Business
 - name: Julio Aguayo
-  title: Head of International Sales
+  title: Commercial Director ES & LATAM
   image: julio.aguayo
   skype: julio.aguayo7
   linkedin: julioaguayogoded
 
 - name: Mo Hussain
-  title: Commerical Director UK
+  title: Commercial Director UK
   image: mo.hussain
   skype: mohammed.saiful.hussain
   linkedin: mohammedshussain
@@ -80,13 +73,6 @@
   linkedin: gonzamvita
   twitter: gonzamvita
 
-- name: Ana Peinado
-  title: Frontend Developer
-  image: ana.peinado
-  skype: anacrispg
-  linkedin: anacristinapeinadogonzalo
-  twitter: pgAnacristina
-
 - name: Alejandro Dietta
   title: Tech Support Developer
   linkedin: alejandrodietta
@@ -132,13 +118,6 @@
   skype: gemaposada
   linkedin: gemaposadagomez
   twitter: gemaposada
-
-- name: Manuel Martinez
-  title: Account Manager
-  image: manuel.martinez
-  skype: manuelmartinez.prof
-  linkedin: manuelmartinezrodriguez
-  twitter: martinezmanu_
 
 - name: Olatz Goicoechea
   title: Account Manager / Support

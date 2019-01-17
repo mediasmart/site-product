@@ -4,6 +4,10 @@ $quote-avatar-size: 12.5vw;
 [data-role='feature'] {
   display: flex;
 
+  &.withoutColumn {
+    display: block;
+  }
+
   > div {
     > p,
     > ul {
@@ -77,6 +81,10 @@ $quote-avatar-size: 12.5vw;
       &.mobile {
         width: 40vh;
       }
+
+      &.oneSize {
+        width: 100%;
+      }
     }
 
     img + div,
@@ -87,6 +95,11 @@ $quote-avatar-size: 12.5vw;
     > div {
       // margin-top: ($offset / 2);
       // margin-bottom: ($offset / 2);
+      > div {
+        &.center {
+          text-align: center;
+        }
+      }
 
       h3 {
         margin-bottom: ($offset / 2);
