@@ -1,6 +1,16 @@
 $min-height: 60vh;
 $quote-avatar-size: 12.5vw;
 
+[data-role='feature-group-title'] {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+
+  > h2 {
+    font-size: 3rem !important;
+  }
+}
+
 [data-role='feature'] {
   display: flex;
 
@@ -106,8 +116,6 @@ $quote-avatar-size: 12.5vw;
       }
     }
 
-    &:last-child {
-      padding-top: 0;
-    }
+
   }
 }

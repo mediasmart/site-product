@@ -13,6 +13,12 @@ Back in January 2012 the world of mobile advertising was still dominated by trad
 
 Since its inception, mediasmart has always been very clear on its position in the mobile advertising ecosystem: full focus on advertisers and the buying process.
 
+{% for member in site.data.culture_and_values %}
+  <li>
+    {{ member.title }}
+  </li>
+{% endfor %}
+
 ### Team
 
 We work hard and never forget to have fun in the process. Absolutely devoted to our customers and to building the best DSP out there, our passion shines through everything we do.
