@@ -274,8 +274,23 @@ table {
   & thead > tr > th {
     border-bottom: solid 1px #aaa;
   }
-  
+
   & th {
     text-align: left;
+  }
+}
+
+ul[data-role='carousel'] {
+  color: $text-secondary;
+  & a {
+    display: block;
+    cursor: pointer;
+  }
+  & .hidden {
+    display: none;
+  }
+  & .collapser {
+    font-size: smaller;
+    text-decoration: initial;
   }
 }
