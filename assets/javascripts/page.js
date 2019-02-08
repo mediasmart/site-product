@@ -27,7 +27,7 @@ window.onload = function() {
 
         var formData = new FormData(event.target);
         var http = new XMLHttpRequest();
-        http.open('POST', 'http://api.mediasmart.io/site/form', true);
+        http.open('POST', 'https://api.mediasmart.io/site/form', true);
         http.onreadystatechange = function() {
           if(http.readyState === 4 && http.status === 200) {
             window.location = '/ok';

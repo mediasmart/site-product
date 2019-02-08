@@ -25,7 +25,7 @@ Traditionally, the challenge with using rich media ads was making sure the user 
 
 This remains a challenge for those who work with custom rich media ad servers, but it can be overcome by using one of the growing number of mobile-first rich media vendors certified with the programmatic mobile supply sources.
 
-Banner images can also be made even more relevant with the use of personalisation technologies. Imagine, for example banners including dynamic elements that change based on the user’s location. These are ideal for marketers looking to maximise engagement, personalise their communications and increase relevancy to their target audiences.
+Banner images can also be made even more relevant with the use of personalisation technologies. Imagine, for example banners including dynamic elements that change based on the user’s location. These are ideal for marketers looking to maximise engagement, personalise their communications and increase relevance to their target audiences.
 
 ## Advanced ad formats
 
@@ -47,7 +47,7 @@ With the emergence of ad-blocking software, many believe native formats will pla
 
 With the rising importance of and hunger for online video content, use of programmatically available mobile video ads is also expected to grow in 2016, as mobile first supply partners adopt the format and video supply partners extend support to mobile. Programmatic mobile video is delivered to ad exchanges and SSPs via VAST tags, therefore increasing viewing guarantees, as the tags are standardised within the marketplace. They also maximize measurability for the advertiser.
 
-Many see video as key to the evolution of mobile advertising, as it offers greater creative scope, relevancy and engagement levels. It holds strong potential for advertisers looking beyond brand awareness to a direct response, as video formats are becoming more action driven with full screen “end cards” and inclusion of native video.
+Many see video as key to the evolution of mobile advertising, as it offers greater creative scope, relevance and engagement levels. It holds strong potential for advertisers looking beyond brand awareness to a direct response, as video formats are becoming more action driven with full screen “end cards” and inclusion of native video.
 
 ## Looking ahead
 
