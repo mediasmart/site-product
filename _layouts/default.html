@@ -2,6 +2,7 @@
 <html>
   {% include head.html %}
   <body data-page="{% if page.type %}{{ page.type }}{% else %}default{% endif %}">
+    {% include gtm-noscript.html %}
     {% include page-header.html %}
 
     <article>
