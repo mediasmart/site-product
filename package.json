@@ -5,7 +5,7 @@
   "homepage": "http://mediasmart.io",
   "author": "mediasmart.io",
   "scripts": {
-    "start": "bundle exec jekyll serve",
+    "start": "bundle exec jekyll serve --host=0.0.0.0",
     "release": "bundle exec jekyll build",
     "install": "bundle install"
   }

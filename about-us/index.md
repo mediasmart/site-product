@@ -18,10 +18,9 @@ Take a look at our culture and values:
 <ul data-role='carousel'>
 {% for member in site.data.culture_and_values %}
   <li>
-    <p><strong>{{ member.title }}</strong></p>
-    <p>{{ member.description }}</p>
+    <p>{{ member.title }}</p>
     <div class="collapsible hidden">
-      {{ member.text  | markdownify }}
+      {{ member.description | markdownify }}
     </div>
     <p><a class="collapser">Read more/less</a></p>
   </li>
