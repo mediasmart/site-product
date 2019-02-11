@@ -5,7 +5,7 @@ type        : content
 title       : About Us
 subtitle    : A team of professionals with many years of experience in the mobile and digital advertising world striving for innovation and quality of service.
 description : A team of professionals with many years of experience in the mobile and digital advertising world striving for innovation and quality of service. We work hard and never forget to have fun in the process. Absolutely devoted to our customers and to building the best mobile DSP out there. Check our photos!
-cover       : post/team-funny.jpg
+cover       : team/team.jpg
 permalink   : /about-us/
 ---
 
@@ -49,12 +49,18 @@ We work hard and never forget to have fun in the process. Absolutely devoted to 
 {% endfor %}
 </ul>
 
+### Events
+
+Want to meet us at any of the events we are attending?
+[Check them out](http://mediasmart-3426102.hs-sites.com/events) and schedule a day and time!
 
 ### Careers
 
-We launched in 2012 and are based in Madrid and London, but depending on the position you may work wherever you want. We are growing at three figure rates every year! Be part of our journey. We’d love to hear from you! Email us with some thoughts on what you’re passionate about.
+We are based in Madrid and London, but depending on the position you may work wherever you want. We are growing every year, and we’d love for you to join us!
 
-<form action='https://api.mediasmart.io/site/form' method='post' enctype='multipart/form-data'>
+[Click here](http://mediasmart-3426102.hs-sites.com/careers) to see our open positions or to email us with some thoughts on what you’re passionate about.
+
+<!-- <form action='https://api.mediasmart.io/site/form' method='post' enctype='multipart/form-data'>
   <h2>Work with us</h2>
   {% for input in site.data.forms.hiring %}
     <label>{{ input.label }}</label>
@@ -69,4 +75,4 @@ We launched in 2012 and are based in Madrid and London, but depending on the pos
   <button class='primary large'>
     <label>Apply now</label>
   </button>
-</form>
+</form> -->
