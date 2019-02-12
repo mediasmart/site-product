@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="{{ "/assets/stylesheets/main.css" | prepend: site.baseurl }}">
   <script src="/assets/javascripts/page.js"></script>
   <script>
-    function prepareCarousels () {
+    function prepareCollapsible () {
       var coll = document.getElementsByClassName("collapsible");
       for (var i = 0; i < coll.length; i++) {
         (function (content){
@@ -44,7 +44,7 @@
       if (document.readyState !== 'complete') return;
       // This happens before window.onload, so here DOM is not viewable yet for the user
       replaceSignupReferer();
-      prepareCarousels();
+      prepareCollapsible();
     }
   </script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
