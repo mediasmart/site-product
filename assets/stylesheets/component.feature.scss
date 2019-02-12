@@ -1,8 +1,22 @@
 $min-height: 60vh;
 $quote-avatar-size: 12.5vw;
 
+[data-role='feature-group-title'] {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+
+  > h2 {
+    font-size: 3rem !important;
+  }
+}
+
 [data-role='feature'] {
   display: flex;
+
+  &.withoutColumn {
+    display: block;
+  }
 
   > div {
     > p,
@@ -77,6 +91,10 @@ $quote-avatar-size: 12.5vw;
       &.mobile {
         width: 40vh;
       }
+
+      &.oneSize {
+        width: 100%;
+      }
     }
 
     img + div,
@@ -87,14 +105,17 @@ $quote-avatar-size: 12.5vw;
     > div {
       // margin-top: ($offset / 2);
       // margin-bottom: ($offset / 2);
+      > div {
+        &.center {
+          text-align: center;
+        }
+      }
 
       h3 {
         margin-bottom: ($offset / 2);
       }
     }
 
-    &:last-child {
-      padding-top: 0;
-    }
+
   }
 }

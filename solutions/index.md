@@ -3,5 +3,7 @@ layout      : default
 type        : content
 
 title       : Solutions
-permalink   : /solution/
+permalink   : /solutions/
 ---
+
+{% include page-solutions.html %}

@@ -8,6 +8,6 @@ description : Segment your campaigns using mobile specific variables, and differ
 permalink   : /product/
 ---
 
-Mediasmart is a demand side platform born for mobile that tracks post-click events both in the web and the in-app environment and that programmatically buys media in real time using a) predictive targeting to maximize campaign engagement and b) sophisticated campaign segmentation to reach specific audiences. All of mediasmart´s power is available through an intuitive web app and an extensive API.
+mediasmart is the first demand side platform designed for mobile that enables advertisers to easily run campaigns driven by incremental metrics.
 
 {% include page-product.html %}

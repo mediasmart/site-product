@@ -5,13 +5,27 @@ type        : content
 title       : About Us
 subtitle    : A team of professionals with many years of experience in the mobile and digital advertising world striving for innovation and quality of service.
 description : A team of professionals with many years of experience in the mobile and digital advertising world striving for innovation and quality of service. We work hard and never forget to have fun in the process. Absolutely devoted to our customers and to building the best mobile DSP out there. Check our photos!
-cover       : post/team-funny.jpg
+cover       : team/team.jpg
 permalink   : /about-us/
 ---
 
 Back in January 2012 the world of mobile advertising was still dominated by traditional ad networks selling impressions and clicks and optimizing campaigns to maximize CTRs. The first mobile ad exchanges were getting started, enabling mobile optimized inventory to be bought programmatically using real time bidding. That is when mediasmart was founded, embracing real time bidding as the most effective media buying paradigm. The company has since then evolved to support private deals as well, additional formats beyond display and integrations with multiple third parties in the ecosystem, but always staying true to its mission: allowing advertisers to effectively reach mobile audiences in real time, while maximizing engagement with campaigns.
 
 Since its inception, mediasmart has always been very clear on its position in the mobile advertising ecosystem: full focus on advertisers and the buying process.
+
+Take a look at our culture and values:
+
+<ul data-role='carousel'>
+{% for member in site.data.culture_and_values %}
+  <li>
+    <p>{{ member.title }}</p>
+    <div class="collapsible hidden">
+      {{ member.description | markdownify }}
+    </div>
+    <p><a class="collapser">Read more/less</a></p>
+  </li>
+{% endfor %}
+</ul>
 
 ### Team
 
@@ -34,12 +48,18 @@ We work hard and never forget to have fun in the process. Absolutely devoted to 
 {% endfor %}
 </ul>
 
+### Events
+
+Want to meet us at any of the events we are attending?
+[Check them out](http://mediasmart-3426102.hs-sites.com/events) and schedule a day and time!
 
 ### Careers
 
-We launched in 2012 and are based in Madrid and London, but depending on the position you may work wherever you want. We are growing at three figure rates every year! Be part of our journey. We’d love to hear from you! Email us with some thoughts on what you’re passionate about.
+We are based in Madrid and London, but depending on the position you may work wherever you want. We are growing every year, and we’d love for you to join us!
 
-<form action='https://api.mediasmart.io/site/form' method='post' enctype='multipart/form-data'>
+[Click here](http://mediasmart-3426102.hs-sites.com/careers) to see our open positions or to email us with some thoughts on what you’re passionate about.
+
+<!-- <form action='https://api.mediasmart.io/site/form' method='post' enctype='multipart/form-data'>
   <h2>Work with us</h2>
   {% for input in site.data.forms.hiring %}
     <label>{{ input.label }}</label>
@@ -54,4 +74,4 @@ We launched in 2012 and are based in Madrid and London, but depending on the pos
   <button class='primary large'>
     <label>Apply now</label>
   </button>
-</form>
+</form> -->
