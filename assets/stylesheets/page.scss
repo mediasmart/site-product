@@ -303,6 +303,9 @@ ul[data-role='carousel'] {
     display: block;
     cursor: pointer;
   }
+  & p:first-child {
+    margin: 0;
+  }
   & .hidden {
     display: none;
   }
