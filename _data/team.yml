@@ -54,6 +54,10 @@
   twitter: yarilococodrilo
   github: yarilo
 
+- name: Francisco Barea
+  title: Frontend Developer
+  image: francisco.barea
+
 - name: Alfredo Lopez
   title: Backend Developer
   image: alfredo.lopez
@@ -65,6 +69,10 @@
   title: Backend Developer
   linkedin: adrian-gigante-79b14561
   image: adrian.gigante
+
+- name: Diego Pastor
+  title: Backend Developer
+  image: diego.pastor
 
 - name: Gonzalo Moreno
   title: Tech Client Services Manager
@@ -134,4 +142,12 @@
   title: Account Manager / Support
   image: adrian.hernandez
   linkedin: adrián-hernández-fernández-b43181108
+
+- name: Emilio Carpio
+  title: Account Manager / Support
+  image: emilio.carpio
+
+- name: Álvaro Martínez
+  title: Account Manager / Support
+  image: alvaro.martinez
 
