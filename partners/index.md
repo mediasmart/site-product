@@ -13,3 +13,17 @@ permalink   : /partners/
   <img src='/assets/images/partners/{{ i }}.png' />
 {% endfor %}
 </ul>
+
+<!--[if lte IE 8]>
+  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+<![endif]-->
+
+<div id="partnership-form">
+  <h3>Partnership request</h3>
+  <script>
+    hbspt.forms.create({
+      portalId: "3426102",
+      formId: "2f725f01-f26c-4473-a553-0e2742de301c"
+    });
+  </script>
+</div>
