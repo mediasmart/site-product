@@ -9,9 +9,60 @@ permalink   : /partners/
 ---
 
 <ul data-role='partners'>
-{% for i in (1..40) %}
-  <img src='/assets/images/partners/{{ i }}.png' />
-{% endfor %}
+  <img src='/assets/images/partners/adcolony.png' />
+  <img src='/assets/images/partners/adjust.png' />
+  <img src='/assets/images/partners/adledge.png' />
+  <img src='/assets/images/partners/adsquare.png' />
+  <img src='/assets/images/partners/adyoulike.png' />
+  <img src='/assets/images/partners/aol.png' />
+  <img src='/assets/images/partners/appnexus.png' />
+  <img src='/assets/images/partners/appsflyer.png' />
+  <img src='/assets/images/partners/atlas.png' />
+  <img src='/assets/images/partners/axonix.png' />
+  <img src='/assets/images/partners/branch.png' />
+  <img src='/assets/images/partners/brave.png' />
+  <img src='/assets/images/partners/cedato.png' />
+  <img src='/assets/images/partners/celtra.png' />
+  <img src='/assets/images/partners/cheetah.png' />
+  <img src='/assets/images/partners/dailymotion.png' />
+  <img src='/assets/images/partners/doubleclick.png' />
+  <img src='/assets/images/partners/emma.png' />
+  <!-- <img src='/assets/images/partners/etag.png' /> -->
+  <img src='/assets/images/partners/flurry.png' />
+  <img src='/assets/images/partners/stickyads.png' />
+  <img src='/assets/images/partners/fyber.png' />
+  <img src='/assets/images/partners/gameloft.png' />
+  <img src='/assets/images/partners/geoedge.png' />
+  <img src='/assets/images/partners/smartadserver.png' />
+  <img src='/assets/images/partners/ias.png' />
+  <img src='/assets/images/partners/improvedigital.png' />
+  <img src='/assets/images/partners/index.png' />
+  <img src='/assets/images/partners/inmobi.png' />
+  <img src='/assets/images/partners/inneractive.png' />
+  <img src='/assets/images/partners/kochava.png' />
+  <img src='/assets/images/partners/ligatus.png' />
+  <img src='/assets/images/partners/lotame.png' />
+  <!-- <img src='/assets/images/partners/mads.png' /> -->
+  <img src='/assets/images/partners/marsmedia.png' />
+  <img src='/assets/images/partners/moat.png' />
+  <img src='/assets/images/partners/mobfox.png' />
+  <img src='/assets/images/partners/mobilda.png' />
+  <img src='/assets/images/partners/mopub.png' />
+  <img src='/assets/images/partners/mparticle.png' />
+  <img src='/assets/images/partners/nexd.png' />
+  <img src='/assets/images/partners/nielsen.png' />
+  <img src='/assets/images/partners/oath.png' />
+  <img src='/assets/images/partners/openx.png' />
+  <img src='/assets/images/partners/pubmatic.png' />
+  <img src='/assets/images/partners/rubicon.png' />
+  <img src='/assets/images/partners/smaato.png' />
+  <img src='/assets/images/partners/smartadserver.png' />
+  <img src='/assets/images/partners/sublimeskinz.png' />
+  <img src='/assets/images/partners/tapit.png' />
+  <img src='/assets/images/partners/tmt.png' />
+  <img src='/assets/images/partners/triplelift.png' />
+  <img src='/assets/images/partners/tune.png' />
+  <img src='/assets/images/partners/vungle.png' />
 </ul>
 
 <!--[if lte IE 8]>
