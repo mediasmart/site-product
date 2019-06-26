@@ -38,7 +38,7 @@ We work hard and never forget to have fun in the process. Absolutely devoted to 
       <img src="/assets/images/team/{{ member.image }}.funny.jpg" />
     </figure>
     <strong>{{ member.name }}</strong>
-    <small>{{ member.title }}</small>
+    <small>{{ member.title | new_line_to_br }}</small>
     <nav data-role='networks'>
       {% if member.linkedin %}<a href='https://www.linkedin.com/in/{{ member.linkedin }}' class='icon linkedin' target='blank'></a>{% endif %}
       {% if member.twitter %}<a href='https://twitter.com/{{ member.twitter }}' class='icon twitter' target='blank'></a>{% endif %}

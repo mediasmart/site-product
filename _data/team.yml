@@ -63,7 +63,9 @@
   image: diego.pastor
 
 - name: Aniss Laamouri
-  title: Head of Strategic Partnerships and Innovation
+  title: |
+    Head of Strategic Partnerships
+    and Innovation
   image: aniss.laamouri
   skype: anisslaamouri
   linkedin: anisslaamouri
