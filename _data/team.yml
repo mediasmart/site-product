@@ -18,12 +18,6 @@
   image: arturo.imedio
 
 # -- Business
-- name: Julio Aguayo
-  title: Commercial Director ES & LATAM
-  image: julio.aguayo
-  skype: julio.aguayo7
-  linkedin: julioaguayogoded
-
 - name: Mo Hussain
   title: Commercial Director UK
   image: mo.hussain
@@ -38,16 +32,8 @@
   twitter: martalh
 
 # -- Enginering
-- name: Sergio Garcia
-  title: Frontend Team Leader
-  image: sergio.garcia
-  skype: sgmonda
-  twitter: sgmonda
-  github: sgmonda
-  linkedin: sergio-garcia-mondaray-91544a26
-
 - name: Yarilo Villanueva
-  title: Frontend Developer
+  title: Frontend Team Leader
   image: yarilo.villanueva
   skype: yarilo.villanueva.hdez
   linkedin: yarilovillanueva
@@ -57,6 +43,8 @@
 - name: Francisco Barea
   title: Frontend Developer
   image: francisco.barea
+  twitter: Mandisback
+  github: jfbarea
 
 - name: Alfredo Lopez
   title: Backend Developer
@@ -74,19 +62,6 @@
   title: Backend Developer
   image: diego.pastor
 
-- name: Gonzalo Moreno
-  title: Tech Client Services Manager
-  image: gonzalo.moreno
-  skype: gonzamvita
-  linkedin: gonzamvita
-  twitter: gonzamvita
-
-- name: Alejandro Dietta
-  title: Tech Support Developer
-  linkedin: alejandrodietta
-  image: alejandro.dietta
-
-# -- Management
 - name: Aniss Laamouri
   title: Sales Tech Manager - FR
   image: aniss.laamouri
