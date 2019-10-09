@@ -27,6 +27,10 @@ Take a look at our culture and values:
 {% endfor %}
 </ul>
 
+
+### Ad Fraud Manifesto
+  Take a look at our <a href='http://manifesto.mediasmart.io'>ad fraud manifesto</a>.
+
 ### Team
 
 We work hard and never forget to have fun in the process. Absolutely devoted to our customers and to building the best DSP out there, our passion shines through everything we do.
