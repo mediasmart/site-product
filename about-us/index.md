@@ -31,7 +31,7 @@ Take a look at our culture and values:
 ### Ad Fraud Manifesto
   Mobile ad fraud is an issue for everyone working in the mobile advertising industry. While there are some disincentives and examples of ad fraudsters being fined or even jailed, there is an overwhelming tide of parties committing mobile ad fraud.
 
-  That’s why we’re launching  <a href='https://mediasmart-3426102.hs-sites.com/ad-fraud-manifesto'> this mobile ad fraud manifesto</a>, to call attention and make our contribution to addressing these issues.
+  That’s why we’re launching  <a href='https://mediasmart.io/manifesto'> this mobile ad fraud manifesto</a>, to call attention and make our contribution to addressing these issues.
 
 ### Team
 
