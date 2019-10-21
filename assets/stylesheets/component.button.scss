@@ -29,13 +29,9 @@ button, .button {
     background-color: $white;
     color: $text;
   }
-  &.primary, &:not(.primary):hover {
+  &.primary, &:not(.primary):not(.accent):hover {
     background-color: $primary;
     color: $white;
-  }
-  &.accent:hover {
-    background-color: $access;
-    color: $text;
   }
   &.float {
     &.right {
