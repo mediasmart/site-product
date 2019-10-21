@@ -33,6 +33,10 @@ button, .button {
     background-color: $primary;
     color: $white;
   }
+  &.access:hover {
+    background-color: $access;
+    color: $text;
+  }
   &.float {
     &.right {
       float: right;
