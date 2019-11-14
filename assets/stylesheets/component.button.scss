@@ -33,6 +33,10 @@ button, .button {
     background-color: $primary;
     color: $white;
   }
+  &.login:hover {
+    background-color: $white;
+    color: $text;
+  }
   &.float {
     &.right {
       float: right;
