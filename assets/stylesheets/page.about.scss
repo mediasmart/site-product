@@ -40,6 +40,8 @@ $team-member-network-size: 3.6 * $unit;
     > small {
       color: $text-secondary;
       font-size: $font-size-small;
+      max-width: $content-team-member-width;
+      word-wrap: break-word;
     }
 
     > [data-role='networks'] {
