@@ -12,11 +12,6 @@
   skype: zedwill
   linkedin: gfernandez
 
-- name: Arturo Imedio
-  title: CFO
-  linkedin: arturoimedioprieto
-  image: arturo.imedio
-
 # -- Business
 - name: Marta Lopez de Haro
   title: Client Services Director
@@ -37,6 +32,12 @@
   image: natalia.franquet
   linkedin: nataliafranquet
   github: NataliaFranquet
+
+  - name: Ana Martínez
+  title: Frontend Developer
+  image: ana.martinez
+  linkedin: ana-martinez-aguilar
+  twitter: ana_maq
 
 - name: Alfredo Lopez
   title: Backend Developer
@@ -60,12 +61,6 @@
   skype: anisslaamouri
   linkedin: anisslaamouri
   twitter: anisslaamouri
-
-- name: François Peltiez
-  title: Sales and Marketing Manager - FR
-  image: francois.peltiez
-  skype: francois_76
-  linkedin: fpeltiez
 
 - name: Tiago Vila Verde
   title: Head of Analytics
