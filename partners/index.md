@@ -56,6 +56,7 @@ permalink   : /partners/
   <img src='/assets/images/partners/triplelift.png' />
   <img src='/assets/images/partners/tune.png' />
   <img src='/assets/images/partners/vungle.png' />
+  <img src='/assets/images/partners/verizon.png' />
 </ul>
 
 <!--[if lte IE 8]>
