@@ -25,14 +25,11 @@
       <a href='/tech-blog'>Tech Blog</a>
     </nav>
     <nav>
-      <h3>Latest on the blog</h3>
+      <h3>Latest on the Blog</h3>
       {% for post in site.posts limit:5 %}
-        {% if post.tech %}
-        {% else %}
-          <a href='{{ post.url | prepend: site.baseurl }}'>
-            {{ post.title }}
-          </a>
-        {% endif %}
+        <a href='{{ post.url | prepend: site.baseurl }}'>
+          {{ post.title }}
+        </a>
       {% endfor %}
     </nav>
   </div>
