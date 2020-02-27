@@ -24,14 +24,6 @@
       <a href='https://blog.mediasmart.io/blog'>Blog</a>
       <a href='/tech-blog'>Tech Blog</a>
     </nav>
-    <nav>
-      <h3>Latest on the blog</h3>
-      {% for post in site.posts limit:5 %}
-        <a href='{{ post.url | prepend: site.baseurl }}'>
-          {{ post.title }}
-        </a>
-      {% endfor %}
-    </nav>
   </div>
 </article>
 
