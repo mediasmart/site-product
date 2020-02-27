@@ -27,9 +27,11 @@
     <nav>
       <h3>Latest on the blog</h3>
       {% for post in site.posts limit:5 %}
-        <a href='{{ post.url | prepend: site.baseurl }}'>
-          {{ post.title }}
-        </a>
+        {% if post.tech %}
+        {% else %}
+          <a href='{{ post.url | prepend: site.baseurl }}'>
+            {{ post.title }}
+          </a>
       {% endfor %}
     </nav>
   </div>
