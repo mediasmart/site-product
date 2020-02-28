@@ -9,9 +9,13 @@ cover       : team/team.jpg
 permalink   : /about-us/
 ---
 
-Back in January 2012 the world of mobile advertising was still dominated by traditional ad networks selling impressions and clicks and optimizing campaigns to maximize CTRs. The first mobile ad exchanges were getting started, enabling mobile optimized inventory to be bought programmatically using real time bidding. That is when mediasmart was founded, embracing real time bidding as the most effective media buying paradigm. The company has since then evolved to support private deals as well, additional formats beyond display and integrations with multiple third parties in the ecosystem, but always staying true to its mission: allowing advertisers to effectively reach mobile audiences in real time, while maximizing engagement with campaigns.
+mediasmart is a self-serve mobile programmatic platform, which was launched in Jan 2012. mediasmart provides advertisers, trading desks and agencies an integrated mobile advertising platform with unique incremental impact measurability for Proximity and App marketing campaigns.
 
-Since its inception, mediasmart has always been very clear on its position in the mobile advertising ecosystem: full focus on advertisers and the buying process.
+mediasmart’s Proximity marketing solutions allows it to deliver location targeted campaigns with real time footfall tracking and offline attribution, while complying with Privacy Laws such as GDPR.
+
+Located in Madrid and Brussels, mediasmart includes a team of passionate technologists and mobile advertising experts. The company was backed by well-known investors like KOMM Investment (Michael Kleindl) and Kibo Ventures (Aquilino Peña y Sonia Fernandez).
+
+mediasmart is now acquired by Affle, a global consumer intelligence technology company. Affle trades on the India stock exchanges (BSE: 542752 & NSE: AFFLE) and its holding company in Singapore has Microsoft, D2C (An NTT DoCoMo, Dentsu & NTT Advertising JV), Itochu, Bennett Coleman & Company (BCCL) as shareholders.
 
 Take a look at our culture and values:
 
@@ -27,8 +31,8 @@ Take a look at our culture and values:
 {% endfor %}
 </ul>
 
-
 ### Ad Fraud Manifesto
+
   Mobile ad fraud is an issue for everyone working in the mobile advertising industry. While there are some disincentives and examples of ad fraudsters being fined or even jailed, there is an overwhelming tide of parties committing mobile ad fraud.
 
   That’s why we’re launching  <a href='https://mediasmart.io/manifesto'> this mobile ad fraud manifesto</a>, to call attention and make our contribution to addressing these issues.
