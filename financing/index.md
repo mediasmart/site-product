@@ -21,9 +21,13 @@ El proyecto ha sido cofinanciado por el Ministerio de Industria, Energía y Turi
 El Ministerio de Industria, Energía y Turismo apoya el proyecto TURISMART dentro de la convocatoria 2013 de la línea Emprendetur I+D+i.
 
 <div data-role='logos'>
-  <img src='/assets/images/logo-ministerio-industria.png' alt='Logo of the Ministerio de energia, turismo y agenda digital' />
+  <img src='/assets/images/logo-ministerio-turismo-secretaria.jpg' alt='Logo of the Ministerio de energia, turismo y agenda digital' />
 </div>
 
-Turismart es una solución innovadora dentro del sector turístico en España que ayuda a que cualquier empresa turística española, aunque no tenga experiencia previa, pueda anunciar sus productos y servicios en el canal de mayor crecimiento en la actualidad (smartphones y tablets) de la forma más eficiente posible, ya que empleamos un nuevo modelo de segmentación basado en el comportamiento del usuario y sus intereses, en contraposición al modelo empleado hasta el momento, basado en soportes publicitarios.
+El  proyecto TURISMART INTERNACIONAL ha sido apoyado por el Ministerio de Energía, Turismo y Agenda Digital, dentro de la Convocatoria de Emprendetur  Internacionalización 1/2016 mediante el expediente TUR-040000-2016-24.
+
+El objetivo del proyecto es la implantación de Turismart, solución innovadora dentro del sector turístico, en los principales mercados de Europa.
+
+Turismart ayuda a que cualquier empresa turística española, aunque no tenga experiencia previa, pueda anunciar sus productos y servicios en el canal de mayor crecimiento en la actualidad (smartphones y tablets) de la forma más eficiente posible, ya que empleamos un nuevo modelo de segmentación basado en el comportamiento del usuario y sus intereses, en contraposición al modelo empleado hasta el momento, basado en soportes publicitarios.
 
 El proyecto ha sido cofinanciado por el Ministerio de Industria, Energía  y Turismo, dentro del programa Emprendetur I+D+i en el marco del Plan Nacional e Integral del Turismo mediante el expediente  TUR-030000-2013-31.
