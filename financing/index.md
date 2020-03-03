@@ -18,13 +18,11 @@ El proyecto SMART BIDDING SOBRE BIG DATA (SMART BIDDING en adelante) tiene por o
 
 El proyecto ha sido cofinanciado por el Ministerio de Industria, Energía y Turismo, dentro de la Acción Estratégica de Telecomunicaciones y Sociedad de la información mediante el expediente: TSI-100105-2014-50.
 
-El Ministerio de Industria, Energía y Turismo apoya el proyecto TURISMART dentro de la convocatoria 2013 de la línea Emprendetur I+D+i.
+El proyecto TURISMART INTERNACIONAL ha sido apoyado por el Ministerio de Energía, Turismo y Agenda Digital, dentro de la Convocatoria de Emprendetur  Internacionalización 1/2016 mediante el expediente TUR-040000-2016-24.
 
 <div data-role='logos'>
   <img src='/assets/images/logo-ministerio-turismo-secretaria.jpg' alt='Logo of the Ministerio de energia, turismo y agenda digital' />
 </div>
-
-El  proyecto TURISMART INTERNACIONAL ha sido apoyado por el Ministerio de Energía, Turismo y Agenda Digital, dentro de la Convocatoria de Emprendetur  Internacionalización 1/2016 mediante el expediente TUR-040000-2016-24.
 
 El objetivo del proyecto es la implantación de Turismart, solución innovadora dentro del sector turístico, en los principales mercados de Europa.
 
