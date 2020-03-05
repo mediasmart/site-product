@@ -12,7 +12,7 @@
 
   > a {
     &, > img {
-      height: $header-height;
+      height: $header-height - 1;
       margin: 0;
     }
   }
