@@ -14,10 +14,8 @@ permalink   : /partners/
   <img src='/assets/images/partners/adledge.png' />
   <img src='/assets/images/partners/adsquare.png' />
   <img src='/assets/images/partners/adyoulike.png' />
-  <img src='/assets/images/partners/aol.png' />
   <img src='/assets/images/partners/appnexus.png' />
   <img src='/assets/images/partners/appsflyer.png' />
-  <img src='/assets/images/partners/atlas.png' />
   <img src='/assets/images/partners/axonix.png' />
   <img src='/assets/images/partners/branch.png' />
   <img src='/assets/images/partners/brave.png' />
@@ -37,10 +35,8 @@ permalink   : /partners/
   <img src='/assets/images/partners/improvedigital.png' />
   <img src='/assets/images/partners/index.png' />
   <img src='/assets/images/partners/inmobi.png' />
-  <img src='/assets/images/partners/inneractive.png' />
   <img src='/assets/images/partners/kochava.png' />
   <img src='/assets/images/partners/ligatus.png' />
-  <img src='/assets/images/partners/lotame.png' />
   <img src='/assets/images/partners/mads.png' />
   <img src='/assets/images/partners/marsmedia.png' />
   <img src='/assets/images/partners/moat.png' />
@@ -50,18 +46,17 @@ permalink   : /partners/
   <img src='/assets/images/partners/mparticle.png' />
   <img src='/assets/images/partners/nexd.png' />
   <img src='/assets/images/partners/nielsen.png' />
-  <img src='/assets/images/partners/oath.png' />
   <img src='/assets/images/partners/openx.png' />
   <img src='/assets/images/partners/pubmatic.png' />
   <img src='/assets/images/partners/rubicon.png' />
   <img src='/assets/images/partners/smaato.png' />
-  <img src='/assets/images/partners/smartadserver.png' />
   <img src='/assets/images/partners/sublimeskinz.png' />
   <img src='/assets/images/partners/tapit.png' />
   <img src='/assets/images/partners/tmt.png' />
   <img src='/assets/images/partners/triplelift.png' />
   <img src='/assets/images/partners/tune.png' />
   <img src='/assets/images/partners/vungle.png' />
+  <img src='/assets/images/partners/verizon.png' />
 </ul>
 
 <!--[if lte IE 8]>

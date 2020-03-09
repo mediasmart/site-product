@@ -12,11 +12,6 @@
   skype: zedwill
   linkedin: gfernandez
 
-- name: Arturo Imedio
-  title: CFO
-  linkedin: arturoimedioprieto
-  image: arturo.imedio
-
 # -- Business
 - name: Marta Lopez de Haro
   title: Client Services Director
@@ -37,6 +32,12 @@
   image: natalia.franquet
   linkedin: nataliafranquet
   github: NataliaFranquet
+
+- name: Ana Martínez
+  title: Frontend Developer
+  image: ana.martinez
+  linkedin: ana-martinez-aguilar
+  twitter: ana_maq
 
 - name: Alfredo Lopez
   title: Backend Developer
@@ -61,12 +62,6 @@
   linkedin: anisslaamouri
   twitter: anisslaamouri
 
-- name: François Peltiez
-  title: Sales and Marketing Manager - FR
-  image: francois.peltiez
-  skype: francois_76
-  linkedin: fpeltiez
-
 - name: Tiago Vila Verde
   title: Head of Analytics
   image: tiago.vila.verde
@@ -74,7 +69,7 @@
   linkedin: tiagovilaverde
 
 - name: Javier Almirante
-  title: IO Sales ES/Account Manager
+  title: Account Manager
   image: javier.almirante
   skype: jalmirante69
   linkedin: javier-almirante-75a55015
@@ -105,7 +100,7 @@
   twitter: ogoiko
 
 - name: Adrián Domínguez
-  title: Account Manager / Support
+  title: Financial controller
   image: adrian.dominguez
   linkedin: adommar
 
@@ -115,11 +110,28 @@
   linkedin: adrián-hernández-fernández-b43181108
 
 - name: Emilio Carpio
-  title: Account Manager / Support
+  title: Account Manager
   image: emilio.carpio
   linkedin: emilio-carpio
 
 - name: Álvaro Martínez
-  title: Account Manager / Support
+  title: Account Manager
   image: alvaro.martinez
+
+- name: Marta Amunarriz
+  title: Account Executive
+  image: marta.amunarriz
+  linkedin: marta-amunarriz-lasa-international-trade
+
+- name: Julen Zabaleta
+  title: Account Executive
+  image: julen.zabaleta
+  linkedin: julen-zabaleta-torres-849915a6
+
+- name: Marta Maldonado
+  title: Account Executive
+  image: marta.maldonado
+  linkedin: martamaldonadorevertocomercio
+
+
 
