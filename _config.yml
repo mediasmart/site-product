@@ -13,10 +13,10 @@ sass:
   style: :compressed
 
 defaults:
-  scope:
-    path: "assets/**"
-  values:
-    sitemap: false
+  - scope:
+      path: assets/*
+    values:
+      sitemap: false
 
 plugins:
   - jekyll-sitemap
