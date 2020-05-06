@@ -12,6 +12,12 @@ sass:
   sass_dir: assets/stylesheets
   style: :compressed
 
+defaults:
+  scope:
+    path: "assets"
+  values:
+    sitemap: false
+
 plugins:
   - jekyll-sitemap
 
