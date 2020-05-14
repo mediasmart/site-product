@@ -21,6 +21,10 @@ defaults:
       path: assets/*
     values:
       sitemap: false
+  - scope:
+      path: _data/public.yml
+    values:
+      sitemap: false
 
 plugins:
   - jekyll-sitemap
