@@ -15,6 +15,7 @@ sass:
 defaults:
   - scope:
       path: assets/*
+      path: blog/*
     values:
       sitemap: false
 
