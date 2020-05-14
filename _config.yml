@@ -25,6 +25,18 @@ defaults:
       path: public
     values:
       sitemap: false
+  - scope:
+      path: cookie-policy
+    values:
+      sitemap: false
+  - scope:
+      path: terms-of-use
+    values:
+      sitemap: false
+  - scope:
+      path: ok
+    values:
+      sitemap: false
 
 plugins:
   - jekyll-sitemap
