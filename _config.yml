@@ -22,7 +22,7 @@ defaults:
     values:
       sitemap: false
   - scope:
-      path: _data/public.yml
+      path: public/
     values:
       sitemap: false
 
