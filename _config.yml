@@ -22,7 +22,7 @@ defaults:
     values:
       sitemap: false
   - scope:
-      path: public/
+      path: public
     values:
       sitemap: false
 
