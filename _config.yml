@@ -16,7 +16,6 @@ defaults:
   - scope:
       path:
        - assets/*
-       - blog/*
     values:
       sitemap: false
 
