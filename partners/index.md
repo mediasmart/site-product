@@ -13,7 +13,6 @@ permalink   : /partners/
   <img src='/assets/images/partners/adjust.png' />
   <img src='/assets/images/partners/adledge.png' />
   <img src='/assets/images/partners/adsquare.png' />
-  <img src='/assets/images/partners/adyoulike.png' />
   <img src='/assets/images/partners/appnexus.png' />
   <img src='/assets/images/partners/appsflyer.png' />
   <img src='/assets/images/partners/axonix.png' />
@@ -25,7 +24,6 @@ permalink   : /partners/
   <img src='/assets/images/partners/dailymotion.png' />
   <img src='/assets/images/partners/doubleclick.png' />
   <img src='/assets/images/partners/emma.png' />
-  <img src='/assets/images/partners/flurry.png' />
   <img src='/assets/images/partners/stickyads.png' />
   <img src='/assets/images/partners/fyber.png' />
   <img src='/assets/images/partners/gameloft.png' />
@@ -36,8 +34,6 @@ permalink   : /partners/
   <img src='/assets/images/partners/index.png' />
   <img src='/assets/images/partners/inmobi.png' />
   <img src='/assets/images/partners/kochava.png' />
-  <img src='/assets/images/partners/ligatus.png' />
-  <img src='/assets/images/partners/mads.png' />
   <img src='/assets/images/partners/marsmedia.png' />
   <img src='/assets/images/partners/moat.png' />
   <img src='/assets/images/partners/mobfox.png' />

@@ -35,7 +35,7 @@ Take a look at our culture and values:
 
   Mobile ad fraud is an issue for everyone working in the mobile advertising industry. While there are some disincentives and examples of ad fraudsters being fined or even jailed, there is an overwhelming tide of parties committing mobile ad fraud.
 
-  That’s why we’re launching  <a href='https://mediasmart.io/manifesto'> this mobile ad fraud manifesto</a>, to call attention and make our contribution to addressing these issues.
+  That’s why we’re launching  <a href='http://info.mediasmart.io/ad-fraud-manifesto'> this mobile ad fraud manifesto</a>, to call attention and make our contribution to addressing these issues.
 
 ### Team
 
@@ -61,13 +61,13 @@ We work hard and never forget to have fun in the process. Absolutely devoted to 
 ### Events
 
 Want to meet us at any of the events we are attending?
-[Check them out](http://mediasmart-3426102.hs-sites.com/events) and schedule a day and time!
+[Check them out](http://info.mediasmart.io/events) and schedule a day and time!
 
 ### Careers
 
 We are based in Madrid and London, but depending on the position you may work wherever you want. We are growing every year, and we’d love for you to join us!
 
-[Click here](http://mediasmart-3426102.hs-sites.com/careers) to see our open positions or to email us with some thoughts on what you’re passionate about.
+[Click here](http://info.mediasmart.io/careers) to see our open positions or to email us with some thoughts on what you’re passionate about.
 
 <!-- <form action='https://api.mediasmart.io/site/form' method='post' enctype='multipart/form-data'>
   <h2>Work with us</h2>

@@ -2,7 +2,7 @@
   "name": "Mediasmart-site",
   "version": "0.0.4",
   "description": "...",
-  "homepage": "http://mediasmart.io",
+  "homepage": "https://www.mediasmart.io/",
   "author": "mediasmart.io",
   "scripts": {
     "start": "bundle exec jekyll serve --host=0.0.0.0",
