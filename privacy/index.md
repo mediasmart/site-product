@@ -10,9 +10,9 @@ permalink   : /privacy/
 ## Mediasmart Mobile, S.L. - Privacy Policy
 
 At Mediasmart, we take fundamental rights of end-users (data subjects) seriously and we are committed to protecting and respecting your privacy and your privacy rights.
-This document explains when and how we collect personal information about people who **a)** visit our website and/or use our services through website and on-line servers and **b)** are exposed to the advertisements ("Ads") in which technical serving process we are involved, how we use such personal information, the conditions under which we may disclose it to others and how we intend to keep it secure.
+This document explains when and how we collect personal information about people who **a)** visit our website and/or use our services through website and on-line servers and **b)** are exposed to the advertisements ("Ads") in which technical serving process we are involved, how we use such personal information, the conditions under which we may disclose it to others and how we intend to keep it secure. Mediasmart participates in the IAB Europe Transparency & Consent Framework and complies with its Specifications and Policies. Mediasmart’s identification number within the framework is 193.
 
-We keep this Privacy Policy under regular review and its scope and contents might evolve from time to time. Please kindly check this page occasionally to ensure that you’re up to date with any changes. **Mediasmart’s Privacy Policy was last updated on August, 2018**.
+We keep this Privacy Policy under regular review and its scope and contents might evolve from time to time. Please kindly check this page occasionally to ensure that you’re up to date with any changes. **Mediasmart’s Privacy Policy was last updated on May, 2020**.
 
 Any questions regarding this Policy and our privacy practices should be sent by email to: [legal@mediasmart.io](mailto:legal@mediasmart.io).
 
