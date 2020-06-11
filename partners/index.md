@@ -13,7 +13,6 @@ permalink   : /partners/
   <img src='/assets/images/partners/adjust.png' />
   <img src='/assets/images/partners/adledge.png' />
   <img src='/assets/images/partners/adsquare.png' />
-  <img src='/assets/images/partners/appnexus.png' />
   <img src='/assets/images/partners/appsflyer.png' />
   <img src='/assets/images/partners/axonix.png' />
   <img src='/assets/images/partners/branch.png' />
@@ -53,6 +52,7 @@ permalink   : /partners/
   <img src='/assets/images/partners/tune.png' />
   <img src='/assets/images/partners/vungle.png' />
   <img src='/assets/images/partners/verizon.png' />
+  <img src='/assets/images/partners/xandr.png' />
 </ul>
 
 <!--[if lte IE 8]>
