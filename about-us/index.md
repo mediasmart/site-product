@@ -9,13 +9,9 @@ cover       : team/team.jpg
 permalink   : /about-us/
 ---
 
-mediasmart is a self-serve mobile programmatic platform, which was launched in Jan 2012. mediasmart provides advertisers, trading desks and agencies an integrated mobile advertising platform with unique incremental impact measurability for Proximity and App marketing campaigns.
+mediasmart - a self-serve mobile programmatic platform (now acquired by Affle International Pte. Ltd., Singapore) - provides advertisers, trading desks and agencies an integrated mobile advertising solution with the unique capability of measuring incremental metrics in real-time for Proximity and App marketing campaigns. mediasmart empowers advertisers to efficiently invest in advertising through a transparent platform that links the physical world with the digital world across mobile devices and connected TVs, all while following a privacy by design approach to all solutions provided.
 
-mediasmart’s Proximity marketing solutions allows it to deliver location targeted campaigns with real time footfall tracking and offline attribution, while complying with Privacy Laws such as GDPR.
-
-Located in Madrid and Brussels, mediasmart includes a team of passionate technologists and mobile advertising experts. The company was backed by well-known investors like KOMM Investment (Michael Kleindl) and Kibo Ventures (Aquilino Peña y Sonia Fernandez).
-
-mediasmart is now acquired by Affle, a global consumer intelligence technology company. Affle trades on the India stock exchanges (BSE: 542752 & NSE: AFFLE) and its holding company in Singapore has Microsoft, D2C (An NTT DoCoMo, Dentsu & NTT Advertising JV), Itochu, Bennett Coleman & Company (BCCL) as shareholders.
+Headquartered in Madrid, mediasmart includes a team of passionate technologists and mobile advertising experts.
 
 Take a look at our culture and values:
 
